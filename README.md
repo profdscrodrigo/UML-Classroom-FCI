@@ -28,7 +28,7 @@ A seguir estão os passos sugeridos para a preparação do seu grupo no início 
 
 # Documentação
 
-Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **https://&lt;usuario&gt;.github.io/ppads-2023s1**.
+Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **https://Battlecruiser-HV.github.io/ppads-2023s1**.
 
 
 # Releases
