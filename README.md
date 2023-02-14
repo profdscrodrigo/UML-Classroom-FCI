@@ -20,7 +20,7 @@ A seguir estão os passos sugeridos para a preparação do seu grupo no início 
 
 # Projeto: *A Presença.*
 
-# Grupo: *Eu e o meus Casinhas LTDA*
+# Grupo: *Eu e o meus Casinhas 2.0 LTDA*
 
 # Descrição
 
