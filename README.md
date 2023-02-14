@@ -20,7 +20,7 @@ A seguir estão os passos sugeridos para a preparação do seu grupo no início 
 
 # Projeto: *<Nome_do_seu_Projeto>*
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: *Eu e o meus Casinhas LTDA*
 
 # Descrição
 
