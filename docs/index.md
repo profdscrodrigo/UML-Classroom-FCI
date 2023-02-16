@@ -26,7 +26,7 @@
 # Autores
 
 * Gabriel Hannonen Vieira - 32132646
-* Aluno 2
+* Carolina Muniz Piche - 32143621
 * Aluno 3
 * Aluno 4
 * Aluno 5
