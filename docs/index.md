@@ -25,7 +25,7 @@
 
 # Autores
 
-* Aluno 1
+* Gabriel Hannonen Vieira - 32132646
 * Aluno 2
 * Aluno 3
 * Aluno 4
@@ -37,7 +37,7 @@
 
 # Descrição do projeto
 
-*&lt;Descrição do projeto&gt;*
+O projeto será um sistema de registro de falta e presença, onde o professor acessa um site que permite a ele marcar a falta ou presença de alunos, o professor selecionará a turma e preenchera a chamada, selecionando se foi o professor geral ou o professor de ef ou ingles que fizera aquela chamada. As presenças e o dados seram armazenados em um banco de dados, e um relatorio poderá ser gerado contendo informações de faltas dos alunos, alem disso, caso o aluno tenha faltado mais de 20%, um email sera enviado ao parentes ou responsaveis avisando-os de que o aluno não esta comparecendo as aulas, e perguntando se algo esta errado ou acontecendo.
 
 # Diagrama de casos de uso
 
