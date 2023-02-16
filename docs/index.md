@@ -27,7 +27,7 @@
 
 * Gabriel Hannonen Vieira - 32132646
 * Carolina Muniz Piche - 32143621
-* Aluno 3
+* Matheus Guarnieri Pfau Ferreira - 32113072
 * Aluno 4
 * Aluno 5
 * Aluno 6
