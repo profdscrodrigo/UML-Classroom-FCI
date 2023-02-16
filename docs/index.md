@@ -46,7 +46,7 @@ O projeto será um sistema de registro de falta e presença, onde o professor ac
 
 # Descrição dos casos de uso
 
-*&lt;Descrição dos casos de uso&gt;*
+[Especificação Caso de Uso - Registrar Falta.pdf](https://github.com/Battlecruiser-HV/ppads-2023s1/files/10760494/Especificacao.Caso.de.Uso.-.Registrar.Falta.pdf)
 
 # Protótipos de tela
 
