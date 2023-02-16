@@ -41,7 +41,8 @@ O projeto será um sistema de registro de falta e presença, onde o professor ac
 
 # Diagrama de casos de uso
 
-Teste teste teste
+![Blank diagram (9)](https://user-images.githubusercontent.com/78962671/219230221-4f419d8c-d96b-446e-80f1-855780c7b697.png)
+
 
 # Descrição dos casos de uso
 
