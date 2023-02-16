@@ -41,7 +41,7 @@ O foco do projeto do nosso grupo, APG, é criar um sistema de presença para uma
 
 # Diagrama de casos de uso
 
-*&lt;Diagrama de casos de uso&gt;*
+[Caso de uso - Sistema de Presença(3).pdf](https://github.com/MeTets/ppads-2023s1/files/10750876/Caso.de.uso.-.Sistema.de.Presenca.3.pdf)
 
 # Descrição dos casos de uso
 
@@ -49,7 +49,7 @@ O foco do projeto do nosso grupo, APG, é criar um sistema de presença para uma
 
 # Protótipos de tela
 
-*&lt;Protótipos de tela&gt;*
+[Prototipo Final - Lista de Chamadas.pdf](https://github.com/MeTets/ppads-2023s1/files/10750853/Prototipo.Final.-.Lista.de.Chamadas.pdf)
 
 # Modelo de domínio
 
