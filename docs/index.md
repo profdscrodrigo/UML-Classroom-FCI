@@ -62,6 +62,23 @@ O projeto será um sistema de registro de falta e presença, onde o professor ac
 
 *&lt;Protótipos de tela&gt;*
 
+![Identidade Visual](https://user-images.githubusercontent.com/80272512/219496774-9a10a7f6-e6e3-4ad6-9a08-54bf5d8f0db9.png)
+
+Layout das telas 
+
+![Login](https://user-images.githubusercontent.com/80272512/219496919-0c78b01a-4c41-4001-b1e0-55d38df2c50c.png)
+Professor Principal 
+![Professor Principal](https://user-images.githubusercontent.com/80272512/219497283-ba1dffbd-6a9a-4aed-b319-71b166434342.png)
+Professor Específico
+![Professor Ed.Física/Ingles](https://user-images.githubusercontent.com/80272512/219497711-b94263b5-4d03-43a1-94e8-6c58f4f44ab0.png)
+![Professor Ed.Física/Ingles01](https://user-images.githubusercontent.com/80272512/219497839-a50f0edd-015f-45e6-927f-42fb205b082a.png)
+![MarcarAulas](https://user-images.githubusercontent.com/80272512/219514466-d1c886fc-b5da-4c9e-9908-600784553612.png)
+![Marcar Falta](https://user-images.githubusercontent.com/80272512/219497966-73cc8ebd-9661-4fe2-9f70-adf03783f211.png)
+![Falta Marcada](https://user-images.githubusercontent.com/80272512/219498015-2c315cc9-1dba-4807-8a24-ef0838174c30.png)
+![Cancelar](https://user-images.githubusercontent.com/80272512/219498074-04e0a2be-fdb2-47fa-ac00-66547ef0bdcb.png)
+![Confirmar Faltas](https://user-images.githubusercontent.com/80272512/219498147-d3ce8c1b-3df7-422d-b7ad-57e6686b74d2.png)
+
+
 # Modelo de domínio
 
 *&lt;Modelo de domínio&gt;*
