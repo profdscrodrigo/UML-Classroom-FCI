@@ -26,6 +26,9 @@ APG - Lista de Presença
 # Autores
 
 * Mateus Hannonen Vieira
+* Felipe Lamotte Mohacsi
+* Enzo Pazzini Ferreira Maia
+* Kevin Ventura
 
 
 
