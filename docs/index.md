@@ -29,10 +29,6 @@
 * Carolina Muniz Piche - 32143621
 * Matheus Guarnieri Pfau Ferreira - 32113072
 * João Lucas de Calorio - 32108818
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
 
 
 # Descrição do projeto
