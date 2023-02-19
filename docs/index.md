@@ -53,7 +53,10 @@ O projeto será um sistema de registro de falta e presença, onde o professor ac
 ![Especificação Caso de Uso - Registrar Falta 3](https://user-images.githubusercontent.com/100203253/219480521-bb8088f3-6a34-4ed1-b427-7ac24c4db6a9.jpg)
 ![Especificação Caso de Uso - Registrar Falta 4](https://user-images.githubusercontent.com/100203253/219480523-a4ca493f-a09c-4c71-a671-ed496eabe664.jpg)
 
-[Especificação João Lucas de Calorio.pdf](https://github.com/Battlecruiser-HV/ppads-2023s1/files/10768964/Especificacao.Joao.Lucas.de.Calorio.pdf)
+
+![Especificação João Lucas de Calorio-1](https://user-images.githubusercontent.com/100203031/219905756-2d497e5a-dfbf-40c6-9458-cc841184462c.png)
+![Especificação João Lucas de Calorio-2](https://user-images.githubusercontent.com/100203031/219905757-7a77ef03-5180-4497-b46f-0d59f3c24703.png)
+![Especificação João Lucas de Calorio-3](https://user-images.githubusercontent.com/100203031/219905759-92607a78-c121-408f-8627-f23975f4afeb.png)
 
 
 # Protótipos de tela
