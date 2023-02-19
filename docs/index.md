@@ -28,7 +28,7 @@ APG - Lista de Presença
 * Mateus Hannonen Vieira
 * Aluno 2
 * Aluno 3
-* Aluno 4
+* Kevin Ventura
 * Aluno 5
 * Aluno 6
 * Aluno 7
@@ -41,15 +41,15 @@ O foco do projeto do nosso grupo, APG, é criar um sistema de presença para uma
 
 # Diagrama de casos de uso
 
-[Caso de uso - Sistema de Presença(3).pdf](https://github.com/MeTets/ppads-2023s1/files/10750876/Caso.de.uso.-.Sistema.de.Presenca.3.pdf)
+[Caso de uso - Sistema de Presença.pdf](https://github.com/MeTets/ppads-2023s1/files/10778185/Caso.de.uso.-.Sistema.de.Presenca.pdf)
 
 # Descrição dos casos de uso
 
-*&lt;Descrição dos casos de uso&gt;*
+[Especificação do Caso de Uso - Lista de chamada APG.pdf](https://github.com/MeTets/ppads-2023s1/files/10778184/Especificacao.do.Caso.de.Uso.-.Lista.de.chamada.APG.pdf)
 
 # Protótipos de tela
 
-[Protótipo Lista de Presenca.pdf](https://github.com/MeTets/ppads-2023s1/files/10775436/Prototipo.Lista.de.Presenca.pdf)
+[Lista de Chamada - Protótipo.pdf](https://github.com/MeTets/ppads-2023s1/files/10778186/Lista.de.Chamada.-.Prototipo.pdf)
 
 # Modelo de domínio
 
