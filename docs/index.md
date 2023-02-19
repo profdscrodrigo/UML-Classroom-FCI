@@ -49,7 +49,7 @@ O foco do projeto do nosso grupo, APG, é criar um sistema de presença para uma
 
 # Protótipos de tela
 
-[Prototipo Final - Lista de Chamadas.pdf](https://github.com/MeTets/ppads-2023s1/files/10750853/Prototipo.Final.-.Lista.de.Chamadas.pdf)
+[Protótipo Lista de Presenca.pdf](https://github.com/MeTets/ppads-2023s1/files/10775436/Prototipo.Lista.de.Presenca.pdf)
 
 # Modelo de domínio
 
