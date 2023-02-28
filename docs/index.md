@@ -90,6 +90,16 @@ Professor Específico
 Tendo em vista que o sistema é uma aplicação web, e necessita estar ligado a um banco de dados (como MongoDB) para guardar os dados, essas especificações influenciam no momento de definir a arquitetura desse projeto. Além disso, o documento coloca que precisa ser acessível de qualquer tipo de navegador (incluindo mobile), levando esse tópico em consideração também no momento da arquitetura da solução.
 O serviço será desenvolvido em Python, na parte relacionada ao back-end, sendo utilizado o framework. Já o front-end, toda a parte de interface gráfica e interação com o usuário, utilizará html, css e javascript. 
 
+Diagrama de Componentes
+
+![Diagrama Componentes](https://user-images.githubusercontent.com/100203253/222007673-e9fbfbad-000f-4df5-ab30-e6af322048f0.png)
+
+Diagramas de Sequência
+
+![Diagrama Sequencia Selecionar Sala](https://user-images.githubusercontent.com/100203253/222007713-0fe10c0d-ada8-4c9b-853f-502394d62fa9.png)
+![Diagrama Sequencia Registrar Falta](https://user-images.githubusercontent.com/100203253/222007711-fef20c8b-98cd-4a0c-bc73-ee7427b14946.png)
+
+
 *&lt;Decisões de arquitetura&gt;*
 
 # Diagrama de implantação
