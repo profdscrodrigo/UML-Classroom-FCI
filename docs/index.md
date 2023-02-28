@@ -87,6 +87,9 @@ Professor Específico
 
 # Decisões de arquitetura
 
+Tendo em vista que o sistema é uma aplicação web, e necessita estar ligado a um banco de dados (como MongoDB) para guardar os dados, essas especificações influenciam no momento de definir a arquitetura desse projeto. Além disso, o documento coloca que precisa ser acessível de qualquer tipo de navegador (incluindo mobile), levando esse tópico em consideração também no momento da arquitetura da solução.
+O serviço será desenvolvido em Python, na parte relacionada ao back-end, sendo utilizado o framework. Já o front-end, toda a parte de interface gráfica e interação com o usuário, utilizará html, css e javascript. 
+
 *&lt;Decisões de arquitetura&gt;*
 
 # Diagrama de implantação
