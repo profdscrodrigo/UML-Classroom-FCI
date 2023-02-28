@@ -18,13 +18,13 @@ A seguir estão os passos sugeridos para a preparação do seu grupo no início 
 9. O dono do repositório deverá editar este arquivo, removendo estas instruções iniciais e preenchendo o restante da página com os dados do projeto do seu grupo.
 
 
-# Projeto: *<Nome_do_seu_Projeto>*
+# Projeto: Sistema de Presenças da Escola Infinito
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: *<>*
 
 # Descrição
 
-*<Descrição_resumida_do_projeto>*
+A Escola Infinito necessita de um sistema para controlar as presenças de seus alunos, pois a operação ainda é realizada totalmente em papel e temos a responsabilidade de criar esse sistema de presença, de acordo com o que os gestores da escola gostariam de obter com esta aplicação.
 
 # Documentação
 
