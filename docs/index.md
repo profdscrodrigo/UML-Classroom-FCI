@@ -93,6 +93,8 @@ O serviço será desenvolvido em Python, na parte relacionada ao back-end, sendo
 *&lt;Decisões de arquitetura&gt;*
 
 # Diagrama de implantação
+![Diagrama de Implantação](https://user-images.githubusercontent.com/100203031/221992040-499fa780-84ad-4ba4-882c-3059dfbcb36b.png)
+
 
 *&lt;Diagrama de implantação&gt;*
 
