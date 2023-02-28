@@ -50,7 +50,7 @@ O foco do projeto do nosso grupo, APG, é criar um sistema de presença para uma
 
 # Modelo de domínio
 
-*&lt;Modelo de domínio&gt;*
+[Diagrama de Classes de domínio - Grupo APG.pdf](https://github.com/MeTets/ppads-2023s1/files/10853859/Diagrama.de.Classes.de.dominio.-.Grupo.APG.pdf)
 
 # Decisões de arquitetura
 
