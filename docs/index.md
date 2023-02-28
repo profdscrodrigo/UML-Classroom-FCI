@@ -54,7 +54,12 @@ O foco do projeto do nosso grupo, APG, é criar um sistema de presença para uma
 
 # Decisões de arquitetura
 
-*&lt;Decisões de arquitetura&gt;*
+![Modelo deCoponentes - Grupo APG](https://user-images.githubusercontent.com/90905651/221999786-7df787cb-69b0-4376-8003-c42ea9811a6b.jpeg)
+
+![Diagrama de Componentes - Grupo APG](https://user-images.githubusercontent.com/90905651/221999844-db1c4805-84f2-496d-9b2f-2f31454fe972.jpeg)
+
+![Modelo de Dados - Grupo APG](https://user-images.githubusercontent.com/90905651/222000031-73d0bf62-69db-4a3f-bd3e-efca5ef37b4f.jpeg)
+
 
 # Diagrama de implantação
 
