@@ -98,6 +98,7 @@ Diagramas de Sequência
 
 ![Diagrama Sequencia Selecionar Sala](https://user-images.githubusercontent.com/100203253/222007713-0fe10c0d-ada8-4c9b-853f-502394d62fa9.png)
 ![Diagrama Sequencia Registrar Falta](https://user-images.githubusercontent.com/100203253/222007711-fef20c8b-98cd-4a0c-bc73-ee7427b14946.png)
+![Diagrama de Sequencia Registar CHamada](https://user-images.githubusercontent.com/100203031/222009995-7ca4f38c-e0cb-41b0-9cda-950c4e6be104.png)
 
 
 *&lt;Decisões de arquitetura&gt;*
