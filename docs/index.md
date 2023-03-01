@@ -68,7 +68,7 @@ O foco do projeto do nosso grupo, APG, é criar um sistema de presença para uma
 
 # Diagrama de implantação
 
-*&lt;Diagrama de implantação&gt;*
+![Diagrama de Implantação - Grupo APG](https://user-images.githubusercontent.com/90905651/222023514-101020a8-76c4-43ef-8c7e-c46d4efe1d4e.jpeg)
 
 # Referências
 
