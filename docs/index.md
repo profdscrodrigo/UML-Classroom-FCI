@@ -63,6 +63,7 @@ O foco do projeto do nosso grupo, APG, é criar um sistema de presença para uma
 ![Modelo de Dados - Grupo APG](https://user-images.githubusercontent.com/90905651/222000031-73d0bf62-69db-4a3f-bd3e-efca5ef37b4f.jpeg)
 
 
+![Descrição Projeto](https://user-images.githubusercontent.com/90905651/222021490-93d2e4e5-7ae4-408f-bb34-c6898a510ba2.PNG)
 
 
 # Diagrama de implantação
