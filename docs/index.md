@@ -3,7 +3,7 @@
 
 
 <font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
+APG - Lista de Presença
 </center></font>
 
 >*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
@@ -25,43 +25,50 @@
 
 # Autores
 
-* Aluno 1
-* Aluno 2
-* Aluno 3
+* Mateus Hannonen Vieira
+* Felipe Lamotte Mohacsi
+* Enzo Pazzini Ferreira Maia
 * Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
+
 
 
 # Descrição do projeto
 
-*&lt;Descrição do projeto&gt;*
+O foco do projeto do nosso grupo, APG, é criar um sistema de presença para uma escola do ensino fundamental 1 a Escola Infinita. A ideia do sisteam é resgistrar as presença dos alunos duas vezes ao dia e manter controle sobre a falta dos alunos, disponibilizando a informação para os alunos e para os pai através do e-mail dos responsáveis cadastrados no sistema. Além disso, o sistema irá realizar a criação de ralatórios sobre a presença e falta dos alunos, de modo a ajudar a escola a controlar, entender e melhorar o seu sistema de ensino.
 
 # Diagrama de casos de uso
 
-*&lt;Diagrama de casos de uso&gt;*
+[Caso de uso - Sistema de Presença.pdf](https://github.com/MeTets/ppads-2023s1/files/10778185/Caso.de.uso.-.Sistema.de.Presenca.pdf)
 
 # Descrição dos casos de uso
 
-*&lt;Descrição dos casos de uso&gt;*
+[Especificação do Caso de Uso - Lista de chamada APG.pdf](https://github.com/MeTets/ppads-2023s1/files/10778184/Especificacao.do.Caso.de.Uso.-.Lista.de.chamada.APG.pdf)
 
 # Protótipos de tela
 
-*&lt;Protótipos de tela&gt;*
+[Lista de Chamada - Protótipo.pdf](https://github.com/MeTets/ppads-2023s1/files/10778186/Lista.de.Chamada.-.Prototipo.pdf)
 
 # Modelo de domínio
 
-*&lt;Modelo de domínio&gt;*
+[Diagrama de Classes de domínio - Grupo APG.pdf](https://github.com/MeTets/ppads-2023s1/files/10853859/Diagrama.de.Classes.de.dominio.-.Grupo.APG.pdf)
 
 # Decisões de arquitetura
 
-*&lt;Decisões de arquitetura&gt;*
+![Modelo deCoponentes - Grupo APG](https://user-images.githubusercontent.com/90905651/221999786-7df787cb-69b0-4376-8003-c42ea9811a6b.jpeg)
+
+
+![Diagrama de Componentes - Grupo APG](https://user-images.githubusercontent.com/90905651/221999844-db1c4805-84f2-496d-9b2f-2f31454fe972.jpeg)
+
+
+![Modelo de Dados - Grupo APG](https://user-images.githubusercontent.com/90905651/222000031-73d0bf62-69db-4a3f-bd3e-efca5ef37b4f.jpeg)
+
+
+![Descrição Projeto](https://user-images.githubusercontent.com/90905651/222021490-93d2e4e5-7ae4-408f-bb34-c6898a510ba2.PNG)
+
 
 # Diagrama de implantação
 
-*&lt;Diagrama de implantação&gt;*
+![Diagrama de Implantação - Grupo APG](https://user-images.githubusercontent.com/90905651/222023514-101020a8-76c4-43ef-8c7e-c46d4efe1d4e.jpeg)
 
 # Referências
 

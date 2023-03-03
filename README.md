@@ -18,13 +18,13 @@ A seguir estão os passos sugeridos para a preparação do seu grupo no início 
 9. O dono do repositório deverá editar este arquivo, removendo estas instruções iniciais e preenchendo o restante da página com os dados do projeto do seu grupo.
 
 
-# Projeto: *<Nome_do_seu_Projeto>*
+# Projeto: *Absence Project*
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: *APG (Absence Project Group)*
 
 # Descrição
 
-*<Descrição_resumida_do_projeto>*
+O foco do projeto do nosso grupo, APG, é criar um sistema de presença para uma escola do ensino fundamental 1 a Escola Infinita. A ideia do sisteam é resgistrar as presença dos alunos duas vezes ao dia e manter controle sobre a falta dos alunos, disponibilizando a informação para os alunos e para os pai através do e-mail dos responsáveis cadastrados no sistema. Além disso, o sistema irá realizar a criação de ralatórios sobre a presença e falta dos alunos, de modo a ajudar a escola a controlar, entender e melhorar o seu sistema de ensino.
 
 # Documentação
 
