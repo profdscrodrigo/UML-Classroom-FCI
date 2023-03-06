@@ -67,17 +67,24 @@ O projeto será um sistema de registro de falta e presença, onde o professor ac
 
 Layout das telas 
 
-![Login](https://user-images.githubusercontent.com/80272512/219496919-0c78b01a-4c41-4001-b1e0-55d38df2c50c.png)
-Professor Principal 
-![Professor Principal](https://user-images.githubusercontent.com/80272512/219497283-ba1dffbd-6a9a-4aed-b319-71b166434342.png)
+![Login](https://user-images.githubusercontent.com/80272512/223226281-13554608-2a6e-4496-a0b0-f403b284f135.png)
+Professor Principal!
+[Professor Principal](https://user-images.githubusercontent.com/80272512/223226417-705fca37-a1d1-4532-98bb-bbd4cd843673.png)
+
 Professor Específico
-![Professor Ed.Física/Ingles](https://user-images.githubusercontent.com/80272512/219497711-b94263b5-4d03-43a1-94e8-6c58f4f44ab0.png)
-![Professor Ed.Física/Ingles01](https://user-images.githubusercontent.com/80272512/219497839-a50f0edd-015f-45e6-927f-42fb205b082a.png)
-![MarcarAulas](https://user-images.githubusercontent.com/80272512/219514466-d1c886fc-b5da-4c9e-9908-600784553612.png)
-![Marcar Falta](https://user-images.githubusercontent.com/80272512/219497966-73cc8ebd-9661-4fe2-9f70-adf03783f211.png)
-![Falta Marcada](https://user-images.githubusercontent.com/80272512/219498015-2c315cc9-1dba-4807-8a24-ef0838174c30.png)
-![Cancelar](https://user-images.githubusercontent.com/80272512/219498074-04e0a2be-fdb2-47fa-ac00-66547ef0bdcb.png)
-![Confirmar Faltas](https://user-images.githubusercontent.com/80272512/219498147-d3ce8c1b-3df7-422d-b7ad-57e6686b74d2.png)
+![Ingles](https://user-images.githubusercontent.com/80272512/223226672-0f1ceab3-6b3f-4b29-9a85-9d88b34d1e1f.jpg)
+![Ingles-2](https://user-images.githubusercontent.com/80272512/223226889-859868df-4b3a-4f75-ad49-a304e9a56869.png)
+![Ingles-3](https://user-images.githubusercontent.com/80272512/223227085-8325d6bf-e9ea-4028-a5c3-c5bed64b80bf.png)
+![Marcar Falta](https://user-images.githubusercontent.com/80272512/223227307-b12b8538-0246-40b9-8e29-22a9091c9b84.png)
+![Falta Marcada](https://user-images.githubusercontent.com/80272512/223227379-932fc08b-ae86-456b-840e-14b582736916.png)
+![Cancelar](https://user-images.githubusercontent.com/80272512/223227432-979e4ae7-b02c-4dae-a6b5-31119b68c5da.png)
+![Confirmar Faltas](https://user-images.githubusercontent.com/80272512/223227496-c0a495c2-e9c2-4bf0-a224-5cb6a2f6c68e.png)
+
+
+
+
+
+
 
 
 # Modelo de domínio
