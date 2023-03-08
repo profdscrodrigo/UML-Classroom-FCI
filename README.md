@@ -18,13 +18,13 @@ A seguir estão os passos sugeridos para a preparação do seu grupo no início 
 9. O dono do repositório deverá editar este arquivo, removendo estas instruções iniciais e preenchendo o restante da página com os dados do projeto do seu grupo.
 
 
-# Projeto: *<Nome_do_seu_Projeto>*
+# Projeto: *PresencePro*
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: *Grupo 1*
 
 # Descrição
 
-*<Descrição_resumida_do_projeto>*
+*O nosso projeto tem como finalidade desenvolver uma aplicação de gerenciamento de presenças e ausências para a Escola Infinito. Teremos na página inicial um formulário em que o professor selecionará a turma, o período da aula (antes ou depois do intervalo) e se o professor é principal da turma ou leciona uma matéria específica (ed. física, inglês). Enviaremos notificações por e-mail para pais e responsáveis caso o aluno esteja com excesso de faltas. Além disso, focaremos também na acessibilidade durante o desenvolvimento do projeto*
 
 # Documentação
 
