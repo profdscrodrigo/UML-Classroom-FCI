@@ -18,9 +18,9 @@ A seguir estão os passos sugeridos para a preparação do seu grupo no início 
 9. O dono do repositório deverá editar este arquivo, removendo estas instruções iniciais e preenchendo o restante da página com os dados do projeto do seu grupo.
 
 
-# Projeto: *<lola de livros*
+# Projeto: *<loJa de livros*
 
-# Grupo: *<IBECH>*
+# Grupo: *IBECH*
 
 # Descrição
 
