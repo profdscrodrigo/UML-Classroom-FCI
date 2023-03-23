@@ -40,7 +40,8 @@ A seguir estão os passos sugeridos para a preparação do seu grupo no início 
 
 Angular 15.1.0
 Node 18.14.2
-            < /br>
+   
+            
 #BACK END
 
 Java 17
