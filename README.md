@@ -36,14 +36,14 @@ A seguir estão os passos sugeridos para a preparação do seu grupo no início 
         </p>*
         
 
-#FRONT END
+<P> #FRONT END
 
 Angular 15.1.0
 Node 18.14.2
 #BACK END
 
 Java 17
-Spring Boot 3.0.2
+Spring Boot 3.0.2 </p>
 
 # Documentação
 
