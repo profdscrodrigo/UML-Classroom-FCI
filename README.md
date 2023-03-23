@@ -34,6 +34,16 @@ A seguir estão os passos sugeridos para a preparação do seu grupo no início 
             <br /> At.te: Grupo IBECH -  5 Semestre - Analise e desenvolvimento de Sistemas 
             <br /> Mackenzie
         </p>*
+        
+
+#FRONT END
+
+Angular 15.1.0
+Node 18.14.2
+#BACK END
+
+Java 17
+Spring Boot 3.0.2
 
 # Documentação
 
