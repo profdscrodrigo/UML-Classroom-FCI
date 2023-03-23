@@ -18,13 +18,22 @@ A seguir estão os passos sugeridos para a preparação do seu grupo no início 
 9. O dono do repositório deverá editar este arquivo, removendo estas instruções iniciais e preenchendo o restante da página com os dados do projeto do seu grupo.
 
 
-# Projeto: *<Nome_do_seu_Projeto>*
+# Projeto: *<lola de livros*
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: *<IBECH>*
 
 # Descrição
 
-*<Descrição_resumida_do_projeto>*
+*<p>
+            Olá! Seja bem vindo ao sistema Loja de livros desenvolvido pelo grupo IBECH.<br />
+            Esse é um sistema para gerenciamento de livros simulando um simples sistema, desenvolvido em Angular 12 e
+            Spring Boot 2. <br />O sistema está rodando na nuvem sendo o front na Vercel e o back na Heroku.<br />
+            O projeto tem como objetivo principal de controlar novos cadastramentos de livros, clientes e fornecedores, foi utilizado Autenticação e Autorização com
+            Tokens JWT e muito mais.
+            <br /><br /> Fique a vontade para testar o sistema e deixar sua sugestão.
+            <br /> At.te: Grupo IBECH -  5 Semestre - Analise e desenvolvimento de Sistemas 
+            <br /> Mackenzie
+        </p>*
 
 # Documentação
 
