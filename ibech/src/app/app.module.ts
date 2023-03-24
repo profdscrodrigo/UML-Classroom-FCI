@@ -8,6 +8,7 @@ import { ClienteComponent } from './components/cliente/cliente.component';
 import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
 import { ClienteCreateComponent } from './components/cliente/cliente-create/cliente-create.component';
 import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ClienteDeleteComponent } from './components/cliente/cliente-delete/clie
     ClienteComponent,
     ClienteUpdateComponent,
     ClienteCreateComponent,
-    ClienteDeleteComponent
+    ClienteDeleteComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
