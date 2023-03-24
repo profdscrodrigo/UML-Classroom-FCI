@@ -11,6 +11,8 @@ import { ClienteDeleteComponent } from './components/cliente/cliente-delete/clie
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { LivrosComponent } from './components/livros/livros.component';
+import { LoginComponent } from './components/login/login.component';
+import { PedidosComponent } from './components/pedidos/pedidos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { LivrosComponent } from './components/livros/livros.component';
     ClienteDeleteComponent,
     HeaderComponent,
     HomeComponent,
-    LivrosComponent
+    LivrosComponent,
+    LoginComponent,
+    PedidosComponent
   ],
   imports: [
     BrowserModule,
