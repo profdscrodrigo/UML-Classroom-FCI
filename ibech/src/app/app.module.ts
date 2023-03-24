@@ -10,6 +10,7 @@ import { ClienteCreateComponent } from './components/cliente/cliente-create/clie
 import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
+import { LivrosComponent } from './components/livros/livros.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomeComponent } from './components/home/home.component';
     ClienteCreateComponent,
     ClienteDeleteComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    LivrosComponent
   ],
   imports: [
     BrowserModule,
