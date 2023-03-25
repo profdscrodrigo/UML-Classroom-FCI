@@ -27,7 +27,7 @@
 
 * Eduardo Diego da Costa e Silva - TIA 10921010153
 * Ivoneide Pereira da Silva - TIA 10920015356
-* Aluno 3
+* Jeane Lira Dias - TIA 10921011389
 * Aluno 4
 * Aluno 5
 
