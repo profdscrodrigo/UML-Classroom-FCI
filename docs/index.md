@@ -29,7 +29,7 @@
 * Ivoneide Pereira da Silva - TIA 10920015356
 * Aluno 3
 * Aluno 4
-* Aluno 5
+* Bruno Viana Silva
 * Aluno 6
 * Aluno 7
 * TESTE
