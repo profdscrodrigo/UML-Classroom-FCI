@@ -14,6 +14,23 @@ import { LivrosComponent } from './components/livros/livros.component';
 import { LoginComponent } from './components/login/login.component';
 import { PedidosComponent } from './components/pedidos/pedidos.component';
 
+//Imports para componentes do Angular Material
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatPaginatorModule } from '@angular/material/paginator'
+import { MatSnackBarModule } from '@angular/material/snack-bar'
+import { MatCheckboxModule } from '@angular/material/checkbox'
+import { MatToolbarModule } from '@angular/material/toolbar'
+import { MatSidenavModule } from '@angular/material/sidenav'
+import { MatButtonModule } from '@angular/material/button'
+import { MatSelectModule } from '@angular/material/select'
+import { MatTableModule } from '@angular/material/table'
+import { MatRadioModule } from '@angular/material/radio'
+import { MatInputModule } from '@angular/material/input'
+import { MatIconModule } from '@angular/material/icon'
+import { MatListModule } from '@angular/material/list'
+import { MatCardModule } from '@angular/material/card';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +47,8 @@ import { PedidosComponent } from './components/pedidos/pedidos.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
