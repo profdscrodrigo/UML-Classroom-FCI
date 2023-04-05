@@ -32,7 +32,7 @@
 * Bruno Viana Silva
 * Aluno 6
 * Aluno 7
-* TESTE
+  
 
 
 # Descrição do projeto
