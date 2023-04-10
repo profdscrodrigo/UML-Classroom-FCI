@@ -35,6 +35,7 @@ import { FornecedorCreateComponent } from './components/fornecedor/fornecedor-cr
 import { FornecedorDeleteComponent } from './components/fornecedor/fornecedor-delete/fornecedor-delete.component';
 import { FornecedorListComponent } from './components/fornecedor/fornecedor-list/fornecedor-list.component';
 import { FornecedorUpdateComponent } from './components/fornecedor/fornecedor-update/fornecedor-update.component';
+import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { FornecedorUpdateComponent } from './components/fornecedor/fornecedor-up
     FornecedorDeleteComponent,
     FornecedorListComponent,
     FornecedorUpdateComponent,
+    ClienteListComponent,
   
 
   
