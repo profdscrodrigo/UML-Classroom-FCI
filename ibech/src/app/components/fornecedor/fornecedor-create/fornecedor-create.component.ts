@@ -2,17 +2,17 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
-import { Cliente } from 'src/app/models/cliente';
-import { ClienteService } from 'src/app/services/cliente.service';
+import { Fornecedor } from 'src/app/models/fornecedor';
+import { FornecedorService } from 'src/app/services/fornecedor.service';
 
 @Component({
-  selector: 'app-cliente-create',
-  templateUrl: './cliente-create.component.html',
-  styleUrls: ['./cliente-create.component.css']
+  selector: 'app-fornecedor-create',
+  templateUrl: './fornecedor-create.component.html',
+  styleUrls: ['./fornecedor-create.component.css']
 })
-export class ClienteCreateComponent implements OnInit {
+export class FornecedorCreateComponent implements OnInit {
 
-  cliente: Cliente = {
+  fornecedor: Fornecedor = {
     id: '',
     nome: '',
     cpf: '',
@@ -28,7 +28,7 @@ export class ClienteCreateComponent implements OnInit {
   senha: FormControl = new FormControl(null, Validators.minLength(3));
 
   constructor(
-    private service: ClienteService,
+    private service: FornecedorService,
     private toast: ToastrService,
     private router: Router
   ) { }
@@ -41,17 +41,17 @@ export class ClienteCreateComponent implements OnInit {
   }
   
   addPerfil(perfil: any): void{
-    if (this.cliente.perfis.includes(perfil)){
-      this.cliente.perfis.splice(this.cliente.perfis.indexOf(perfil), 1)
+    if (this.fornecedor.perfis.includes(perfil)){
+      this.fornecedor.perfis.splice(this.fornecedor.perfis.indexOf(perfil), 1)
     } else {
-      this.cliente.perfis.push(perfil);
+      this.fornecedor.perfis.push(perfil);
     }
   }
 
   create(): void {
-    this.service.create(this.cliente).subscribe(() => {
-      this.toast.success('Cliente cadastrado com sucesso', 'Cadastro');
-      this.router.navigate(['clientes'])
+    this.service.create(this.fornecedor).subscribe(() => {
+      this.toast.success('Técnico cadastrado com sucesso', 'Cadastro');
+      this.router.navigate(['fornecedores'])
     }, ex => {
       console.log(ex);
       if(ex.error.errors){

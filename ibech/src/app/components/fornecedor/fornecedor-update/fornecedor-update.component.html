@@ -1,18 +1,18 @@
 <div class="container mat-elevation-z8">
     <form action="" class="form">
-        <h1 class="fullWidth">Atualizar cliente</h1>
-        <img class="fullWidth" src="assets/img/tecnico-create.svg" alt="Help Desk - Dicas de um DEV">
+        <h1 class="fullWidth">Atualizar técnico</h1>
+        <img class="fullWidth" src="assets/img/fornecedor-create.svg" alt="Help Desk - Dicas de um DEV">
 
         <section class="section">
             <mat-checkbox (click)="addPerfil(0)" class="margin" color="primary">Admin</mat-checkbox>
             <mat-checkbox (click)="addPerfil(1)" class="margin" color="primary">Cliente</mat-checkbox>
-            <mat-checkbox (click)="addPerfil(2)" [checked]="true" class="margin" color="primary">Cliente</mat-checkbox>
+            <mat-checkbox (click)="addPerfil(2)" [checked]="true" class="margin" color="primary">Técnico</mat-checkbox>
         </section>
 
         <mat-form-field class="fullWidth" appearance="legacy">
             <mat-label>Nome</mat-label>
             <input
-            [(ngModel)]="cliente.nome"
+            [(ngModel)]="fornecedor.nome"
             name="nome"
             [formControl]="nome"
             required 
@@ -25,7 +25,7 @@
           <mat-form-field class="fullWidth" appearance="legacy">
             <mat-label>CPF</mat-label>
             <input 
-            [(ngModel)]="cliente.cpf"
+            [(ngModel)]="fornecedor.cpf"
             name="cpf"
             [formControl]="cpf"
             required
@@ -38,7 +38,7 @@
           <mat-form-field class="fullWidth" appearance="legacy">
             <mat-label>E-mail</mat-label>
             <input 
-            [(ngModel)]="cliente.email"
+            [(ngModel)]="fornecedor.email"
             name="email"
             [formControl]="email"
             required
@@ -50,7 +50,7 @@
           <mat-form-field class="fullWidth" appearance="legacy">
             <mat-label>Senha</mat-label>
             <input 
-            [(ngModel)]="cliente.senha"
+            [(ngModel)]="fornecedor.senha"
             name="senha"
             [formControl]="senha"
             required
