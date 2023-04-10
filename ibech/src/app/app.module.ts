@@ -25,35 +25,50 @@ import { MatIconModule } from '@angular/material/icon'
 import { MatListModule } from '@angular/material/list'
 import { MatCardModule } from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
-// componentes do projeto
-import { FornecedorCreateComponent } from './components/fornecedor/fornecedor-create/fornecedor-create.component';
-import { FornecedorDeleteComponent } from './components/fornecedor/fornecedor-delete/fornecedor-delete.component';
-import { FornecedorListComponent } from './components/fornecedor/fornecedor-list/fornecedor-list.component';
-import { FornecedorUpdateComponent } from './components/fornecedor/fornecedor-update/fornecedor-update.component';
-import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { NavComponent } from './components/nav/nav.component';
+import { AuthInterceptorProvider } from './interceptor/auth.interceptor';
+
+//componentes importados do projeto
 import { ClienteCreateComponent } from './components/cliente/cliente-create/cliente-create.component';
+import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
 import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
+import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { LivrosComponent } from './components/livros/livros.component';
+import { LivrosCreateComponent } from './components/livros/livros-create/livros-create.component';
 import { LoginComponent } from './components/login/login.component';
+import { NavComponent } from './components/nav/nav.component';
 import { PedidosComponent } from './components/pedidos/pedidos.component';
-import { AuthInterceptorProvider } from './interceptor/auth.interceptor';
+import { FornecedorCreateComponent } from './components/fornecedor/fornecedor-create/fornecedor-create.component';
+import { FornecedorUpdateComponent } from './components/fornecedor/fornecedor-update/fornecedor-update.component';
+import { FornecedorDeleteComponent } from './components/fornecedor/fornecedor-delete/fornecedor-delete.component';
+import { FornecedorListComponent } from './components/fornecedor/fornecedor-list/fornecedor-list.component';
+
+
+
+
+
+
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-
-
- 
-  
-  
-
-  
+    ClienteCreateComponent,
+    ClienteUpdateComponent,
+    ClienteDeleteComponent,
+    ClienteListComponent,
+    HeaderComponent,
+    HomeComponent,
+    LivrosComponent,
+    LivrosCreateComponent,
+    LoginComponent,
+    NavComponent,
+    PedidosComponent,
+    FornecedorCreateComponent,
+    FornecedorUpdateComponent,
+    FornecedorDeleteComponent,
+    FornecedorListComponent
   ],
   imports: [
     BrowserModule,
@@ -72,9 +87,13 @@ import { AuthInterceptorProvider } from './interceptor/auth.interceptor';
     MatCheckboxModule,
     MatSnackBarModule,
     MatPaginatorModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    
   ],
   providers: [AuthInterceptorProvider],
-  bootstrap: [AppComponent]
+  bootstrap: []
 })
 export class AppModule { }

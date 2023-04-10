@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from './auth/auth.guard';
-import { ClienteCreateComponent } from './components/cliente/cliente-create/cliente-create.component';
+import { ClienteCreateComponent } from './components/cliente/cliente-create/cliente/cliente-create.component';
 import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
 import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
 import { HomeComponent } from './components/home/home.component';
 import { LivrosComponent } from './components/livros/livros.component';
-import { LoginComponent } from './components/login/login.component';
-import { NavComponent } from './components/nav/nav.component';
+import { LoginComponent } from "./components/login/LoginComponent";
+import { NavComponent } from "./components/nav/NavComponent";
 import { PedidosComponent } from './components/pedidos/pedidos.component';
 import { FornecedorCreateComponent } from './components/fornecedor/fornecedor-create/fornecedor-create.component';
 import { FornecedorDeleteComponent } from './components/fornecedor/fornecedor-delete/fornecedor-delete.component';
