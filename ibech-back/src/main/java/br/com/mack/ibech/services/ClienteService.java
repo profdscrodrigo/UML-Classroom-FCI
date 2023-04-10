@@ -7,6 +7,7 @@ import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import br.com.mack.ibech.domain.Cliente;
@@ -20,6 +21,9 @@ public class ClienteService {
 	@Autowired
 	private ClienteRepository clienteRepository;
 	
+	@Autowired
+	private BCryptPasswordEncoder encoder;
+	
 	
 	public Cliente findById(Integer id) {
 		Optional<Cliente> cli = clienteRepository.findById(id);
@@ -32,7 +36,7 @@ public class ClienteService {
 	
 	public Cliente create(ClienteDTO dto) {
 		dto.setId(null);
-//		dto.setSenha(encoder.encode(dto.getSenha()));
+		dto.setSenha(encoder.encode(dto.getSenha()));
 		validaPorCpfEEmail(dto);
 		Cliente cli = new Cliente(dto);
 		return clienteRepository.save(cli);
@@ -53,9 +57,9 @@ public class ClienteService {
 	public Cliente update(Integer id, @Valid ClienteDTO dto) {
 		dto.setId(id);
 		Cliente oldObj = this.findById(id);
-//		if (!dto.getSenha().equals(oldObj.getSenha())) {
-//			dto.setSenha(encoder.encode(dto.getSenha()));
-//		}
+		if (!dto.getSenha().equals(oldObj.getSenha())) {
+			dto.setSenha(encoder.encode(dto.getSenha()));
+		}
 		this.validaPorCpfEEmail(dto);
 		oldObj = new Cliente(dto);
 		return clienteRepository.save(oldObj);
