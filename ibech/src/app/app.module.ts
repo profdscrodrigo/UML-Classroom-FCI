@@ -41,14 +41,15 @@ import { HomeComponent } from './components/home/home.component';
 import { LivrosComponent } from './components/livros/livros.component';
 import { LoginComponent } from './components/login/login.component';
 import { PedidosComponent } from './components/pedidos/pedidos.component';
+import { AuthInterceptorProvider } from './interceptor/auth.interceptor';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent,
     HeaderComponent,
     HomeComponent,
     LivrosComponent,
+    FornecedorListComponent,
     PedidosComponent,
 
  
