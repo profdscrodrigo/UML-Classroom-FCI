@@ -24,9 +24,9 @@ import { MatInputModule } from '@angular/material/input'
 import { MatIconModule } from '@angular/material/icon'
 import { MatListModule } from '@angular/material/list'
 import { MatCardModule } from '@angular/material/card';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // componentes do projeto
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FornecedorCreateComponent } from './components/fornecedor/fornecedor-create/fornecedor-create.component';
 import { FornecedorDeleteComponent } from './components/fornecedor/fornecedor-delete/fornecedor-delete.component';
 import { FornecedorListComponent } from './components/fornecedor/fornecedor-list/fornecedor-list.component';
@@ -58,7 +58,21 @@ import { AuthInterceptorProvider } from './interceptor/auth.interceptor';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatListModule,
+    MatIconModule,
+    MatInputModule,
+    MatRadioModule,
+    MatTableModule,
+    MatSelectModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatCheckboxModule,
+    MatSnackBarModule,
+    MatPaginatorModule,
+    MatFormFieldModule
   ],
   providers: [AuthInterceptorProvider],
   bootstrap: [AppComponent]
