@@ -15,7 +15,7 @@ export class FornecedorUpdateComponent implements OnInit {
   fornecedor: Fornecedor = {
     id: '',
     nome: '',
-    cpf: '',
+    cnpj: '',
     email: '',
     senha: '',
     perfis: [],
@@ -23,7 +23,7 @@ export class FornecedorUpdateComponent implements OnInit {
   }
 
   nome: FormControl = new FormControl(null, Validators.minLength(3));
-  cpf: FormControl = new FormControl(null, Validators.required);
+  cnpj: FormControl = new FormControl(null, Validators.required);
   email: FormControl = new FormControl(null, Validators.email);
   senha: FormControl = new FormControl(null, Validators.minLength(3));
 
@@ -47,7 +47,7 @@ export class FornecedorUpdateComponent implements OnInit {
   }
 
   validaCampos(): boolean {
-    return this.nome.valid && this.cpf.valid && this.email.valid && this.senha.valid;
+    return this.nome.valid && this.cnpj.valid && this.email.valid && this.senha.valid;
   }
   
   addPerfil(perfil: any): void{

@@ -13,7 +13,7 @@ export class FornecedorListComponent implements OnInit {
 
   ELEMENT_DATA: Fornecedor[] = [];
   
-  displayedColumns: string[] = ['id', 'nome', 'cpf', 'email', 'acoes'];
+  displayedColumns: string[] = ['id', 'nome', 'cnpj', 'email', 'acoes'];
   dataSource = new MatTableDataSource<Fornecedor>(this.ELEMENT_DATA);
   
   @ViewChild(MatPaginator) paginator: MatPaginator;

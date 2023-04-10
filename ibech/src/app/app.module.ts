@@ -24,6 +24,7 @@ import { MatInputModule } from '@angular/material/input'
 import { MatIconModule } from '@angular/material/icon'
 import { MatListModule } from '@angular/material/list'
 import { MatCardModule } from '@angular/material/card';
+
 // componentes do projeto
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FornecedorCreateComponent } from './components/fornecedor/fornecedor-create/fornecedor-create.component';
@@ -46,11 +47,7 @@ import { AuthInterceptorProvider } from './interceptor/auth.interceptor';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    HomeComponent,
-    LivrosComponent,
-    FornecedorListComponent,
-    PedidosComponent,
+
 
  
   

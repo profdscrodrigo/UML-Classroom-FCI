@@ -14,7 +14,7 @@ export class FornecedorDeleteComponent implements OnInit {
   Fornecedor: Fornecedor = {
     id: '',
     nome: '',
-    cpf: '',
+    cnpj: '',
     email: '',
     senha: '',
     perfis: [],
