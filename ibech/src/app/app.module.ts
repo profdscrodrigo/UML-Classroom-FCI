@@ -45,6 +45,7 @@ import { FornecedorUpdateComponent } from './components/fornecedor/fornecedor-up
 import { FornecedorDeleteComponent } from './components/fornecedor/fornecedor-delete/fornecedor-delete.component';
 import { FornecedorListComponent } from './components/fornecedor/fornecedor-list/fornecedor-list.component';
 import { AppComponent } from './app.component';
+import { ToastrModule } from 'ngx-toastr';
 
 
 
@@ -97,8 +98,7 @@ import { AppComponent } from './app.component';
       closeButton: true,
       progressBar: true 
     }),
-    NgxMaskModule.forRoot()
-  
+    
   ],
   providers: [AuthInterceptorProvider],
   bootstrap: [AppComponent]
