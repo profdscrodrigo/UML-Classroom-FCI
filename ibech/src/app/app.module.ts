@@ -44,6 +44,7 @@ import { FornecedorCreateComponent } from './components/fornecedor/fornecedor-cr
 import { FornecedorUpdateComponent } from './components/fornecedor/fornecedor-update/fornecedor-update.component';
 import { FornecedorDeleteComponent } from './components/fornecedor/fornecedor-delete/fornecedor-delete.component';
 import { FornecedorListComponent } from './components/fornecedor/fornecedor-list/fornecedor-list.component';
+import { AppComponent } from './app.component';
 
 
 
@@ -91,9 +92,15 @@ import { FornecedorListComponent } from './components/fornecedor/fornecedor-list
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    
+    ToastrModule.forRoot({
+      timeOut: 4000,
+      closeButton: true,
+      progressBar: true 
+    }),
+    NgxMaskModule.forRoot()
+  
   ],
   providers: [AuthInterceptorProvider],
-  bootstrap: []
+  bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
