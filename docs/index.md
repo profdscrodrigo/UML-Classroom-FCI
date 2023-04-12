@@ -28,11 +28,12 @@
 * Eduardo Diego da Costa e Silva - TIA 10921010153
 * Ivoneide Pereira da Silva - TIA 10920015356
 * Carlos Augusto Massayuki Tahira Takasaki - TIA 10921005028
-* Aluno 4
 * Bruno Viana Silva
 * Aluno 6
 * Aluno 7
-  
+* Jeane Lira Dias - TIA 10921011389
+* Bruno Viana Silva
+
 
 
 # Descrição do projeto

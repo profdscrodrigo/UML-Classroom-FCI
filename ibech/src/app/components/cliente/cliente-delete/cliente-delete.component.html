@@ -1,0 +1,59 @@
+<div class="container mat-elevation-z8">
+    <form action="" class="form">
+        <h1 class="fullWidth">Deletar cliente</h1>
+        <img class="fullWidth" src="assets/img/tecnico-create.svg" alt="Help Desk - Dicas de um DEV">
+
+        <section class="section">
+            <mat-checkbox [disabled]="true" class="margin" color="primary">Admin</mat-checkbox>
+            <mat-checkbox [disabled]="true" class="margin" color="primary">Cliente</mat-checkbox>
+            <mat-checkbox [disabled]="true" class="margin" color="primary">Cliente</mat-checkbox>
+        </section>
+
+        <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>Nome</mat-label>
+            <input
+            [(ngModel)]="cliente.nome"
+            name="nome"
+            [disabled]="true"
+            matInput >
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>CPF</mat-label>
+            <input 
+            [(ngModel)]="cliente.cpf"
+            name="cpf"
+            [disabled]="true"
+            matInput 
+            mask="000.000.000-00">
+            <mat-icon matSuffix>pin</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>E-mail</mat-label>
+            <input 
+            [(ngModel)]="cliente.email"
+            name="email"
+            [disabled]="true"
+            matInput >
+            <mat-icon matSuffix>email</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>Senha</mat-label>
+            <input 
+            [(ngModel)]="cliente.senha"
+            name="senha"
+            [disabled]="true"
+            type="password" 
+            matInput >
+            <mat-icon matSuffix>password</mat-icon>
+          </mat-form-field>
+
+          <button (click)="delete()" mat-flat-button class="fullWidth" color="warn">Deletar</button>
+          <button routerLink="../../" mat-stroked-button class="fullWidth" color="warn">Cancelar</button>
+    </form>
+
+    <p class="fullWidth">by Eduardo Silva</p>
+</div>
