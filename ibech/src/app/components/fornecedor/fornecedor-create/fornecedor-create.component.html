@@ -1,1 +1,65 @@
 <p>fornecedor-create works!</p>
+<div class="container mat-elevation-z8">
+    <form action="" class="form">
+        <h1 class="fullWidth">Cadastrar Fornecedor</h1>
+        <img class="fullWidth" src="assets/img/fornecedor-create.svg" alt="Help Desk - Dicas de um DEV">
+
+       
+
+        <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>Nome</mat-label>
+            <input
+            [(ngModel)]="fornecedor.nome"
+            name="nome"
+            [formControl]="nome"
+            required 
+            matInput 
+            placeholder="Ex. Fulano de Tal"
+            maxlength="50">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>cnpj</mat-label>
+            <input 
+            [(ngModel)]="fornecedor.cnpj"
+            name="cnpj"
+            [formControl]="cnpj"
+            required
+            matInput 
+            placeholder="Ex. 00.000.000/0001-00"
+            mask="00.000.000/0001-00">
+            <mat-icon matSuffix>pin</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>E-mail</mat-label>
+            <input 
+            [(ngModel)]="fornecedor.email"
+            name="email"
+            [formControl]="email"
+            required
+            matInput 
+            placeholder="Ex. seuemail@email.com">
+            <mat-icon matSuffix>email</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>Senha</mat-label>
+            <input 
+            [(ngModel)]="fornecedor.senha"
+            name="senha"
+            [formControl]="senha"
+            required
+            type="password" 
+            matInput 
+            placeholder="Ex. 1234">
+            <mat-icon matSuffix>password</mat-icon>
+          </mat-form-field>
+
+          <button (click)="create()" [disabled]="!validaCampos()" mat-flat-button class="fullWidth" color="primary">Cadastrar</button>
+          <button routerLink="../" mat-stroked-button class="fullWidth" color="warn">Cancelar</button>
+    </form>
+
+    <p class="fullWidth">IBECH</p>
+</div>
