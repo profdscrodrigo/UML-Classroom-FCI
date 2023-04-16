@@ -19,12 +19,12 @@ export class FornecedorService {
     return this.http.get<Fornecedor[]>(`${API_CONFIG.baseUrl}/fornecedores`);
   }
 
-  create(tecnico: Fornecedor): Observable<Fornecedor> {
-    return this.http.post<Fornecedor>(`${API_CONFIG.baseUrl}/fornecedores`, tecnico);
+  create(fornecedor: Fornecedor): Observable<Fornecedor> {
+    return this.http.post<Fornecedor>(`${API_CONFIG.baseUrl}/fornecedores`, fornecedor);
   }
 
-  update(tecnico: Fornecedor): Observable<Fornecedor> {
-    return this.http.put<Fornecedor>(`${API_CONFIG.baseUrl}/fornecedores/${tecnico.id}`, tecnico);
+  update(fornecedor: Fornecedor): Observable<Fornecedor> {
+    return this.http.put<Fornecedor>(`${API_CONFIG.baseUrl}/fornecedores/${fornecedor.id}`, fornecedor);
   }
 
   delete(id: any): Observable<Fornecedor> {

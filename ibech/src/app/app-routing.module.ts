@@ -4,6 +4,7 @@ import { AuthGuard } from './auth/auth.guard';
 import { ClienteCreateComponent } from './components/cliente/cliente-create/cliente-create.component';
 import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
 import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
+import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
 import { HomeComponent } from './components/home/home.component';
 import { LivrosComponent } from './components/livros/livros.component';
 import { LoginComponent } from './components/login/login.component';
@@ -24,6 +25,7 @@ const routes: Routes = [
     { path: 'fornecedores/delete/:id', component: FornecedorDeleteComponent },
     { path: 'clientes', component: ClienteListComponent },
     { path: 'clientes/create', component: ClienteCreateComponent },
+    { path: 'clientes/update/:id', component: ClienteUpdateComponent },
     { path: 'pedidos', component: PedidosComponent },
     { path: 'livros', component: LivrosComponent },
     { path: 'clientes/delete/:id', component: ClienteDeleteComponent }

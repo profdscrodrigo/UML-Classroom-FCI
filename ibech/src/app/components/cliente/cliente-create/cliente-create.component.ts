@@ -3,7 +3,7 @@ import { FormControl, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 import { Cliente } from 'src/app/models/cliente';
-import { ClienteService } from 'src/app/services/ciente.service';
+import { ClienteService } from 'src/app/services/cliente.service';
 
 @Component({
   selector: 'app-cliente-create',
@@ -26,6 +26,7 @@ export class ClienteCreateComponent implements OnInit {
   cpf: FormControl = new FormControl(null, Validators.required);
   email: FormControl = new FormControl(null, Validators.email);
   senha: FormControl = new FormControl(null, Validators.minLength(3));
+
   constructor(
     private service: ClienteService,
     private toast: ToastrService,
@@ -34,6 +35,7 @@ export class ClienteCreateComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
   validaCampos(): boolean {
     return this.nome.valid && this.cpf.valid && this.email.valid && this.senha.valid;
   }
@@ -62,6 +64,5 @@ export class ClienteCreateComponent implements OnInit {
 
     });
   }
-
 
 }

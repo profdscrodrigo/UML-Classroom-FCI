@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 //Para trabalhar com formulários no Angular 12
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -24,83 +26,77 @@ import { MatInputModule } from '@angular/material/input'
 import { MatIconModule } from '@angular/material/icon'
 import { MatListModule } from '@angular/material/list'
 import { MatCardModule } from '@angular/material/card';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AppRoutingModule } from './app-routing.module';
-import { AuthInterceptorProvider } from './interceptor/auth.interceptor';
 
-//componentes importados do projeto
+//Componentes do projeto
+import { NavComponent } from './components/nav/nav.component';
+import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FornecedorListComponent } from './components/fornecedor/fornecedor-list/fornecedor-list.component';
+import { LoginComponent } from './components/login/login.component'
+import { ToastrModule } from 'ngx-toastr';
+import { AuthInterceptorProvider } from './interceptor/auth.interceptor';
+import { FornecedorCreateComponent } from './components/fornecedor/fornecedor-create/fornecedor-create.component';
+import { NgxMaskModule } from 'ngx-mask';
+import { FornecedorUpdateComponent } from './components/fornecedor/fornecedor-update/fornecedor-update.component';
+import { FornecedorDeleteComponent } from './components/fornecedor/fornecedor-delete/fornecedor-delete.component';
 import { ClienteCreateComponent } from './components/cliente/cliente-create/cliente-create.component';
 import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
 import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
 import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
-import { HeaderComponent } from './components/header/header.component';
-import { HomeComponent } from './components/home/home.component';
+import { PedidosComponent } from './components/pedidos/pedidos.component';
 import { LivrosComponent } from './components/livros/livros.component';
 import { LivrosCreateComponent } from './components/livros/livros-create/livros-create.component';
-import { LoginComponent } from './components/login/login.component';
-import { NavComponent } from './components/nav/nav.component';
-import { PedidosComponent } from './components/pedidos/pedidos.component';
-import { FornecedorCreateComponent } from './components/fornecedor/fornecedor-create/fornecedor-create.component';
-import { FornecedorUpdateComponent } from './components/fornecedor/fornecedor-update/fornecedor-update.component';
-import { FornecedorDeleteComponent } from './components/fornecedor/fornecedor-delete/fornecedor-delete.component';
-import { FornecedorListComponent } from './components/fornecedor/fornecedor-list/fornecedor-list.component';
-import { AppComponent } from './app.component';
-import { ToastrModule } from 'ngx-toastr';
-
-
-
-
-
-
 
 
 @NgModule({
   declarations: [
+    AppComponent,
+    NavComponent,
+    HomeComponent,
+    HeaderComponent,
+    FornecedorListComponent,
+    LoginComponent,
+    FornecedorUpdateComponent,
     ClienteCreateComponent,
     ClienteUpdateComponent,
     ClienteDeleteComponent,
     ClienteListComponent,
-    HeaderComponent,
-    HomeComponent,
+    PedidosComponent,
     LivrosComponent,
     LivrosCreateComponent,
-    LoginComponent,
-    NavComponent,
-    PedidosComponent,
-    FornecedorCreateComponent,
-    FornecedorUpdateComponent,
     FornecedorDeleteComponent,
-    FornecedorListComponent
+    FornecedorCreateComponent
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule,
-    MatListModule,
-    MatIconModule,
-    MatInputModule,
-    MatRadioModule,
-    MatTableModule,
-    MatSelectModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatToolbarModule,
-    MatCheckboxModule,
-    MatSnackBarModule,
-    MatPaginatorModule,
-    MatFormFieldModule,
-    HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,
+    MatFormFieldModule,
+    MatPaginatorModule,
+    MatSnackBarModule,
+    MatCheckboxModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatButtonModule,
+    MatSelectModule,
+    MatTableModule,
+    MatRadioModule,
+    MatInputModule,
+    MatIconModule,
+    MatListModule,
+    MatCardModule,
     ToastrModule.forRoot({
       timeOut: 4000,
       closeButton: true,
       progressBar: true 
     }),
-    
+    NgxMaskModule.forRoot()
   ],
   providers: [AuthInterceptorProvider],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }

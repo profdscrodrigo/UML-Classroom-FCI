@@ -1,12 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "0119e853-a005-4229-b69c-dd9c87215ce9"
+    "analytics": "d0e842e8-5d1d-45be-a293-3def69b4d1ea"
   },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ibech": {
+    "helpdesk": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -43,7 +43,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ibech",
+            "outputPath": "dist/helpdesk",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -95,10 +95,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ibech:build:production"
+              "browserTarget": "helpdesk:build:production"
             },
             "development": {
-              "browserTarget": "ibech:build:development"
+              "browserTarget": "helpdesk:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -106,11 +106,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ibech:build"
+            "browserTarget": "helpdesk:build"
           }
         }
       }
     }
   },
-  "defaultProject": "ibech"
+  "defaultProject": "helpdesk"
 }
