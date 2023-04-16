@@ -23,7 +23,7 @@ Order App
 
 * Aluno 1
 * Aluno 2
-* Aluno 3
+* Letícia Caroline da Silva
 * Livia Helen da Silva
 # Descrição do projeto
 
