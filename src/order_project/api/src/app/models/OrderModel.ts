@@ -30,9 +30,4 @@ export const Order = model('Order', new Schema({
       }
     }]
   },
-  restaurant: {
-    type: Schema.Types.ObjectId,
-    required: true,
-    ref: 'Restaurant'
-  }
 }));

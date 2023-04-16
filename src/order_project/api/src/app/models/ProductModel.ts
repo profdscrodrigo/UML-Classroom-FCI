@@ -34,9 +34,4 @@ export const Product = model('Product', new Schema({
     required: true,
     ref: 'Category'
   },
-  restaurant: {
-    type: Schema.Types.ObjectId,
-    required: true,
-    ref: 'Restaurant'
-  }
 }));

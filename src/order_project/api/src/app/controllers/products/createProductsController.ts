@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { Product } from '../../models/ProductModel';
 
 export async function createProductsController(req: Request, res: Response) {
-  const { name, price, description, category, ingredients, restaurant } = req.body;
+  const { name, price, description, category, ingredients } = req.body;
   const imagePath = req.file?.filename;
 
   const product = await Product.create({
@@ -12,7 +12,6 @@ export async function createProductsController(req: Request, res: Response) {
     imagePath,
     category,
     ingredients: ingredients ? JSON.parse(ingredients) : [],
-    restaurant
   });
 
   res.status(201).json(product);

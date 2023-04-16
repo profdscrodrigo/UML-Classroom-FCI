@@ -6,8 +6,7 @@ export async function listOrdersController(req: Request, res: Response) {
   await Order
     .find()
     .sort({ createdAt: 1 })
-    .populate('products.product')
-    .populate('restaurant');
+    .populate('products.product');
 
   res.json(orders);
 }

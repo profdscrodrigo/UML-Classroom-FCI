@@ -11,12 +11,6 @@ import {listOrdersController} from './app/controllers/orders/listOrdersControlle
 import {createOrdersController} from './app/controllers/orders/createOrdersController';
 import {changeOrderStatusController} from './app/controllers/orders/changeOrderStatusController';
 import {cancelOrdersController} from './app/controllers/orders/cancelOrdersController';
-import { createRestaurantsController } from './app/controllers/restaurants/createRestaurantsController';
-import { listRestaurantsController } from './app/controllers/restaurants/listRestaurantsController';
-import { listProductsByRestaurantController } from './app/controllers/products/listProductsByRestaurantController';
-import { listProductsCategoryByRestaurant } from './app/controllers/restaurants/listProductsCategoryByRestaurant';
-import { listAllProductsByRestaurantController } from './app/controllers/restaurants/listAllProductsByRestaurant';
-
 
 const upload = multer({
   storage: multer.diskStorage({
@@ -31,13 +25,6 @@ const upload = multer({
 
 export const router = Router();
 
-// Restaurants
-router.get('/restaurants', listRestaurantsController);
-router.get('/restaurants/:restaurantCode/categories/:categoryId/products', listProductsCategoryByRestaurant);
-router.get('/restaurants/:restaurantCode/products', listAllProductsByRestaurantController);
-
-router.post('/restaurants', createRestaurantsController);
-
 // Categories
 router.get('/categories', listCategoriesController);
 router.get('/categories/:categoryId/products', listProductsByCategoryController);
@@ -46,7 +33,6 @@ router.post('/categories', createCategoriesController);
 
 // Products
 router.get('/products', listProductsController);
-router.get('/products/:code/restaurants', listProductsByRestaurantController);
 router.post('/products', upload.single('image'), createProductsController);
 
 
