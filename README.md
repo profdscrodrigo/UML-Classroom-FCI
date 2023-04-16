@@ -18,13 +18,13 @@ A seguir estão os passos sugeridos para a preparação do seu grupo no início 
 9. O dono do repositório deverá editar este arquivo, removendo estas instruções iniciais e preenchendo o restante da página com os dados do projeto do seu grupo.
 
 
-# Projeto: *<Nome_do_seu_Projeto>*
+# Projeto: *Order App*
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: *Grupo LLF*
 
 # Descrição
 
-*<Descrição_resumida_do_projeto>*
+*Sistema de controle de pedidos. O aplicativo mobile permite que adicionar no carrinho, atualizar e remover pedidos. Enquanto o sistema web recebe quais pedidos foram solicitados, quais estão em andamento e quais foram finalizados.*
 
 # Documentação
 
