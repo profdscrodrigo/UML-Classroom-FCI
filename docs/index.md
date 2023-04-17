@@ -50,7 +50,7 @@ Nessa fase, o grupo priorizou em realizar a comunicação entre os sistema. As t
 ## Mobile
 
 Login
-![Login](./prototipo/login.jpeg)
+![Login](./prototipo/loginof.jpeg)
 
 Home
 ![Home](./prototipo/home.jpeg)
