@@ -3,7 +3,7 @@
 
 
 <font size="+12"><center>
-Order App
+*&lt;Order App&gt;*
 </center></font>
 
 **Conteúdo**
@@ -22,9 +22,10 @@ Order App
 # Autores
 
 * Aluno 1
-* Aluno 2
+* Felipe Simão da Silva
 * Letícia Caroline da Silva
 * Livia Helen da Silva
+
 # Descrição do projeto
 
 Sistema de controle de pedidos. O aplicativo mobile permite adicionar pedidos ao carrinho, atualizar, remover e visualizar a descrição dos produtos. Enquanto o sistema web recebe quais pedidos estão na fila de preparo, quais estão em andamento e quais foram finalizados.
