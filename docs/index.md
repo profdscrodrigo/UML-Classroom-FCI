@@ -1,14 +1,10 @@
 <h2><a href= "https://www.mackenzie.br">Universidade Presbiteriana Mackenzie</a></h2>
-<h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao">Sistemas de Informação</a></h3>
+<h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao">Análise e Desenvolvimento de Sistemas</a></h3>
 
 
 <font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
+Order App
 </center></font>
-
->*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
-
->*Observação 2: O índice abaixo não precisa ser editado se você utilizar o Visual Studio Code com a extensão **Markdown All in One**. Essa extensão atualiza o índice automaticamente quando o arquivo é salvo.*
 
 **Conteúdo**
 
@@ -37,15 +33,16 @@
 
 # Descrição do projeto
 
-*&lt;Descrição do projeto&gt;*
+Sistema de controle de pedidos. O aplicativo mobile permite adicionar pedidos ao carrinho, atualizar, remover e visualizar a descrição dos produtos. Enquanto o sistema web recebe quais pedidos estão na fila de preparo, quais estão em andamento e quais foram finalizados.
 
 # Diagrama de casos de uso
 
-*&lt;Diagrama de casos de uso&gt;*
+![Diagrama de caso de uso](./diagramas/caso_uso.jpeg)
+
 
 # Descrição dos casos de uso
 
-*&lt;Descrição dos casos de uso&gt;*
+O restaurante (restaurant) é responsável por se registrar no aplicativo mobile. Após finalizar o cadastro, ele poderá adicionar os produtos que oferece por categoria, como hamburguers, refrigerante, entre outros. Com isso, o garçom (waiter) será responsável por fazer login com o código único, gerado ao finalizar o cadastro restaurante, para atender as mesas, adicionar os pedidos das mesas no carrinho e enviar o pedido para a cozinha. No sistema web é onde acontece o gerenciamento dos pedidos, onde cada pedido enviado pelos garçons entram na fila de espera e podem ser manuseados até concluí-lo.*
 
 # Protótipos de tela
 
@@ -53,7 +50,7 @@
 
 # Modelo de domínio
 
-*&lt;Modelo de domínio&gt;*
+![Diagrama de domínio](./diagramas/dominio.jpeg);
 
 # Decisões de arquitetura
 
