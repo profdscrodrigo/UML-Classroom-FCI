@@ -3,7 +3,7 @@
 
 
 <font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
+*&lt; Loja de Livros&gt;*
 </center></font>
 
 >*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
@@ -27,6 +27,10 @@
 
 * Eduardo Diego da Costa e Silva - TIA 10921010153
 * Ivoneide Pereira da Silva - TIA 10920015356
+* Carlos Augusto Massayuki Tahira Takasaki - TIA 10921005028
+* Bruno Viana Silva
+* Aluno 6
+* Aluno 7
 * Jeane Lira Dias - TIA 10921011389
 * Bruno Viana Silva
 
