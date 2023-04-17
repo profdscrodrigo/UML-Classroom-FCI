@@ -39,7 +39,7 @@ export const Content = styled.div`
     }
 
   @media (max-width: 767px) {
-    img {
+    .logo {
       display: none;
     }
 
