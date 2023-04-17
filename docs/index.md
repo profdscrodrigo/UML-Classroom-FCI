@@ -45,21 +45,46 @@ Sistema de controle de pedidos. O aplicativo mobile permite adicionar pedidos ao
 O restaurante (restaurant) é responsável por se registrar no aplicativo mobile. Após finalizar o cadastro, ele poderá adicionar os produtos que oferece por categoria, como hamburguers, refrigerante, entre outros. Com isso, o garçom (waiter) será responsável por fazer login com o código único, gerado ao finalizar o cadastro restaurante, para atender as mesas, adicionar os pedidos das mesas no carrinho e enviar o pedido para a cozinha. No sistema web é onde acontece o gerenciamento dos pedidos, onde cada pedido enviado pelos garçons entram na fila de espera e podem ser manuseados até concluí-lo.*
 
 # Protótipos de tela
+Nessa fase, o grupo priorizou em realizar a comunicação entre os sistema. As telas de cadastro, edição e exclusão dos produto e restaurante estão em desenvolvimento.
 
-*&lt;Protótipos de tela&gt;*
+## Mobile
+
+Login
+![Login](./prototipo/login.jpeg)
+
+Home
+![Home](./prototipo/home.jpeg)
+
+Selecionando a mesa
+![Selecionando a mesa](./prototipo/mesa.jpeg)
+
+Pedido
+![Pedido](./prototipo/pedido.jpeg)
+
+Enviado para a cozinha
+![Enviado para a cozinha](./prototipo/concluido.jpeg)
+
+## WEB
+
+Gerenciamento de pedidos 
+![Pedidos](./prototipo/web.jpeg)
+
+Detalhes do pedido
+![Detalhes do Pedido](./prototipo/detalhes.png)
+
 
 # Modelo de domínio
 
-![Diagrama de domínio](./diagramas/dominio.jpeg);
+![Diagrama de domínio](./diagramas/dominio.jpeg)
 
 # Decisões de arquitetura
 
-*&lt;Decisões de arquitetura&gt;*
+*&ltDecisões de arquitetura&gt*
 
 # Diagrama de implantação
 
-*&lt;Diagrama de implantação&gt;*
+*&ltDiagrama de implantação&gt*
 
 # Referências
 
-*&lt;Lista de referências&gt;*
+*&ltLista de referências&gt*
