@@ -25,14 +25,10 @@
 
 # Autores
 
-* Aluno 1
-* Aluno 2
-* Aluno 3
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
+* Eduardo Diego da Costa e Silva - TIA 10921010153
+* Ivoneide Pereira da Silva - TIA 10920015356
+* Jeane Lira Dias - TIA 10921011389
+* Bruno Viana Silva
 
 
 # Descrição do projeto
