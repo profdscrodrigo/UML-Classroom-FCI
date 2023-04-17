@@ -1,4 +1,3 @@
-import text from '../../assets/images/text.svg';
 import {Container, Content} from './styles';
 
 export function Header() {
@@ -9,7 +8,7 @@ export function Header() {
           <h1>Pedidos</h1>
           <h2>Acompanhe o pedido dos clientes</h2>
         </div>
-        <img src={text} alt="Waiter App logo"/>
+        <h1 className='logo'>Order App</h1>
       </Content>
     </Container>
   );

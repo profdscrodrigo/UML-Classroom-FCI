@@ -34,6 +34,10 @@ export const Content = styled.div`
     }
   }
 
+  .logo {
+      color: #fff;
+    }
+
   @media (max-width: 767px) {
     img {
       display: none;
