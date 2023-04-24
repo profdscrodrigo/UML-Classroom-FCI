@@ -10,6 +10,11 @@ export const RestaurantSchema = new Schema({
     type: String,
     unique: true,
   },
+  createdAt: {
+    type: Date,
+    required: true,
+    default: Date.now
+  },
 });
 
 RestaurantSchema.pre('save', async function (next) {
