@@ -25,7 +25,7 @@
 
 # Autores
 
-* Aluno 1
+* Eduardo Diego da Costa e Silva - TIA 10921010153
 * Aluno 2
 * Aluno 3
 * Aluno 4
