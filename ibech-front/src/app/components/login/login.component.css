@@ -36,6 +36,38 @@ button {
 }
 .titulolivro{
     font-size: 46px;
-    font-family: Arial
+    font-family: Arial;
+    font-weight: bold;
     
+}
+
+.teste{
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    text-align: center;
+    animation: animate 
+        1.0s linear infinite;
+}
+
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+.testeDois{
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
