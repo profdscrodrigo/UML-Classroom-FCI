@@ -32,7 +32,7 @@ async function start() {
 
     server.listen(port, () =>
       console.log(`Running at http://localhost:${port}`
-      ));
+    ));
   } catch (e) {
     console.log(e);
   }

@@ -32,7 +32,7 @@ export function Categories({ categories, onSelectedCategory }: Props) {
             <Icon>
               <Text opacity={isSelected ? 1 : 0.5}>{category.icon}</Text>
             </Icon>
-            <Text size={14} weight={'600'}  opacity={isSelected ? 1 : 0.5}>{category.name}</Text>
+            <Text size={14} weight={'600'}  opacity={isSelected ? 1 : 0.5} numberOfLines={1} >{category.name}</Text>
           </CategoryContainer>
         );
       }}

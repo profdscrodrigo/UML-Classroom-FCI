@@ -7,6 +7,7 @@ export const CategoryContainer = styled.TouchableOpacity`
   align-items: center;
   justify-content: center;
   margin-left: 24px;
+  max-width: 85px;
 `;
 export const Icon = styled.View`
   align-items: center;

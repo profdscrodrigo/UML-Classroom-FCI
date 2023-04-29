@@ -9,25 +9,22 @@ export const Overlay = styled.KeyboardAvoidingView`
 `;
 
 export const ModalBody = styled.View`
-  background-color: #fafafa;
+  background-color: #D73035;
   padding: 24px;
   border-radius: 8px;
+  align-items: center;
 `;
 
 export const Header = styled.View`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-top: 8px;
 `;
 
-export const Form = styled.View`
-  margin-top: 32px;
-`;
-
-export const Input = styled.TextInput`
-  background: #fff;
-  border: 1px solid rgba(204, 204, 204, 0.5);
-  border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 24px;
+export const Button = styled.TouchableOpacity`
+  background: #FFFFFF;
+  border-radius: 48px;
+  padding: 14px 24px;
+  margin-top: 24px;
 `;

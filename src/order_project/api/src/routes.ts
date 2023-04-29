@@ -14,6 +14,7 @@ import {cancelOrdersController} from './app/controllers/orders/cancelOrdersContr
 import { createRestaurantsController } from './app/controllers/restaurants/createRestaurantsController';
 import { listRestaurantsController } from './app/controllers/restaurants/listRestaurantsController';
 import { listAllProductsByRestaurantController } from './app/controllers/restaurants/listAllProductsByRestaurant';
+import { listProductsCategoryByRestaurant } from './app/controllers/restaurants/listProductsCategoryByRestaurant';
 
 const upload = multer({
   storage: multer.diskStorage({
@@ -32,7 +33,7 @@ export const router = Router();
 router.post('/restaurants', createRestaurantsController);
 router.get('/restaurants', listRestaurantsController);
 router.get('/restaurants/:restaurantCode/products', listAllProductsByRestaurantController);
-router.get('/restaurants/:restaurantCode/categories/:categoryId/products', listProductsByCategoryController);
+router.get('/restaurants/:restaurantCode/categories/:categoryId/products', listProductsCategoryByRestaurant );
 
 // Categories
 router.get('/categories', listCategoriesController);

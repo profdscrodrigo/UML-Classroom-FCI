@@ -6,7 +6,7 @@ const isAndroid = Platform.OS === 'android';
 export const Container = styled.SafeAreaView`
   margin-top: ${isAndroid ? `${StatusBar.currentHeight}px` : '0'};
   flex: 1;
-  background-color: #fafafa
+  background-color: #fafafa;
 `;
 
 export const CategoriesContainer = styled.View`
@@ -31,4 +31,9 @@ export const CenteredContainer = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
+`;
+
+export const Row = styled.View`
+    flex-grow: 1;
+    flex-direction: row;
 `;

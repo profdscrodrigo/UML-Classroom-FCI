@@ -3,7 +3,7 @@ import {AddToCartButton, Image, ProductContainer, ProductDetails, Separator} fro
 import {Text} from '../Text';
 import {formatCurrency} from '../../utils/formatCurrency';
 import {PlusCircle} from '../Icons/PlusCircle';
-import {Product} from '../../types/product';
+import {Product} from '../../types/Product';
 import {ProductModal} from '../ProductModal';
 import {useState} from 'react';
 
@@ -39,7 +39,7 @@ export function Menu({ onAddToCart, products }: MenuProps) {
           <ProductContainer onPress={() => handleProductPress(product)}>
             <Image
               source={{
-                uri: `http://192.168.0.51:3001/uploads/${product.imagePath}`
+                uri: `http://192.168.0.145:3001/uploads/${product.imagePath}`
               }}
             />
 

@@ -6,10 +6,10 @@ import {Header} from '../../components/Header';
 import {Categories} from '../../components/Categories';
 import {Button} from '../../components/Button';
 import {Menu} from '../../components/Menu';
-import {TableModal} from '../../components/TableModal';
+import {InputModal} from '../../components/InputModal';
 import {Cart} from '../../components/Cart';
 import {CartItem} from '../../types/cartItem';
-import {Product} from '../../types/product';
+import {Product} from '../../types/Product';
 import {Empty} from '../../components/Icons/Empty';
 import {Text} from '../../components/Text';
 import {Category} from '../../types/category';
@@ -21,8 +21,10 @@ import {
   Container,
   Footer,
   FooterContainer,
-  MenuContainer
+  MenuContainer,
+  Row
 } from './styles';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export function  Main() {
   const [isLoading, setIsLoading] = useState(true);
@@ -32,8 +34,15 @@ export function  Main() {
   const [cartItems, setCartItems] = useState<Array<CartItem>>([]);
   const [products, setProducts] = useState<Product[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
+  const [code, setCode] = useState<string | null>("");
+
+  const getRestaurantCode = async () =>{
+    const temp = await AsyncStorage.getItem('@restaurant_code');
+    setCode(temp);
+  }
 
   useEffect(() => {
+    getRestaurantCode();
     Promise.all([
       api.get('/categories'),
       api.get('/products'),
@@ -98,15 +107,18 @@ export function  Main() {
   }
 
   async function handleSelectedCategory(categoryId: string) {
-
     const route = !categoryId || categoryId === '' ?
       '/products' :
-      `/categories/${categoryId}/products`;
+      `/restaurants/${code}/categories/${categoryId}/products`;
 
     setIsLoadingProducts(true);
-    const { data } = await api.get(route);
-    setProducts(data);
-    setIsLoadingProducts(false);
+    try{
+      const res = await api.get(route);
+      setProducts(res.data);
+      setIsLoadingProducts(false);
+    }catch(e){
+      console.log(JSON.stringify(e));
+    }
   }
 
   return (
@@ -163,15 +175,21 @@ export function  Main() {
               selectedTable={selectedTable}
             />
           ) : (
-            <Button onPress={() => setIsTableModalVisible(true)}>Novo Pedido</Button>
+            <Row>
+              <Button onPress={() => setIsTableModalVisible(true)}>Novo Pedido</Button>
+            </Row>
           )}
         </FooterContainer>
       </Footer>
 
-      <TableModal
+      <InputModal
         visible={isTableModalVisible}
         onClose={() => setIsTableModalVisible(false)}
         onSave={handleSaveTable}
+        text='Informe a mesa'
+        placeholder='Número da mesa'
+        keyboardType='number-pad'
+        maxLength={6}
       />
     </>
   );

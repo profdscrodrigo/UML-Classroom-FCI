@@ -1,6 +1,7 @@
 import {Container, OrderHeader, Table} from './styles';
 import {Text} from '../Text';
 import {TouchableOpacity, View} from 'react-native';
+import Logo from '../Logo';
 
 interface Props {
   selectedTable: string;
@@ -27,10 +28,7 @@ export function Header({ selectedTable, onCancelOrder }: Props) {
       ) : (
         <>
           <Text size={14} opacity={0.9}>Bem vindo(a) ao</Text>
-          <Text size={24} weight={'700'}>
-          Order
-            <Text size={24}>App</Text>
-          </Text>
+          <Logo size={24} />
         </>
       )}
     </Container>
