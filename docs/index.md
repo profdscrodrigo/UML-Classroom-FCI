@@ -30,14 +30,6 @@
 * Ivoneide Pereira da Silva - TIA 10920015356
 * Carlos Augusto Massayuki Tahira Takasaki - TIA 10921005028
 * Bruno Viana Silva
-=======
-* Aluno 2
-* Aluno 3
-* Aluno 4
-* Aluno 5
->>>>>>> c17f4b0eba0a2eea5e5eaf4199b03adc3cd8aabf
-* Aluno 6
-* Aluno 7
 * Jeane Lira Dias - TIA 10921011389
 * Bruno Viana Silva
 
