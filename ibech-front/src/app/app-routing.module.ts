@@ -13,6 +13,7 @@ import { FornecedorDeleteComponent } from './components/fornecedor/fornecedor-de
 import { FornecedorListComponent } from './components/fornecedor/fornecedor-list/fornecedor-list.component';
 import { FornecedorUpdateComponent } from './components/fornecedor/fornecedor-update/fornecedor-update.component';
 import { LivrosComponent } from './components/livros/livros.component';
+import { PedidosComponent } from './components/pedidos/pedidos.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -26,7 +27,8 @@ const routes: Routes = [
     { path: 'clientes/create', component: ClienteCreateComponent },
     { path: 'clientes/update/:id', component: ClienteUpdateComponent },
     { path: 'clientes/delete/:id', component: ClienteDeleteComponent },
-    { path: 'livros', component: LivrosComponent }
+    { path: 'livros', component: LivrosComponent },
+    { path: 'pedidos', component: PedidosComponent }
 
   ] }
 ];

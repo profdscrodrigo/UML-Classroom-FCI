@@ -44,6 +44,7 @@ import { ClienteUpdateComponent } from './components/cliente/cliente-update/clie
 import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
 import { ClienteListComponent } from './components/cliente/cliente-list/cliente-list.component';
 import { LivrosComponent } from './components/livros/livros.component';
+import { PedidosComponent } from './components/pedidos/pedidos.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +62,7 @@ import { LivrosComponent } from './components/livros/livros.component';
     ClienteDeleteComponent,
     ClienteListComponent,
     LivrosComponent,
+    PedidosComponent,
 
   ],
   imports: [
