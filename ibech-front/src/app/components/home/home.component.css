@@ -1,9 +1,29 @@
 .card {
-    width: 70%;
-    margin: 1rem auto;
+    width: 80%;
+    margin: 0rem auto;
     background-color: rgb(255, 255, 255);
 }
 
 img {
     height: 30rem;
+}
+.testeDois{
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif
+
+}
+
+.teste{
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    text-align: center;
+    animation: animate 
+        1.0s linear infinite;
+}
+
+.nomes{
+    
 }
