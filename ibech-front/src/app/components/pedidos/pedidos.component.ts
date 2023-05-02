@@ -16,66 +16,6 @@ export class PedidosComponent implements OnInit {
       titulo: 'O menino do pijama listrado',
       dataCriacao: '13/09/2023'
     },
-    {
-      autor: 'nome do autor',
-      titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
-    },
-    {
-      autor: 'nome do autor',
-      titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
-    },
-    {
-      autor: 'nome do autor',
-      titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
-    },
-    {
-      autor: 'nome do autor',
-      titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
-    },
-    {
-      autor: 'nome do autor',
-      titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
-    },
-    {
-      autor: 'nome do autor',
-      titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
-    },
-    {
-      autor: 'nome do autor',
-      titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
-    }, {
-      autor: 'nome do autor',
-      titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
-    },
-    {
-      autor: 'nome do autor',
-      titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
-    },
-    {
-      autor: 'nome do autor',
-      titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
-    },
-    {
-      autor: 'nome do autor',
-      titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
-    },
-    {
-      autor: 'nome do autor',
-      titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
-    }
-    
 
   ]
 

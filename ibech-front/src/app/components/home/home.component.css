@@ -24,6 +24,9 @@ img {
         1.0s linear infinite;
 }
 
-.nomes{
-    
+.home{
+    font-weight: bold;
+}
+.pratica{
+    color: rgb(99, 66, 175);
 }
