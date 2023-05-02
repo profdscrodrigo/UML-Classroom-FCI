@@ -15,6 +15,7 @@ import { FornecedorUpdateComponent } from './components/fornecedor/fornecedor-up
 import { LivrosComponent } from './components/livros/livros.component';
 import { PedidosComponent } from './components/pedidos/pedidos.component';
 
+
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path:'', component: NavComponent, canActivate: [AuthGuard], children: [
@@ -28,7 +29,13 @@ const routes: Routes = [
     { path: 'clientes/update/:id', component: ClienteUpdateComponent },
     { path: 'clientes/delete/:id', component: ClienteDeleteComponent },
     { path: 'livros', component: LivrosComponent },
-    { path: 'pedidos', component: PedidosComponent }
+    { path: 'pedidos', component: PedidosComponent },
+
+
+    
+    
+    
+
 
   ] }
 ];
