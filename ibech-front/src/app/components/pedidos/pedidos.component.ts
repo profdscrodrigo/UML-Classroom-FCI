@@ -12,14 +12,14 @@ export class PedidosComponent implements OnInit {
 
   ELEMENT_DATA: pedidos[] = [
     {
-      autor: 'nid',
-      titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
+      nome: 'alex',
+      livro: 'O menino do pijama listrado',
+      acoes: '13/09/2023'
     },
 
   ]
 
-  displayedColumns: string[] = ['autor', 'titulo', 'acoes'];
+  displayedColumns: string[] = ['nome', 'livro', 'acoes'];
   dataSource = new MatTableDataSource<pedidos>(this.ELEMENT_DATA);
 
   @ViewChild(MatPaginator) paginator: MatPaginator;

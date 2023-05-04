@@ -13,11 +13,11 @@ export class LivrosComponent implements OnInit {
     {
       autor: 'nome do autor',
       titulo: 'O menino do pijama listrado',
-      dataCriacao: '13/09/2023'
+      disponivel: '7'
     }
   ]
 
-  displayedColumns: string[] = ['autor', 'titulo', 'acoes'];
+  displayedColumns: string[] = ['autor', 'titulo', 'disponivel'];
   dataSource = new MatTableDataSource<livros>(this.ELEMENT_DATA);
 
   constructor() { }
