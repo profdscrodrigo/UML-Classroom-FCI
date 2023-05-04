@@ -36,7 +36,11 @@
 
 # Descrição do projeto
 
-*&lt;Descrição do projeto&gt;*
+*&lt;Olá! Seja bem vindo ao sistema Loja de livros desenvolvido pelo grupo IBECH.
+Esse é um sistema para gerenciamento de livros simulando um simples sistema, desenvolvido em Angular 12 e Spring Boot 2.
+O sistema está rodando na nuvem sendo o front na Vercel e o back na Heroku.
+O projeto tem como objetivo principal de controlar novos cadastramentos de livros, clientes e fornecedores, foi utilizado Autenticação e Autorização com Tokens JWT e muito mais. foi feito também algumas alterações em css, usamos o Postman para fazer a autenticação de senha, login e validação.
+ &gt;*
 
 # Diagrama de casos de uso
 
@@ -64,4 +68,13 @@
 
 # Referências
 
-*&lt;Lista de referências&gt;*
+*&lt;Lista de referências
+
+Angular-Spring-Starter: Este projeto é um starter kit que inclui as configurações básicas para criar uma aplicação Angular integrada com uma API Spring Boot. O projeto também utiliza o Angular Material para criar um layout responsivo e moderno.
+Link: https://github.com/gt-tech/angular-spring-starter
+
+Spring Boot and Angular 2+: Este é um tutorial que ensina como criar uma aplicação web usando Spring Boot no backend e Angular no frontend. O tutorial aborda desde a configuração do projeto até a implementação de CRUD operations.
+Link: https://dzone.com/articles/spring-boot-and-angular-2-tutorial-building-modern
+
+Angular and Spring Boot Integration with OAuth2: Este é um tutorial que ensina como integrar uma aplicação Angular com uma API Spring Boot usando o protocolo de autenticação OAuth2. O tutorial utiliza o Spring Security para implementar a autenticação e o Angular Material para criar a interface do usuário.
+Link: https://www.callicoder.com/spring-boot-angular-authentication-oauth-2-oidc/&gt;*
