@@ -271,7 +271,42 @@ Ecommerce -> Pedido : possui
 
 # Diagrama de implantação
 
-*&lt;Diagrama de implantação&gt;*
+```plantuml
+@startuml
+left to right direction
+
+node "<u>Computador Pessoal</u>" as pc1 <<DispositivoCliente>>{
+    node "<u>Chrome</u>" as chrome <<NavegadorWeb>>
+}
+
+node "<u>Computador Pessoal</u>" as pc2 <<DispositivoCliente>>{
+    node "<u>Firefox</u>" as firefox <<NavegadorWeb>>
+}
+
+node "<u>Host web</u>" as hostweb <<Host>>{
+    node "<u>AWS Server</u>" as AWSServer <<SO>>{
+        node "<u>Backend</u>" as backend <<Node.js>>{
+            artifact javascript.js <<JS>>
+        }
+
+    }
+}
+
+node "<u>HostDB</u>" as hostdb <<Host>>{
+    node "<u>AWS Server</u>" as AWSServer <<SO>>{
+        database "<u>Banco de Dados</u>" as db <<MySQL>>
+    }
+}
+
+chrome -- javascript: HTTPS
+firefox -- javascript: HTTPS
+backend -- db: SQL*Net
+
+@enduml
+
+
+
+```
 
 # Referências
 
