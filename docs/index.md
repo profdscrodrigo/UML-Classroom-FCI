@@ -166,14 +166,16 @@ Entity(ItemCarrinho, "ItemCarrinho") {
     +quantidade : int
 }
 
-Interface(MeioPagamento, "MeioPagamento") {
-    +pagar(carrinho: Carrinho, formaPagamento: FormaPagamento) : Pagamento
-}
 
 Enum(FormaPagamento, "FormaPagamento") {
     CARTAO_CREDITO
     CARTAO_DEBITO
     BOLETO
+}
+
+
+Interface(MeioPagamento, "MeioPagamento") {
+    +pagar(carrinho: Carrinho, formaPagamento: FormaPagamento) : Pagamento
 }
 
 Entity(Pagamento, "Pagamento") {
@@ -210,6 +212,7 @@ Entity(ItemPedido, "ItemPedido") {
 
 Cliente -> Endereco : possui
 Produto -> Categoria : pertence a
+
 Produto --> ItemCarrinho : possui
 Carrinho -> ItemCarrinho : contém
 Cliente --> Carrinho : tem
