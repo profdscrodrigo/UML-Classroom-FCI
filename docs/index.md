@@ -104,7 +104,7 @@ Ator Principal: Gerente de Negócios
 ```plantuml
 @startuml
 
-
+left to right direction
 !define Table(name,desc) class name as "desc" << (T,#FFAAAA) >>
 !define Entity(name,desc) class name as "desc" << (E,#FFFFB2) >>
 !define Enum(name,desc) class name as "desc" << (E,#C2FFAE) >>
@@ -267,7 +267,13 @@ Ecommerce -> Pedido : possui
 ```
 # Decisões de arquitetura
 
-*&lt;Decisões de arquitetura&gt;*
+Utilização de uma arquitetura baseada em microsserviços.
+
+Justificativa: Com o objetivo de garantir a escalabilidade e a manutenção do sistema a longo prazo, optou-se por uma arquitetura baseada em microsserviços. Isso permitirá que cada funcionalidade do sistema seja desenvolvida, implantada e mantida independentemente, facilitando a evolução e atualização do sistema.
+
+Com essa arquitetura, cada microsserviço pode ser desenvolvido em uma linguagem de programação diferente, permitindo escolher a melhor tecnologia para cada funcionalidade do sistema. Além disso, a arquitetura baseada em microsserviços possibilita o uso de ferramentas de orquestração e gerenciamento de contêineres, como o Kubernetes, que facilitam o escalonamento automático dos serviços em resposta ao aumento de tráfego.
+
+Por fim, a arquitetura baseada em microsserviços também oferece uma maior resiliência e disponibilidade do sistema. Caso ocorra uma falha em um dos microsserviços, o restante do sistema não é afetado, mantendo a continuidade da operação.
 
 # Diagrama de implantação
 
