@@ -319,4 +319,10 @@ backend -- db: SQL*Net
 
 # Referências
 
-*&lt;Lista de referências&gt;*
+IEEE 830-1998 - IEEE Recommended Practice for Software Requirements Specifications: https://ieeexplore.ieee.org/document/720574
+
+ISO/IEC/IEEE 29148:2018 - Systems and software engineering -- Life cycle processes -- Requirements engineering: https://www.iso.org/standard/72089.html
+
+Template para especificação de requisitos de software (em inglês): https://www.perforce.com/blog/alm/how-write-software-requirements-specification-srs-document#:~:text=A%20software%20requirements%20specification%20(SRS)%20is%20a%20document%20that%20describes,stakeholders%20(business%2C%20users).
+
+Como escrever uma Especificação de Requisitos de Software: https://www.monitoratec.com.br/blog/especificacao-de-requisitos-de-software/
