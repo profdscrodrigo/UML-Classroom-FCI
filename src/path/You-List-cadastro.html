@@ -1,0 +1,69 @@
+<!Doctype html> 
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<title class="texto">YouList sua maior lista de celulares, TV's, Tablets e Notebooks!</title>
+		<meta name="description" content="Sua maior lista de celulares, TV's, Tablets e Notebooks.">
+		<meta name="keywords" content="Smartphones, TV's, Tablets, Notebooks, camêras"/>
+		<meta name="robots" content="index, follow">
+		<meta name="author" content="Cristian Leite">
+		<link rel="stylesheet" type="text/css" href="You-List.css">
+		<link rel="icon" href="../img/icon-YouList.png">
+		<script src="../js/scripts.js"></script>
+	</head>
+	<body>
+		<header class="cabecalho">
+			<a href="../You-List.html"><h1 class="logo">YouList sua maior lista de celulares, TV's e computadores!</h1></a>s
+			<div class="botao-container">
+				<button class="botao-login" onclick="window.location.href='You-List-login.html'">Login</button>
+			  </div>
+			<h1 id="title" class="titulo-body">Sua maior lista de celulares, TV's e computadores!</h1>
+			<form class="search-form" onsubmit="return searchProducts(this)">
+			  <input type="text" placeholder="Buscar" name="searchQuery">
+			  <button type="submit"><span class="search-icon"></span></button>
+			</form>
+		  </header>
+		<a href="#"><img id="ads" src="../img/maxresdefault.jpg" alt="icone.html" href="#"></a>
+		<section class="newsletter">
+			<fieldset>
+				<legend><h3><p>Cadastro</p>*Campos obrigatório!</h3>
+				</legend>
+				<form action="#" method="post">
+						<label for="nome">*Nome :</label>
+						<input type="text" name="nome" placeholder="Digite o seu nome">
+						<label for="snome">Sobrenome :</label>
+						<input type="text" name="sobrenome" placeholder="Digite o seu Sobrenome">
+						<label id="email" for="email">*E-mail :</label>
+						<input type="email" name="e-mail" placeholder=" Digite o seu e-mail">
+
+						<div class="cadastro-tel-end">
+							<label for="telefone">*Telefone:</label>
+							<input type="tel" name="telefone" class="cadastro-telefone" maxlength="11"placeholder=" Digite o seu telefone">
+						
+							<div id="cep">
+								<label for="cep">*CEP :</label>
+								<input type="text" name="cep" size="3" maxlength="5" placeholder="00000"><p>-</p><input type="text" name="cep2" size="1" maxlength="3" placeholder="000"/>
+							</div>
+						</div>
+						
+					<div id="dateperson">
+						<label>*Data de nascimento:</label>
+						<input type="date" class="date" value="2000-01-01">
+	            		<label for="sexo">Sexo:</label>
+	            		<select name="Sexo">
+	                		<option value="Feminino">Feminino</option>
+	                		<option value="Masculino">Masculino</option>
+	                		<option value="Outros">Outros</option>
+	                </select>
+	                </div>
+					<div id="button">
+						<button class="botao-enviar" formaction="#"> Enviar </button>
+						<button class="botao-cancelar" formaction="../You-List.html"> Cancelar</button>
+					</div>
+				</form>
+			</fieldset>
+			<p>Copyright © YouList 2020. Todos os direitos reservados.</p>
+		</section>
+	</body>
+</html>
