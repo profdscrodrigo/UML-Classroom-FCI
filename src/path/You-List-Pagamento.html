@@ -1,0 +1,61 @@
+<!Doctype html> 
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<title class="texto">YouList sua maior lista de celulares, TV's, Tablets e Notebooks!</title>
+		<meta name="description" content="Sua maior lista de celulares, TV's, Tablets e Notebooks.">
+		<meta name="keywords" content="Smartphones, TV's, Tablets, Notebooks, camêras"/>
+		<meta name="robots" content="index, follow">
+		<meta name="author" content="Cristian Leite">
+		<link rel="stylesheet" type="text/css" href="You-List.css">
+		<link rel="icon" href="../img/icon-YouList.png">
+		<script src="../js/scripts.js"></script>
+	</head>
+    <body>
+        <header class="cabecalho">
+			<a href="../You-List.html"><h1 class="logo">YouList sua maior lista de celulares, TV's e computadores!</h1></a>s
+			<div class="botao-container">
+				<button class="botao-login" onclick="window.location.href='You-List-login.html'">Login</button>
+				<button class="botao-cadastro" onclick="window.location.href='You-List-cadastro.html'">Cadastre-se</button>
+			  </div>
+			<h1 id="title" class="titulo-body">Sua maior lista de celulares, TV's e computadores!</h1>
+			<form class="search-form" onsubmit="return searchProducts(this)">
+			  <input type="text" placeholder="Buscar" name="searchQuery">
+			  <button type="submit"><span class="search-icon"></span></button>
+			</form>
+		  </header>
+        <main>
+        <a href="#"><img id="ads" src="../img/maxresdefault.jpg" alt="icone.html" href="#"></a>
+		<section class="newsletter">
+		
+        <fieldset><legend><h3><p>Pagamento</p>*Campos obrigatório!</h3>
+        </legend>
+            <label for="tipo-pagamento">Tipo de Pagamento:</label>
+            <select id="tipo-pagamento" name="tipo-pagamento">
+              <option value="cartao-credito">Cartão de Crédito</option>
+              <option value="boleto-bancario">Boleto Bancário</option>
+            </select>
+            
+            <div id="cartao-credito" >
+              <h3>Cartão de Crédito</h3>
+              <label for="nome-cartao">Nome no Cartão:</label>
+              <input type="text" id="nome-cartao" name="nome-cartao">
+              <br>
+              <label for="numero-cartao">Número do Cartão:</label>
+              <input type="text" id="numero-cartao" name="numero-cartao">
+              <br>
+              <label for="validade-cartao">Validade:</label>
+              <input type="month" id="validade-cartao" name="validade-cartao">
+              <br>
+              <label for="cvv-cartao">CVV:</label>
+              <input type="text" id="cvv-cartao" name="cvv-cartao">
+            </div>
+            
+            <button type="button" id="finalizar-compra" class="botao-enviar">Finalizar Compra</button>
+          </form>
+        </main>
+        
+        <p>Copyright © YouList 2020. Todos os direitos reservados.</p>
+      </body>
+</html>
