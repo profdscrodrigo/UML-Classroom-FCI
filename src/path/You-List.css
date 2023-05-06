@@ -1,0 +1,446 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%, border none;
+	outline: none;
+	font-weight: 300;
+	box-sizing: border-box;
+	font-family: Segoe UI Light;
+}
+
+body {
+	background-color: #13120e;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*cabeçalho*/
+.botao-container {
+    float: right;
+  }
+
+.botao-login, .botao-cadastro, .botao-cancelar, .botao-enviar, .botao-comprar {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 3px;
+	padding: 6px 12px;
+	margin-right: 10px;
+
+  }
+  
+  .botao-login:hover, .botao-cadastro:hover, .botao-cancelar:hover, .botao-enviar:hover, .botao-comprar:hover {
+	background-color: #000;
+	color: #fff;
+  }
+  .botao-cancelar, .botao-enviar {
+	width: 40%;
+  }
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+  }
+  
+.cabecalho {
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+	background-color: #31302c;
+	
+}
+
+.logo {
+	width: 150px;
+	height: 80px;
+	float: left;
+	background: url(../img/Logo2-YouList.png) center center/150px no-repeat;
+	font-size: 0;
+}
+
+#title {
+	padding-bottom: 1%;
+}
+
+.container {
+	width: 75%;
+	padding: 0.3em;
+	display: inline-block;
+}
+
+.container input {
+	width: 90%;
+}
+
+.search-form {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+  }
+  
+  .search-form input[type="text"] {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-right: 8px;
+	width: 100%;
+  }
+  
+  .search-form button[type="submit"] {
+	padding: 15px;
+	border: none;
+	border-radius: 4px;
+	background-color: #e2d73d;
+	background-image: url("icon/search-icon.png");
+	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: 20px 20px;
+  }
+  
+  input{
+	color: #000000;
+ }
+
+/*Produtos*/
+
+.produtos {
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+}
+
+.produto {
+	width: 30%;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 3%;
+	display: inline-block;
+	margin: 1%;
+}
+
+.produto img {
+	border-radius: 3% 3% 0 0;
+}
+
+.inner {
+	padding: 7%;
+}
+
+.inner a {
+	font-size: 1.5em;
+	color: black;
+	font-weight: 700;
+}
+
+#list {
+	display: block;
+	padding-top: 1%;
+}
+
+
+  label[for="cep"] {
+	width: 120px;
+	font-size: 18px;
+	margin-right: 10px;
+  }
+  
+
+/*Newsletter*/
+.newsletter h3,
+h2,
+p,
+label{
+	color: #ffffff;
+}
+
+.newsletter {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 3% 4%;
+	background-color: #292929;
+}
+
+.newsletter h2,
+p {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+p 
+.newsletter form {
+	margin-top: 2%;
+}
+
+.newsletter label {
+	width: 100%;
+	display: block;
+	text-align: left;
+	font-size: 0.8em;
+	font-weight: 400;
+}
+
+#detalhes-produto{
+	background-color: #11100C;
+}
+
+.newsletter input {
+	width: 100%;
+	float: right;
+	background-color: white;
+	margin: 1%;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	padding: 1%;
+	border-radius: 5px;
+}
+
+.date {
+	color: black;
+}
+/*cadastro*/
+.cadastro-tel-end{
+	width: 100%;
+	display: inline-flex;
+}
+
+#cep {
+	width: 100%;
+	display: inline-flex;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-right: 10px;
+	margin-left: 10%;
+  
+}
+
+#dateperson {
+	width: 100%;
+	display: inline-flex;
+}
+
+#dateperson label {
+	width: 30%;
+}
+
+::-webkit-input-placeholder {
+	color: rgb(0, 0, 0);
+}
+
+fieldset {
+	width: 95%;
+	margin: 2% auto;
+	padding: 2%;
+}
+
+/*carrinho*/
+
+.imagem-produto-carrinho img {
+	float: left;
+  }
+
+.img-carrinho{
+	width: 100px;
+}
+
+
+/*Produto detalhe*/
+
+.preco-produto{
+	float: left;
+	padding-left: 5%;
+}
+
+.imagem-produto img {
+	width: 50%;
+	float: left;
+  }
+.frete-produto {
+	font-size: 18px;
+	font-weight: bold;
+	color: green;
+	margin-bottom: 10px;
+  }
+.parcela-produto{
+	float: left;
+	margin-bottom: 100px;
+	width: 50%;
+}
+  .contador {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+  }
+  
+  .contador button, .contador input[type="number"] {
+	font-size: 18px;
+	padding: 5px 10px;
+	border: none;
+	background-color: lightgray;
+	cursor: pointer;
+  }
+  
+  .contador input[type="number"] {
+	width: 50px;
+	text-align: center;
+	margin: 0 10px;
+  }
+.botao-comprar{
+	float: inline-end;
+}
+/*finalizar*/
+
+	#cep-finalizar {
+		width: 30%;
+		display: inline-flex;
+		padding: 10px;
+		font-size: 16px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		margin-right: 10px;
+		margin-left: 10%;
+}
+
+/*~~~~~~~~MoBILE~~~~~~~~*/
+@media screen and (min-width: 320px) {
+	.logo {
+		width: 100px;
+		height: 50px;
+		float: left;
+		background: url(../img/Logo2-YouList.png) center center/100px no-repeat;
+		font-size: 0;
+	}
+
+	h1 {
+		font-size: 0.8em;
+		color: #fff;
+	}
+
+	.produto {
+		width: 100%;
+		background-color: #fff;
+		text-align: center;
+		border-radius: 3%;
+		display: inline-block;
+	}
+
+	.container input {
+		width: 73%;
+		padding-bottom: 4%;
+		border-radius: 5%;
+	}
+
+	.container button {
+		width: 50px;
+		height: 30px;
+		float: right;
+		border-radius: 7%;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.logo {
+		width: 125px;
+		height: 50px;
+		float: left;
+		background: url(../img/Logo2-YouList.png) center center/125px no-repeat;
+		font-size: 0;
+	}
+
+	h1 {
+		font-size: 1.35em;
+	}
+
+	.produto {
+		width: 90%;
+		background-color: #fff;
+		text-align: center;
+		border-radius: 3%;
+		display: inline-block;
+	}
+
+	.container input {
+		width: 73%;
+		padding-bottom: 6%;
+		border-radius: 5%;
+	}
+
+	.container button {
+		width: 70px;
+		height: 40px;
+		float: right;
+		border-radius: 7%;
+	}
+}
+
+@media screen and (min-width: 740px) {
+	.logo {
+		width: 150px;
+		height: 80px;
+		float: left;
+		background: url(../img/Logo2-YouList.png) center center/150px no-repeat;
+		font-size: 0;
+	}
+
+	h1 {
+		font-size: 1.8em;
+	}
+
+	.produto {
+		width: 28%;
+		background-color: #fff;
+		text-align: center;
+		border-radius: 3%;
+		display: inline-block;
+	}
+
+	.container input {
+		width: 80%;
+		padding-bottom: 4%;
+		border-radius: 5%;
+	}
+
+	.container button {
+		width: 70px;
+		height: 40px;
+		float: right;
+		border-radius: 7%;
+	}
+
+	.newsletter input {
+		padding: 3%;
+	}
+
+	@media screen and (min-width: 1024px) {
+		.container input {
+			width: 87%;
+			padding-bottom: 1.8%;
+			border-radius: 5%;
+		}
+
+		.container button {
+			width: 70px;
+			height: 40px;
+			float: right;
+			border-radius: 7%;
+		}
+
+		.newsletter input {
+			padding: 1%;
+		}
+	}
+}
