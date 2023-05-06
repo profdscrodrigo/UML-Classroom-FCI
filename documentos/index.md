@@ -22,7 +22,7 @@ E-Commerce YouList
 # Autores
 
 * Cristian Leite da Silva
-* Aluno 2
+* Marcos Paulo Santos de Oliveira
 * Aluno 3
 * Aluno 4
 
