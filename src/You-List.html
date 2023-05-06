@@ -1,0 +1,114 @@
+<!Doctype html> 
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<title class="texto">YouList sua maior lista de celulares, TV's, Tablets e Notebooks!</title>
+		<meta name="description" content="Sua maior lista de celulares, TV's, Tablets e Notebooks."/>
+		<meta name="keywords" content="Smartphones, TV's, Tablets, Notebooks, camêras"/>
+		<meta name="robots" content="index, follow"/>
+		<meta name="author" content="Cristian Leite"/>
+		<link rel="stylesheet" type="text/css" href="path/You-List.css"/>
+		<link rel="icon" href="img/icon-YouList.png"/>
+		<script src="js/scripts.js"></script>
+	</head>
+	<body>
+		<header class="cabecalho">
+			<a href="You-List.html"><h1 class="logo">YouList sua maior lista de celulares, TV's e computadores!</h1></a>s
+			<div class="botao-container">
+				<button class="botao-login" onclick="window.location.href='path/You-List-login.html'">Login</button>
+				<button class="botao-cadastro" onclick="window.location.href='path/You-List-cadastro.html'">Cadastre-se</button>
+			  </div>
+			<h1 id="title" class="titulo-body">Sua maior lista de celulares, TV's e computadores!</h1>
+			<form class="search-form" onsubmit="return searchProducts(this)">
+			  <input type="text" placeholder="Buscar" name="searchQuery">
+			  <button type="submit"><span class="search-icon"></span></button>
+			</form>
+		  </header>
+		<a href="#"><img id="ads" src="img/maxresdefault.jpg" alt="icone.html" href="#"></a>
+		<main class="produtos">
+			<h1 class="produtos">Smartphones</h1>
+			
+			<div id="list">
+				<article class="produto">
+					<a href="path/detalhesProduto.html"><img src="img/2-iphone_x_64_gb.jpeg" alt="Iphone" ></a>
+					<div class="inner">
+						<a href="path/detalhesProduto.html">IPhone X Apple com 64GB, 3gb Ram, 12MP<h3>Por: R$4.299,00</h3></a>
+					</div>
+				</article>
+				<article class="produto">
+					<a href="#"><img src="img/1-apple-iphone-11-pro-max-64gb.jpg" alt="Iphone"></a>
+					<div class="inner">
+						<a href="#">iPhone 11 Pro com 64GB, 4gb Ram, 12MP<h3>Por: R$6.899,00</h3></a>
+					</div>
+				</article>
+				<article class="produto">
+					<a href="#"><img src="img/3-iphone-se-red.jpeg" alt="Iphone"></a>
+					<div class="inner">
+						<a href="#">IPhone SE com 64GB, 3gb Ram, 12MP<h3>Por: R$2.499,00</h3></a>
+					</div>
+				</article>
+			</div>
+			<br>
+			<h1 class="produtos">SmartTV</h1>
+			<div id="list">
+				<article class="produto">
+					<a href="#"><img src="img/4-smart-tv-led-65-uhd-4k-samsung-65tu8000-crystal-uhd.jpg" alt="SmartTV"></a>
+					<div class="inner">
+						<a href="#">SmartTV Led Samsung 65" 4k UHD<h3>Por: R$3.999,00</h3></a>
+					</div>
+				</article>
+				<article class="produto">
+					<a href="#"><img src="img/5-Smartv-phillips-50-4k.jpg" alt="SmartTV"></a>
+					<div class="inner">
+						<a href="#">SmartTV Led Philips 50" 4k UHD<h3>Por: R$2.199,00</h3></a>
+					</div>
+				</article>
+				<article class="produto">
+					<a href="#"><img src="img/6-Sony-smarttv-55-4k.jpg" alt="SmartTV"></a>
+					<div class="inner">
+						<a href="#">SmartTV Led Sony 55" 4k UHD<h3>Por: R$2.754,90</h3></a>
+					</div>
+				</article>
+			</div>
+			<br>
+			<h1 class="produtos">Computadores</h1>
+			<div id="list">
+				<article class="produto">
+					<a href="#"><img src="img/7-notebook-dell-inspiron-3000-core-i5-8gb-de-ram-ssd-256-gb.jpg" alt="Notebook"></a>
+					<div class="inner">
+						<a href="#">Notebook Dell i15 Intel Core i5 8GB - 256GB SSD<h3>Por: R$2.637,00</h3></a>
+					</div>
+				</article>
+				<article class="produto">
+					<a href="#"><img src="img/8-NoteBook-lenovo-core-i8-500gb-8-ram.jpg" alt="Notebook"></a>
+					<div class="inner">
+						<a href="#">Notebook Lenovo core i5, 8gb ram e Hd 1Tb<h3>Por: R$3.499,00</h3></a>
+					</div>
+				</article>
+				<article class="produto">
+					<a href="#"><img src="img/9-ipad-pro-12.jpeg" alt="Ipad"></a>
+					<div class="inner">
+						<a href="#">Ipad Pro 12 <h3>Por: R$7.976,45</h3></a>
+					</div>
+				</article>
+			</div>
+		</main>
+		<section class="newsletter">
+			<fieldset>
+				<legend><h2> Cadastre-se Agora </h2></legend>
+				<h3>Adquira as melhores tecnologias pelo menor preço e receba ofertas exclusivas agora!</h3>
+				<form>
+					<label id="nome" for="nome">*Nome :</label>
+					<input type="text" name="nome" placeholder="Digite o seu nome">
+					<label id="email" for="email">*E-mail :</label>
+					<input type="email" name="e-mail" placeholder=" Digite o seu e-mail"><div id="button">
+						<button class="botao-enviar" formaction="path/You-List-login.html"> Logar </button>
+						<button class="botao-cancelar" formaction="path/You-List-cadastro.html"> Cadastrar</button>
+					</div>
+				</form>
+			</fieldset>
+			<p>Copyright © YouList 2020. Todos os direitos reservados.</p>
+		</section>
+	</body>
+</html>
