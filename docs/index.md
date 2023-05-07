@@ -162,9 +162,11 @@ Usuário clica no botão de cancelar caso não deseje excluir tarefa.
 
 # Protótipos de tela
 
-*&lt;Protótipos de tela&gt;*
+*![Diagrama de casos de uso](imagens/prototipotela.png)*
 
 # Modelo de domínio
+
+*![Diagrama de dominio](imagens/modelodedominio.png)*
 
 # Decisões de arquitetura
 
@@ -172,7 +174,7 @@ Usuário clica no botão de cancelar caso não deseje excluir tarefa.
 
 # Diagrama de implantação
 
-*&lt;Diagrama de implantação&gt;*
+*![Diagrama de implantação](imagens/diagramadeimplantacao.png)*
 
 # Referências
 
