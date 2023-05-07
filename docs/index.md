@@ -41,7 +41,7 @@ organização e atualização de listas de compras e tarefas pendentes.
 
 # Diagrama de casos de uso
 
-![Diagrama de casos de uso]. (https://github.com/daniloterashima/ppads-2023s1/tree/master/docs/imagens/casosdeuso.png)
+![Diagrama de casos de uso]. (imagens/casosdeuso.png)
 
 # Descrição dos casos de uso
 
