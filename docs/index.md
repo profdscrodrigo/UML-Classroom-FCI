@@ -622,10 +622,9 @@ Descrição do resultado obtido:
 A compra foi processada com sucesso e o usuário foi redirecionado para uma tela de confirmação de compra.
 
 Data da última execução do teste: 02/05/2023.
- 
-**Identificação única: 
-RC-006 Confirmação de pagamento
 
+**Identificação única:
+RC-006 Confirmação de pagamento
 
 Caso de uso em que se baseia:
 Realizar Compra
