@@ -23,7 +23,7 @@ E-Commerce YouList
 
 * Cristian Leite da Silva
 * Marcos Paulo Santos de Oliveira
-* Aluno 3
+* Bruna Ariane Felix da Silva
 * Aluno 4
 
 
