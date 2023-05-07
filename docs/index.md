@@ -6,10 +6,6 @@
 *&lt; Loja de Livros&gt;*
 </center></font>
 
->*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
-
->*Observação 2: O índice abaixo não precisa ser editado se você utilizar o Visual Studio Code com a extensão **Markdown All in One**. Essa extensão atualiza o índice automaticamente quando o arquivo é salvo.*
-
 **Conteúdo**
 
 - [Autores](#autores)
@@ -44,7 +40,7 @@ O projeto tem como objetivo principal de controlar novos cadastramentos de livro
 # Diagrama de casos de uso
 
 *&lt;Diagrama de casos de uso&gt;*
-![diagrama](casosdeuso.jpeg)
+![descrição-dos-casos-de-uso](casosdeuso.jpeg)
 
 # Descrição dos casos de uso
 
@@ -55,16 +51,16 @@ O projeto tem como objetivo principal de controlar novos cadastramentos de livro
 
 *&lt;Protótipos de tela&gt;*
 
-![Prototipos](1.jpeg)
-![Prototipos](2.jpeg)
-![Prototipos](3.jpeg)
-![Prototipos](4.jpeg)
+![protótipos-de-tela](1.jpeg)
+![protótipos-de-tela](2.jpeg)
+![protótipos-de-tela](3.jpeg)
+![protótipos-de-tela](4.jpeg)
 
 
 # Modelo de domínio
 
 *&lt;Modelo de domínio&gt;*
-![diminio](dominio.jpeg)
+![modelo-de-domínio](dominio.jpeg)
 
 # Decisões de arquitetura
 
@@ -74,7 +70,7 @@ O projeto tem como objetivo principal de controlar novos cadastramentos de livro
 
 *&lt;Diagrama de implantação&gt;*
 
-![Prototipos](implantação.jpeg)
+![diagrama-de-implantação](implantação.jpeg)
 
 
 # Referências
