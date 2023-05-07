@@ -11,7 +11,7 @@
 
 # Grupo: *IBECH*
 
-# Descrição
+# Descrição 
 
 *<p>
             Olá! Seja bem vindo ao sistema Loja de livros desenvolvido pelo grupo IBECH.<br />
@@ -22,7 +22,28 @@
             <br /><br /> Fique a vontade para testar o sistema e deixar sua sugestão.
             <br /> At.te: Grupo IBECH -  5 Semestre - Analise e desenvolvimento de Sistemas 
             <br /> Mackenzie
-        </p>*
+</p>*
+
+# Para desenvolvedores 
+<p>Olá Desenvolvedor para ver esse projeto no seu computador instale as seguintes informaçoes.
+segue os links para download: <br />
+
+Back-end: <br />
+
+JAVA JDK: https://www.oracle.com/java/technologies/downloads/ <br />
+Spring Tool Suit https://spring.io/tools  ( Versão 2.3.12 ) <br />
+Postman: https://www.postman.com/downloads/ <br />
+Xampp: https://sourceforge.net/projects/xampp/<br />
+
+Front end: <br />
+
+https://nodejs.org/en/download  ( Versão 14.20.1 ) <br />
+Visual code: https://code.visualstudio.com/<br />
+
+
+Passo a Passo: Back-end e Front-end se encontra nos seguintes repositorios: Back-end: https://github.com/eduardodcs/ibech
+<br /> Front-end : https://github.com/Ivoneide01/ppads-2023s1/tree/master/ibech-front 
+
         
 
 <P> #FRONT END
