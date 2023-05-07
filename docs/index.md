@@ -189,7 +189,42 @@ Usuário clica no botão de cancelar caso não deseje excluir tarefa.
 
 # Modelo de domínio
 
-*&lt;Modelo de domínio&gt;*
+````plantuml
+
+@startuml
+class cadastro
+cadastro : nomeCompleto :string
+cadastro : username :string
+cadastro : senha :string
+cadastro : tipoDeUsuario :string
+cadastro : dataNascimento :date
+cadastro : sexo :char
+
+class usuario
+usuario : nomeCompleto :string
+usuario : username :string
+usuario : senha :string
+usuario : tipoDeUsuario :string
+usuario : dataNascimento :date
+usuario : sexo :char
+
+class calendario
+calendario : dia :date
+calendario : horario :string
+
+class tarefa
+tarefa : indice :int
+tarefa : nomeTarefa :string
+tarefa : comentario :string
+tarefa : dataCriacao :date
+tarefa : dataConclusao :date
+
+cadastro "1" - "1" usuario : cadastra
+usuario "1" -- "*" tarefa : cria
+usuario "1" -- "1" calendario : visualiza
+
+@enduml
+````
 
 # Decisões de arquitetura
 
