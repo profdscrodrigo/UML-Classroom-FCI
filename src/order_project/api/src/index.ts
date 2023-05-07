@@ -16,7 +16,7 @@ export const io = new Server(server);
 async function start() {
   try {
     mongoose.set('strictQuery', true);
-    await mongoose.connect('mongodb://localhost:27017');
+    await mongoose.connect(process.env.PUBLIC_MONGO_URL || '');
 
     app.use((req, res, next) => {
       res.setHeader('access-control-allow-origin', '*')
