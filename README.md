@@ -3,13 +3,6 @@
 
 # Template para Prática Profissional em ADS
 
-Este repositório define um modelo (*template*) que deve ser seguido por cada grupo para o projeto.
-
-A seguir estão os passos sugeridos para a preparação do seu grupo no início do projeto:
-
-8. Cada membro do grupo deverá editar o seu próprio nome no arquivo em [/docs/index.md](./docs/index.md), de preferência [criando um novo *branch* e um *pull request*](https://www.youtube.com/watch?v=LdSwWxVzUpo).
-
-
 # Projeto: *Agenda para divisão de tarefas familiares.*
 
 # Grupo: *DFMM.*
