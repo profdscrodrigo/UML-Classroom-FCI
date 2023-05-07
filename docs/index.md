@@ -3,8 +3,7 @@
 
 
 <font size="+12"><center>
-AGENDA PARA DIVISÃO DE TAREFAS
-FAMILIARES
+AGENDA PARA DIVISÃO DE TAREFAS FAMILIARES
 </center></font>
 
 >*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
@@ -40,8 +39,6 @@ gerenciamento dos membros da família através de contas individuais, possibilit
 organização e atualização de listas de compras e tarefas pendentes.
 
 # Diagrama de casos de uso
-
-![Diagrama de casos de uso]. (imagens/casosdeuso.png)
 
 # Descrição dos casos de uso
 
