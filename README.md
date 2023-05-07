@@ -50,4 +50,4 @@ No Visual Studio
 8) Será exibida a mensagem: ** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
 9) Abrir o Navegador e digitar http://localhost:4200
 10) Usuário de Login para o primeiro acesso: primeiroacesso@gmail.com
-11) Senha de Login para o primeiro acesso: 123456
+11) Senha para o primeiro acesso: 123456
