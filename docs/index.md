@@ -41,29 +41,7 @@ organização e atualização de listas de compras e tarefas pendentes.
 
 # Diagrama de casos de uso
 
-````plantuml
-
-@startuml
-left to right direction
-actor Usuário
-actor Administrador
-rectangle "Sistema Agenda"{
-    Usuário -- (Registrar-se)
-    Usuário -- (Fazer Login)
-    Usuário -- (Visualizar Agenda)
-    Usuário -- (Adicionar Tarefa)
-    Usuário -- (Alterar Tarefa)
-    Usuário -- (Excluir Tarefa)
-    (Adicionar Tarefa) 
-    (Alterar Tarefa)
-    (Excluir Tarefa)
-
-}
-Administrador - (Gerenciar Usuários da Familia)
-(Gerenciar Usuários da Familia) -- Usuário
-
-@enduml
-````
+![Diagrama de casos de uso]. (https://github.com/daniloterashima/ppads-2023s1/tree/master/docs/imagens/casosdeuso.png)
 
 # Descrição dos casos de uso
 
@@ -188,43 +166,6 @@ Usuário clica no botão de cancelar caso não deseje excluir tarefa.
 *&lt;Protótipos de tela&gt;*
 
 # Modelo de domínio
-
-````plantuml
-
-@startuml
-class cadastro
-cadastro : nomeCompleto :string
-cadastro : username :string
-cadastro : senha :string
-cadastro : tipoDeUsuario :string
-cadastro : dataNascimento :date
-cadastro : sexo :char
-
-class usuario
-usuario : nomeCompleto :string
-usuario : username :string
-usuario : senha :string
-usuario : tipoDeUsuario :string
-usuario : dataNascimento :date
-usuario : sexo :char
-
-class calendario
-calendario : dia :date
-calendario : horario :string
-
-class tarefa
-tarefa : indice :int
-tarefa : nomeTarefa :string
-tarefa : comentario :string
-tarefa : dataCriacao :date
-tarefa : dataConclusao :date
-
-cadastro "1" - "1" usuario : cadastra
-usuario "1" -- "*" tarefa : cria
-usuario "1" -- "1" calendario : visualiza
-
-@enduml
-````
 
 # Decisões de arquitetura
 
