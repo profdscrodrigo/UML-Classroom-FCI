@@ -414,7 +414,6 @@ O produto foi cadastrado com sucesso no sistema e as informações foram salvas 
 
 Data da última execução do teste: 10/04/2023
 
- 
 **Identificação única:
 CP-005 Validação do produto
 
@@ -591,7 +590,7 @@ O processo de pagamento foi concluído com sucesso.
 
 Data da última execução do teste: 01/05/2023
 
- 
+
 **Identificação única:
 RC-005 Informações de pagamento
 
@@ -684,7 +683,7 @@ O e-mail de confirmação foi enviado corretamente, com todas as informações s
 
 Data da última execução do teste: 04/05/2023.
 
- 
+
 **Identificação única:
 RC-008 Remoção dos produtos do carrinho
 
