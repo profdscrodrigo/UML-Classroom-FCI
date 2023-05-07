@@ -7,10 +7,6 @@ table {
     width: 100%;
 }
 
-mat-form-field {
-    width: 100%;
-}
-
 button {
     width: 20%;
     border-radius: 2rem;
@@ -28,4 +24,8 @@ h1 {
 
 .delete {
     color: red;
+}
+
+mat-form-field {
+    width: 100%;
 }

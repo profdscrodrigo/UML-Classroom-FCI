@@ -5,14 +5,6 @@
     border-radius: .6rem;
 }
 
-.fullWidth {
-    width: 100%;
-}
-
-h1, p {
-    text-align: center;
-}
-
 img {
     height: 10rem;
     margin: auto;
@@ -36,4 +28,12 @@ p {
 
 mat-icon {
     opacity: .8;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+h1, p {
+    text-align: center;
 }
