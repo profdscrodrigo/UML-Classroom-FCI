@@ -1,0 +1,71 @@
+<div class="container mat-elevation-z8">
+  <form action="" class="form">
+      <h1 class="fullWidth">Atualizar tarefa</h1>
+      <img class="fullWidth" src="assets/img/delete.avif" alt="">
+
+      <mat-form-field class="fullWidth" appearance="legacy">
+        <mat-label>Título da Tarefa</mat-label>
+        <input
+        [(ngModel)]="tarefa.nome"
+        name="nome"
+        [formControl]="nome"
+        required 
+        matInput 
+        placeholder="Ex: Buscar as compras no mercado"
+        maxlength="50">
+        <mat-icon matSuffix>note_add</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="fullWidth" appearance="legacy">
+        <mat-label>Breve comentário</mat-label>
+        <input 
+        [(ngModel)]="tarefa.comentario"
+        name="comentario"
+        [formControl]="comentario"
+        required
+        matInput 
+        placeholder="Ex: Solicitar ao Danilo que busque chocolate no mercado em 12/12/2023"
+        maxlength="50">
+        <mat-icon matSuffix>description</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="fullWidth" appearance="legacy">
+        <mat-label>Usuário</mat-label>
+        <input 
+        [(ngModel)]="tarefa.usuario"
+        name="usuario"
+        [formControl]="usuario"
+        required
+        matInput 
+        placeholder="Ex: Digite o nome do usuário responsável pela tarefa"
+        maxlength="50">
+        <mat-icon matSuffix>description</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="fullWidth" appearance="legacy">
+        <mat-label>Data de Início</mat-label>
+        <input 
+        [(ngModel)]="tarefa.dataCriacao"
+        name="dataCriacao"
+        [formControl]="dataCriacao"
+        required
+        matInput 
+        placeholder="Por favor informar a data de início da tarefa">
+        <mat-icon matSuffix>calendar_today</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="fullWidth" appearance="legacy">
+        <mat-label>Data Conclusão</mat-label>
+        <input 
+        [(ngModel)]="tarefa.dataConclusao"
+        name="dataConclusao"
+        [formControl]="dataConclusao"
+        matInput 
+        placeholder="Por favor informar a data de conclusão da tarefa">
+        <mat-icon matSuffix>offline_pin</mat-icon>
+      </mat-form-field>
+
+        <button (click)="update()" [disabled]="!validaCampos()" mat-flat-button class="fullWidth" color="primary">Atualizar</button>
+        <button routerLink="../../" mat-stroked-button class="fullWidth" color="warn">Cancelar</button>
+  </form>
+</div>

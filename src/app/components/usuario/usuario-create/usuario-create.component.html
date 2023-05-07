@@ -1,0 +1,92 @@
+<div class="container mat-elevation-z8">
+    <form action="" class="form">
+        <h1 class="fullWidth">Cadastrar usuário</h1>
+        <img class="fullWidth" src="assets/img/usuario.png">
+
+        <section class="section">
+            <mat-checkbox (click)="addPerfil(0)" class="margin" color="primary">Admin</mat-checkbox>
+            <mat-checkbox (click)="addPerfil(2)" class="margin" color="primary">Usuario</mat-checkbox>
+            
+        </section>
+
+        <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>Nome</mat-label>
+            <input
+            [(ngModel)]="usuario.nome"
+            name="nome"
+            [formControl]="nome"
+            required 
+            matInput 
+            placeholder="Ex. João da Silva"
+            maxlength="50">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>CPF</mat-label>
+            <input 
+            [(ngModel)]="usuario.cpf"
+            name="cpf"
+            [formControl]="cpf"
+            required
+            matInput 
+            placeholder="Ex. 000.000.000-00"
+            mask="000.000.000-00">
+            <mat-icon matSuffix>pin</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>E-mail</mat-label>
+            <input 
+            [(ngModel)]="usuario.email"
+            name="email"
+            [formControl]="email"
+            required
+            matInput 
+            placeholder="Ex. danilo@email.com">
+            <mat-icon matSuffix>email</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>Senha</mat-label>
+            <input 
+            [(ngModel)]="usuario.senha"
+            name="senha"
+            [formControl]="senha"
+            required
+            type="password" 
+            matInput 
+            placeholder="Ex. 123456">
+            <mat-icon matSuffix>password</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>Data de Nascimento</mat-label>
+            <input 
+            [(ngModel)]="usuario.dataNascimento"
+            name="dataNascimento"
+            [formControl]="dataNascimento"
+            required 
+            matInput 
+            placeholder="Ex. 2023-01-01">
+            <mat-icon matSuffix>calendar_today</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field class="fullWidth" appearance="legacy">
+            <mat-label>Sexo</mat-label>
+            <input 
+            [(ngModel)]="usuario.sexo"
+            name="sexo"
+            [formControl]="sexo"
+            required 
+            matInput 
+            placeholder="Digite F ou M">
+            <mat-icon matSuffix>android</mat-icon>
+          </mat-form-field>
+
+          <button (click)="create()" [disabled]="!validaCampos()" mat-flat-button class="fullWidth" color="primary">Cadastrar</button>
+          <button routerLink="../" mat-stroked-button class="fullWidth" color="warn">Cancelar</button>
+    </form>
+
+
+</div>
