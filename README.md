@@ -18,13 +18,11 @@ A seguir estão os passos sugeridos para a preparação do seu grupo no início 
 9. O dono do repositório deverá editar este arquivo, removendo estas instruções iniciais e preenchendo o restante da página com os dados do projeto do seu grupo.
 
 
-# Projeto: *<Agenda para divisão de tarefas familiares.>*
+# Projeto: *Agenda para divisão de tarefas familiares.*
 
-# Grupo: *<DFMM>*
+# Grupo: *DFMM.*
 
-# Descrição
-
-*<Aplicativo para ajudar no gerenciamento de tarefas e compromissos familiares.>*
+# Descrição: *Aplicativo para ajudar no gerenciamento de tarefas e compromissos familiares.*
 
 # Documentação
 
