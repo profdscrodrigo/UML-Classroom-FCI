@@ -3,12 +3,6 @@
         <h1 class="fullWidth">Atualizar Fornecedor</h1>
         <img class="fullWidth" src="assets/img/fornecedor-create.svg" alt="Help Desk - Dicas de um DEV">
 
-        <section class="section">
-            <mat-checkbox (click)="addPerfil(0)" class="margin" color="primary">Admin</mat-checkbox>
-            <mat-checkbox (click)="addPerfil(1)" class="margin" color="primary">Cliente</mat-checkbox>
-            <mat-checkbox (click)="addPerfil(2)" [checked]="true" class="margin" color="primary">Fornecedor</mat-checkbox>
-        </section>
-
         <mat-form-field class="fullWidth" appearance="legacy">
             <mat-label>Nome</mat-label>
             <input
@@ -45,19 +39,6 @@
             matInput 
             placeholder="Ex. seuemail@email.com">
             <mat-icon matSuffix>email</mat-icon>
-          </mat-form-field>
-
-          <mat-form-field class="fullWidth" appearance="legacy">
-            <mat-label>Senha</mat-label>
-            <input 
-            [(ngModel)]="fornecedor.senha"
-            name="senha"
-            [formControl]="senha"
-            required
-            type="password" 
-            matInput 
-            placeholder="Ex. 1234">
-            <mat-icon matSuffix>password</mat-icon>
           </mat-form-field>
 
           <button (click)="update()" [disabled]="!validaCampos()" mat-flat-button class="fullWidth" color="primary">Atualizar</button>

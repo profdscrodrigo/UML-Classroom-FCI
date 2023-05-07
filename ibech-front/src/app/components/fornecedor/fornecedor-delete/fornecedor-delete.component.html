@@ -3,12 +3,6 @@
         <h1 class="fullWidth">Deletar Fornecedor</h1>
         <img class="fullWidth" src="assets/img/tecnico-create.svg" alt="Loja de livros - IBECH">
 
-        <section class="section">
-            <mat-checkbox [disabled]="true" class="margin" color="primary">Admin</mat-checkbox>
-            <mat-checkbox [disabled]="true" class="margin" color="primary">Cliente</mat-checkbox>
-            <mat-checkbox [disabled]="true" class="margin" color="primary">Forneedor</mat-checkbox>
-        </section>
-
         <mat-form-field class="fullWidth" appearance="legacy">
             <mat-label>Nome</mat-label>
             <input
@@ -38,17 +32,6 @@
             [disabled]="true"
             matInput >
             <mat-icon matSuffix>email</mat-icon>
-          </mat-form-field>
-
-          <mat-form-field class="fullWidth" appearance="legacy">
-            <mat-label>Senha</mat-label>
-            <input 
-            [(ngModel)]="fornecedor.senha"
-            name="senha"
-            [disabled]="true"
-            type="password" 
-            matInput >
-            <mat-icon matSuffix>password</mat-icon>
           </mat-form-field>
 
           <button (click)="delete()" mat-flat-button class="fullWidth" color="warn">Deletar</button>

@@ -17,15 +17,12 @@ export class FornecedorUpdateComponent implements OnInit {
     nome: '',
     cnpj: '',
     email: '',
-    senha: '',
-    perfis: [],
     dataCriacao: ''
   }
 
   nome: FormControl = new FormControl(null, Validators.minLength(3));
   cnpj: FormControl = new FormControl(null, Validators.required);
   email: FormControl = new FormControl(null, Validators.email);
-  senha: FormControl = new FormControl(null, Validators.minLength(3));
 
   constructor(
     private service: FornecedorService,
@@ -41,21 +38,12 @@ export class FornecedorUpdateComponent implements OnInit {
 
   findById(): void {
     this.service.findById(this.fornecedor.id).subscribe(resposta => {
-      resposta.perfis = [];
       this.fornecedor = resposta;
     })
   }
 
   validaCampos(): boolean {
-    return this.nome.valid && this.cnpj.valid && this.email.valid && this.senha.valid;
-  }
-  
-  addPerfil(perfil: any): void{
-    if (this.fornecedor.perfis.includes(perfil)){
-      this.fornecedor.perfis.splice(this.fornecedor.perfis.indexOf(perfil), 1)
-    } else {
-      this.fornecedor.perfis.push(perfil);
-    }
+    return this.nome.valid && this.cnpj.valid && this.email.valid ;
   }
 
   update(): void {

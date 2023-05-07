@@ -43,19 +43,6 @@
             <mat-icon matSuffix>email</mat-icon>
           </mat-form-field>
 
-          <mat-form-field class="fullWidth" appearance="legacy">
-            <mat-label>Senha</mat-label>
-            <input 
-            [(ngModel)]="fornecedor.senha"
-            name="senha"
-            [formControl]="senha"
-            required
-            type="password" 
-            matInput 
-            placeholder="Ex. 1234">
-            <mat-icon matSuffix>password</mat-icon>
-          </mat-form-field>
-
           <button (click)="create()" [disabled]="!validaCampos()" mat-flat-button class="fullWidth" color="primary">Cadastrar</button>
           <button routerLink="../" mat-stroked-button class="fullWidth" color="warn">Cancelar</button>
     </form>
