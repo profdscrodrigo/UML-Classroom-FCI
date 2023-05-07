@@ -52,9 +52,10 @@ O projeto tem como objetivo principal de controlar novos cadastramentos de livro
 # Protótipos de tela
 
 *&lt;Protótipos de tela&gt;*
-![Diagrama de casos de uso](1.jpeg)
-![Diagrama de casos de uso](2.jpeg)
-![Diagrama de casos de uso](3.jpeg)
+![Prototipos](1.jpeg)
+![Prototipos](2.jpeg)
+![Prototipos](3.jpeg)
+![Prototipos](4.jpeg)
 
 
 # Modelo de domínio
