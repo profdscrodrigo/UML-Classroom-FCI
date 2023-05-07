@@ -3,7 +3,8 @@
 
 
 <font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
+AGENDA PARA DIVISÃO DE TAREFAS
+FAMILIARES
 </center></font>
 
 >*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
@@ -40,7 +41,29 @@ organização e atualização de listas de compras e tarefas pendentes.
 
 # Diagrama de casos de uso
 
+````plantuml
 
+@startuml
+left to right direction
+actor Usuário
+actor Administrador
+rectangle "Sistema Agenda"{
+    Usuário -- (Registrar-se)
+    Usuário -- (Fazer Login)
+    Usuário -- (Visualizar Agenda)
+    Usuário -- (Adicionar Tarefa)
+    Usuário -- (Alterar Tarefa)
+    Usuário -- (Excluir Tarefa)
+    (Adicionar Tarefa) 
+    (Alterar Tarefa)
+    (Excluir Tarefa)
+
+}
+Administrador - (Gerenciar Usuários da Familia)
+(Gerenciar Usuários da Familia) -- Usuário
+
+@enduml
+````
 
 # Descrição dos casos de uso
 
