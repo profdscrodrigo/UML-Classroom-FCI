@@ -170,7 +170,7 @@ Usuário clica no botão de cancelar caso não deseje excluir tarefa.
 
 # Decisões de arquitetura
 
-*&lt;Decisões de arquitetura&gt;*
+Devido a exigência do projeto de que a aplicação esteja online; a decisão da arquitetura foi para o upload do FrontEnd na Vercel com conexao com os códigos do Github e para o Backend foi utilizado a Heroku para consulta e gravação dos bancos de dados.
 
 # Diagrama de implantação
 
