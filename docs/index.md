@@ -25,14 +25,11 @@
 
 # Autores
 
-* Aluno 1
+* Danilo Massanori Terashima da Silva
 * Aluno 2
 * Aluno 3
 * Aluno 4
 * Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
 
 
 # Descrição do projeto
@@ -41,7 +38,31 @@
 
 # Diagrama de casos de uso
 
-*&lt;Diagrama de casos de uso&gt;*
+````plantuml
+
+@startuml
+left to right direction
+actor Usuário
+actor Administrador
+rectangle "Sistema Agenda"{
+    Usuário -- (Registrar-se)
+    Usuário -- (Fazer Login)
+    Usuário -- (Visualizar Familiares)
+    Usuário -- (Visualizar Agenda)
+    Usuário -- (Adicionar Tarefa)
+    Usuário -- (Alterar Tarefa)
+    Usuário -- (Excluir Tarefa)
+    (Adicionar Tarefa) -- (Notificar)
+    (Alterar Tarefa) -- (Notificar)
+    (Excluir Tarefa) -- (Notificar)
+    (Notificar) -- Usuário
+
+}
+Administrador - (Gerenciar Usuários da Familia)
+(Gerenciar Usuários da Familia) -- Usuário
+
+@enduml
+````
 
 # Descrição dos casos de uso
 
