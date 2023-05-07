@@ -7,22 +7,14 @@ Este repositório define um modelo (*template*) que deve ser seguido por cada gr
 
 A seguir estão os passos sugeridos para a preparação do seu grupo no início do projeto:
 
-1. Um dos membros do grupo deverá realizar um *fork* deste repositório. - OK
-2. O dono do repositório deverá convidar os demais membros do grupo para serem colaboradores. - OK
-3. O dono do repositório deverá convidar o professor para ser colaborador do repositório.
-4. O dono do repositório deverá habilitar o GitHub Pages. Basta seguir o [procedimento para habilitar o GitHub Pages](https://docs.github.com/pt/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), lembrando de escolher em *Source* a opção `/docs` em lugar da opção `/root`.
-5. Cada membro do grupo deverá instalar o [Git](https://git-scm.com/downloads).
-6. Para a edição do conteúdo deste projeto, sugere-se que cada membro do grupo faça a instalação do [Visual Studio Code](https://code.visualstudio.com/) com as extensões [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) e [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github). No entanto, cada membro poderá utilizar a IDE de sua preferência.
-7. Cada membro do grupo deverá [clonar o repositório do grupo no seu computador](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=create-repo-command-palette%2Cinitialize-repo-activity-bar%2Ccreate-branch-command-palette%2Ccommit-changes-command-palette%2Cpush-command-palette).
 8. Cada membro do grupo deverá editar o seu próprio nome no arquivo em [/docs/index.md](./docs/index.md), de preferência [criando um novo *branch* e um *pull request*](https://www.youtube.com/watch?v=LdSwWxVzUpo).
-9. O dono do repositório deverá editar este arquivo, removendo estas instruções iniciais e preenchendo o restante da página com os dados do projeto do seu grupo.
 
 
 # Projeto: *Agenda para divisão de tarefas familiares.*
 
 # Grupo: *DFMM.*
 
-# Descrição: *Aplicativo para ajudar no gerenciamento de tarefas e compromissos familiares.*
+# Descrição: *Aplicativo para ajudar no gerenciamento de tarefas e compromissos familiares desenvolvido em Angular e Spring Boot.*
 
 # Documentação
 
@@ -31,4 +23,31 @@ Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o 
 
 # Releases
 
-Deverá ser publicado um release ao término de cada entrega do projeto.
+tag v1.0 e tag v2.0
+
+# Instruções:
+A aplicação encontra-se online: https://ppads-2023s1-phi.vercel.app/login
+Usuário de Login para o primeiro acesso: primeiroacesso@gmail.com
+Senha de Login para o primeiro acesso: 123456
+
+# Instruções para execução local:
+1) Download da tag v1.0 no repositório
+2) Download e Instalação do Node JS - https://nodejs.org/download/release/v14.17.1/
+3) Download do java version "1.8.0_202"
+4) Download do Spring Tool Suit - https://spring.io/tools
+5) Opcional - Download do Postman para testes no Backend
+6) Download do VS Studio Code - https://code.visualstudio.com/download
+
+Após a instalação acima:
+No Visual Studio
+1) Na parte superior clicar em Terminal > New Terminal.
+2) Na aba terminal do lado direito clicar em "+" e selecionar o GitBash
+3) Executar o comando npm install
+4) npm install -g @angular/cli@12.0.3
+5) ng add @angular/material
+6) ng g c components/nav
+7) ng serve
+8) Será exibida a mensagem: ** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+9) Abrir o Navegador e digitar http://localhost:4200
+10) Usuário de Login para o primeiro acesso: primeiroacesso@gmail.com
+11) Senha de Login para o primeiro acesso: 123456
