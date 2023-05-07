@@ -11,7 +11,7 @@
 
 # Grupo: *IBECH*
 
-# Descrição/ Como 
+# Descrição
 
 *<p>
             Olá! Seja bem vindo ao sistema Loja de livros desenvolvido pelo grupo IBECH.<br />
