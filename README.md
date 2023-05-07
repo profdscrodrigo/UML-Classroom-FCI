@@ -7,7 +7,7 @@ Este repositório define um modelo (*template*) que deve ser seguido por cada gr
 
 A seguir estão os passos sugeridos para a preparação do seu grupo no início do projeto:
 
-1. Um dos membros do grupo deverá realizar um *fork* deste repositório.
+1. Um dos membros do grupo deverá realizar um *fork* deste repositório. - OK
 2. O dono do repositório deverá convidar os demais membros do grupo para serem colaboradores.
 3. O dono do repositório deverá convidar o professor para ser colaborador do repositório.
 4. O dono do repositório deverá habilitar o GitHub Pages. Basta seguir o [procedimento para habilitar o GitHub Pages](https://docs.github.com/pt/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), lembrando de escolher em *Source* a opção `/docs` em lugar da opção `/root`.
