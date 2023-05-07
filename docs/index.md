@@ -44,14 +44,17 @@ O projeto tem como objetivo principal de controlar novos cadastramentos de livro
 # Diagrama de casos de uso
 
 *&lt;Diagrama de casos de uso&gt;*
+![diagrama](casosdeuso.jpeg)
 
 # Descrição dos casos de uso
 
 *&lt;Descrição dos casos de uso&gt;*
 
+
 # Protótipos de tela
 
 *&lt;Protótipos de tela&gt;*
+
 ![Prototipos](1.jpeg)
 ![Prototipos](2.jpeg)
 ![Prototipos](3.jpeg)
@@ -61,6 +64,7 @@ O projeto tem como objetivo principal de controlar novos cadastramentos de livro
 # Modelo de domínio
 
 *&lt;Modelo de domínio&gt;*
+![diminio](dominio.jpeg)
 
 # Decisões de arquitetura
 
@@ -69,6 +73,9 @@ O projeto tem como objetivo principal de controlar novos cadastramentos de livro
 # Diagrama de implantação
 
 *&lt;Diagrama de implantação&gt;*
+
+![Prototipos](implantação.jpeg)
+
 
 # Referências
 
