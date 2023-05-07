@@ -175,3 +175,5 @@ Devido a exigência do projeto de que a aplicação estivesse online; a decisão
 # Referências
 
 *https://github.com/daniloterashima/ppads-2023s1*
+*https://ppads-2023s1-phi.vercel.app/login*
+*https://projmacktarefas.herokuapp.com/*
