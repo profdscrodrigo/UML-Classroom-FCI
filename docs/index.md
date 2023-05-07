@@ -6,10 +6,6 @@
 AGENDA PARA DIVISÃO DE TAREFAS FAMILIARES
 </center></font>
 
->*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
-
->*Observação 2: O índice abaixo não precisa ser editado se você utilizar o Visual Studio Code com a extensão **Markdown All in One**. Essa extensão atualiza o índice automaticamente quando o arquivo é salvo.*
-
 **Conteúdo**
 
 - [Autores](#autores)
@@ -178,4 +174,4 @@ Devido a exigência do projeto de que a aplicação estivesse online; a decisão
 
 # Referências
 
-*&lt;Lista de referências&gt;*
+*https://github.com/daniloterashima/ppads-2023s1*
