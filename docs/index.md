@@ -110,6 +110,7 @@ Ator Principal: Gerente de Negócios
 <p align="center">
     <img src="https://github.com/CristianLeit/ppads-2023s1/blob/master/docs/img/tela%20do%20produto%20vers%C3%A3o%202_page-0001.jpg"/>
 </p>
+
 # Modelo de domínio
 **Cliente**
 ```plantuml
