@@ -46,6 +46,14 @@ O projeto tem como objetivo principal de controlar novos cadastramentos de livro
 
 *&lt;Descrição dos casos de uso&gt;*
 
+Cadastro de Novos Clientes: Este caso de uso envolve o registro de novos clientes no sistema, incluindo informações como nome, endereço, telefone, e-mail e outras informações relevantes. O objetivo é manter um registro preciso e atualizado de todos os clientes da organização para facilitar a comunicação e o gerenciamento de contas.
+
+Cadastro de Novos Fornecedores: Este caso de uso é semelhante ao cadastro de clientes, mas envolve informações sobre fornecedores de produtos ou serviços para a organização. O objetivo é manter um registro preciso e atualizado de todos os fornecedores da organização para facilitar a comunicação e o gerenciamento de contas a pagar.
+
+Atualização de Informações do Cliente/Fornecedor: Este caso de uso permite que um usuário do sistema atualize as informações de um cliente ou fornecedor existente, como um novo endereço ou número de telefone. Manter essas informações atualizadas é importante para garantir que a organização possa se comunicar efetivamente com seus parceiros de negócios.
+
+Busca de Informações do Cliente/Fornecedor: Este caso de uso permite que os usuários do sistema pesquisem as informações de um cliente ou fornecedor específico. Isso pode ser útil para obter informações de contato, histórico de pedidos ou outras informações relevantes para gerenciamento de relacionamentos.
+
 
 # Protótipos de tela
 
