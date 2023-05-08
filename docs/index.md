@@ -99,7 +99,7 @@ Ator Principal: Gerente de Negócios
 # Protótipos de tela
 
 <p align="center">
-    <img src="https://github.com/CristianLeit/ppads-2023s1/docs/img/pagina principal_page-0001"/>
+    <img src="https://github.com/CristianLeit/ppads-2023s1/blob/master/docs/img/pagina%20principal_page-0001.jpg"/>
 </p>
 # Modelo de domínio
 **Cliente**
