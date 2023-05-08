@@ -36,6 +36,7 @@ ou
 3. yarn start
 
 A aplicação será executada em seu navegador padrão no endereço http://localhost:3000.
+
 •	Funcionalidades
 •	Lista de produtos
 •	Visualização de detalhes de um produto selecionado
@@ -46,7 +47,7 @@ A aplicação será executada em seu navegador padrão no endereço http://local
 # Contribuição
 Se você quiser contribuir com este projeto, siga as etapas abaixo:
 
-# Faça um fork deste repositório.
+## Faça um fork deste repositório.
 Crie uma nova branch com suas alterações: git checkout -b minha-branch
 Faça suas alterações e faça o commit das mesmas: git commit -m "minhas alterações"
 Envie suas alterações para a sua branch: git push origin minha-branch
