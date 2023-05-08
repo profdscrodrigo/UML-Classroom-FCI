@@ -98,15 +98,22 @@ Ator Principal: Gerente de Negócios
 
 # Protótipos de tela
 
+• Pagina principal
 <p align="center">
     <img src="https://github.com/CristianLeit/ppads-2023s1/blob/master/docs/img/pagina%20principal_page-0001.jpg"/>
 </p>
+
+• Tela Cadastro
 <p align="center">
     <img src="https://github.com/CristianLeit/ppads-2023s1/blob/master/docs/img/tela%20de%20cadastro_page-0001.jpg"/>
 </p>
+
+• Tela Login
 <p align="center">
     <img src="https://github.com/CristianLeit/ppads-2023s1/blob/master/docs/img/tela%20de%20login_page-0001.jpg"/>
 </p>
+
+• Detalhe Produto
 <p align="center">
     <img src="https://github.com/CristianLeit/ppads-2023s1/blob/master/docs/img/tela%20do%20produto%20vers%C3%A3o%202_page-0001.jpg"/>
 </p>
