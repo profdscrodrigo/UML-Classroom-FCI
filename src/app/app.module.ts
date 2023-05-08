@@ -26,6 +26,7 @@ import { MatInputModule } from '@angular/material/input'
 import { MatIconModule } from '@angular/material/icon'
 import { MatListModule } from '@angular/material/list'
 import { MatCardModule } from '@angular/material/card';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 
 
 //Componentes do projeto
@@ -83,6 +84,7 @@ import { TarefaCreateComponent } from './components/tarefa/tarefa-create/tarefa-
     MatTableModule,
     MatRadioModule,
     MatInputModule,
+    MatDatepickerModule,
     MatInputModule,
     MatIconModule,
     MatListModule,
