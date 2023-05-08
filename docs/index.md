@@ -30,7 +30,7 @@
 * Carlos Augusto Massayuki Tahira Takasaki - TIA 10921005028
 * Bruno Viana Silva
 * Jeane Lira Dias - TIA 10921011389
-* Bruno Viana Silva
+* Bruno Viana Silva - TIA  10921006555
 
 
 
