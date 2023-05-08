@@ -98,8 +98,9 @@ Ator Principal: Gerente de Negócios
 
 # Protótipos de tela
 
-*&lt;Protótipos de tela&gt;*
-
+<p align="center">
+    <img src="https://github.com/CristianLeit/ppads-2023s1/docs/img/pagina principal_page-0001"/>
+</p>
 # Modelo de domínio
 **Cliente**
 ```plantuml
