@@ -25,7 +25,7 @@ E-Commerce YouList
 * Marcos Paulo Santos de Oliveira
 * Bruna Ariane Felix da Silva
 * Matheus Henrique Tavares
-* Aluno 5
+* Genilson Alves da Silva Filho
 
 
 # Descrição do projeto
