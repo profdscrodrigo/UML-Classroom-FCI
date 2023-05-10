@@ -3,28 +3,59 @@
 
 # Template para Prática Profissional em ADS
 
-Este repositório define um modelo (*template*) que deve ser seguido por cada grupo para o projeto.
-
-A seguir estão os passos sugeridos para a preparação do seu grupo no início do projeto:
-
-1. Um dos membros do grupo deverá realizar um *fork* deste repositório.
-2. O dono do repositório deverá convidar os demais membros do grupo para serem colaboradores.
-3. O dono do repositório deverá convidar o professor para ser colaborador do repositório.
-4. O dono do repositório deverá habilitar o GitHub Pages. Basta seguir o [procedimento para habilitar o GitHub Pages](https://docs.github.com/pt/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), lembrando de escolher em *Source* a opção `/docs` em lugar da opção `/root`.
-5. Cada membro do grupo deverá instalar o [Git](https://git-scm.com/downloads).
-6. Para a edição do conteúdo deste projeto, sugere-se que cada membro do grupo faça a instalação do [Visual Studio Code](https://code.visualstudio.com/) com as extensões [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) e [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github). No entanto, cada membro poderá utilizar a IDE de sua preferência.
-7. Cada membro do grupo deverá [clonar o repositório do grupo no seu computador](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=create-repo-command-palette%2Cinitialize-repo-activity-bar%2Ccreate-branch-command-palette%2Ccommit-changes-command-palette%2Cpush-command-palette).
-8. Cada membro do grupo deverá editar o seu próprio nome no arquivo em [/docs/index.md](./docs/index.md), de preferência [criando um novo *branch* e um *pull request*](https://www.youtube.com/watch?v=LdSwWxVzUpo).
-9. O dono do repositório deverá editar este arquivo, removendo estas instruções iniciais e preenchendo o restante da página com os dados do projeto do seu grupo.
+<p>Link para acessar o Projeto: https://ppads-2023s1-a8of5dc37-ivoneide01.vercel.app/login</p> 
+<p> Para entrar use lOGIN: admin@gmail.com SENHA: admin
 
 
-# Projeto: *<Nome_do_seu_Projeto>*
+# Projeto: *Loja de livros*
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: *IBECH*
 
-# Descrição
+# Descrição 
 
-*<Descrição_resumida_do_projeto>*
+*<p>
+            Olá! Seja bem vindo ao sistema Loja de livros desenvolvido pelo grupo IBECH.<br />
+            Esse é um sistema para gerenciamento de livros simulando um simples sistema, desenvolvido em Angular 12 e
+            Spring Boot 2. <br />O sistema está rodando na nuvem sendo o front na Vercel e o back na Heroku.<br />
+            O projeto tem como objetivo principal de controlar novos cadastramentos de livros, clientes e fornecedores, foi utilizado Autenticação e Autorização com
+            Tokens JWT e muito mais.
+            <br /><br /> Fique a vontade para testar o sistema e deixar sua sugestão.
+            <br /> At.te: Grupo IBECH -  5 Semestre - Analise e desenvolvimento de Sistemas 
+            <br /> Mackenzie
+</p>*
+
+# Para desenvolvedores 
+<p>Olá Desenvolvedor para ver esse projeto no seu computador instale as seguintes informaçoes.
+segue os links para download: <br />
+
+Back-end: <br />
+
+JAVA JDK: https://www.oracle.com/java/technologies/downloads/ <br />
+Spring Tool Suit https://spring.io/tools  ( Versão 2.3.12 ) <br />
+Postman: https://www.postman.com/downloads/ <br />
+Xampp: https://sourceforge.net/projects/xampp/<br />
+
+Front end: <br />
+
+https://nodejs.org/en/download  ( Versão 14.20.1 ) <br />
+Visual code: https://code.visualstudio.com/<br />
+
+
+Passo a Passo: Back-end e Front-end se encontra nos seguintes repositorios: Back-end: https://github.com/eduardodcs/ibech
+<br /> Front-end : https://github.com/Ivoneide01/ppads-2023s1/tree/master/ibech-front 
+
+        
+
+<P> #FRONT END
+
+Angular 12.0.3
+Node 14.20.1
+   
+            
+#BACK END
+
+Java 11
+Spring Boot 2.3.12</p>
 
 # Documentação
 
