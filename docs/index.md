@@ -6,10 +6,6 @@
 *&lt; Loja de Livros&gt;*
 </center></font>
 
->*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
-
->*Observação 2: O índice abaixo não precisa ser editado se você utilizar o Visual Studio Code com a extensão **Markdown All in One**. Essa extensão atualiza o índice automaticamente quando o arquivo é salvo.*
-
 **Conteúdo**
 
 - [Autores](#autores)
@@ -44,18 +40,35 @@ O projeto tem como objetivo principal de controlar novos cadastramentos de livro
 # Diagrama de casos de uso
 
 *&lt;Diagrama de casos de uso&gt;*
+![descrição-dos-casos-de-uso](casosdeuso.jpeg)
 
 # Descrição dos casos de uso
 
 *&lt;Descrição dos casos de uso&gt;*
 
+Cadastro de Novos Clientes: Este caso de uso envolve o registro de novos clientes no sistema, incluindo informações como nome, endereço, telefone, e-mail e outras informações relevantes. O objetivo é manter um registro preciso e atualizado de todos os clientes da organização para facilitar a comunicação e o gerenciamento de contas.
+
+Cadastro de Novos Fornecedores: Este caso de uso é semelhante ao cadastro de clientes, mas envolve informações sobre fornecedores de produtos ou serviços para a organização. O objetivo é manter um registro preciso e atualizado de todos os fornecedores da organização para facilitar a comunicação e o gerenciamento de contas a pagar.
+
+Atualização de Informações do Cliente/Fornecedor: Este caso de uso permite que um usuário do sistema atualize as informações de um cliente ou fornecedor existente, como um novo endereço ou número de telefone. Manter essas informações atualizadas é importante para garantir que a organização possa se comunicar efetivamente com seus parceiros de negócios.
+
+Busca de Informações do Cliente/Fornecedor: Este caso de uso permite que os usuários do sistema pesquisem as informações de um cliente ou fornecedor específico. Isso pode ser útil para obter informações de contato, histórico de pedidos ou outras informações relevantes para gerenciamento de relacionamentos.
+
+
 # Protótipos de tela
 
 *&lt;Protótipos de tela&gt;*
 
+![protótipos-de-tela](1.jpeg)
+![protótipos-de-tela](2.jpeg)
+![protótipos-de-tela](3.jpeg)
+![protótipos-de-tela](4.jpeg)
+
+
 # Modelo de domínio
 
 *&lt;Modelo de domínio&gt;*
+![modelo-de-domínio](dominio.jpeg)
 
 # Decisões de arquitetura
 
@@ -64,6 +77,9 @@ O projeto tem como objetivo principal de controlar novos cadastramentos de livro
 # Diagrama de implantação
 
 *&lt;Diagrama de implantação&gt;*
+
+![diagrama-de-implantação](implantação.jpeg)
+
 
 # Referências
 
