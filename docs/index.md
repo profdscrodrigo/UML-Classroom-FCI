@@ -3,7 +3,7 @@
 
 
 <font size="+12"><center>
-Order App
+*&lt;Order App&gt;*
 </center></font>
 
 **Conteúdo**
@@ -22,14 +22,9 @@ Order App
 # Autores
 
 * Aluno 1
-* Aluno 2
-* Aluno 3
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
-
+* Felipe Simão da Silva
+* Letícia Caroline da Silva
+* Livia Helen da Silva
 
 # Descrição do projeto
 
