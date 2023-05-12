@@ -3,6 +3,7 @@ import {CategoryContainer, Icon} from './styles';
 import {Text} from '../Text';
 import {FlatList} from 'react-native';
 import {useState} from 'react';
+import { useNavigation } from '@react-navigation/native';
 
 interface Props {
   categories: Array<Category>
@@ -36,6 +37,7 @@ export function Categories({ categories, onSelectedCategory }: Props) {
           </CategoryContainer>
         );
       }}
+      ListFooterComponentStyle={{marginTop:2}}
     />
   );
 }

@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import {useCallback, useEffect, useState} from 'react';
 import {ActivityIndicator} from 'react-native';
 import {StatusBar} from 'expo-status-bar';
 
@@ -25,6 +25,7 @@ import {
   Row
 } from './styles';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useFocusEffect } from '@react-navigation/native';
 
 export function  Main() {
   const [isLoading, setIsLoading] = useState(true);
@@ -41,17 +42,20 @@ export function  Main() {
     setCode(temp);
   }
 
-  useEffect(() => {
-    getRestaurantCode();
-    Promise.all([
-      api.get('/categories'),
-      api.get('/products'),
-    ]).then(([categoriesResponse, productsResponse]) => {
-      setProducts(productsResponse.data);
-      setCategories(categoriesResponse.data);
-      setIsLoading(false);
-    });
-  }, []);
+  useFocusEffect(
+    useCallback(()=>{
+      getRestaurantCode();
+      Promise.all([
+        api.get('/categories'),
+        api.get('/products'),
+      ]).then(([categoriesResponse, productsResponse]) => {
+        setProducts(productsResponse.data);
+        setCategories(categoriesResponse.data);
+        setIsLoading(false);
+      });
+      return;
+    },[])
+  )
 
   function handleSaveTable(table: string) {
     setSelectedTable(table);

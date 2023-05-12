@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import { Container, Content, Row, Spacing, } from './styles';
 import Logo from '../../components/Logo';
 import { Text } from '../../components/Text';
@@ -9,7 +9,7 @@ import { InputModal } from '../../components/InputModal';
 import { api } from '../../utils/api';
 import NoticeModal from '../../components/NoticeModal';
 import { CheckCircle } from '../../components/Icons/CheckCircle';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import AsyncStorage, { useAsyncStorage } from '@react-native-async-storage/async-storage';
 import { CloseCircle } from '../../components/Icons/CloseCircle';
 
 interface Notice{
@@ -19,10 +19,13 @@ interface Notice{
 
 export default ({navigation}) => {
     
-    const [code, setCode] = useState<string>("");
-    const [isSignInVisible, setIsSignInVisible] = useState<boolean>(false);
-    const [isNoticeVisible, setIsNoticeVisible] = useState<boolean>(false);
+    const [code, setCode] = useState<string>("")
+    const [isSignInVisible, setIsSignInVisible] = useState<boolean>(false)
+    const [isNoticeVisible, setIsNoticeVisible] = useState<boolean>(false)
     const [notice, setNotice] = useState<Notice | null>()
+    const storage = useAsyncStorage('@restaurant_code')
+
+    useEffect(()=>{isLogged()},[storage]);
 
     const createRestaurant = async (name: string) => {
         try{
@@ -38,9 +41,16 @@ export default ({navigation}) => {
         }
     }
 
+    const isLogged = async () => {
+        const tempCode = await storage.getItem();
+        if(tempCode){
+            navigation.navigate("Main", {code: tempCode});
+        }
+    }
+
     const onLogIn = async () => {
         try{
-            await AsyncStorage.setItem('@restaurant_code', code);
+            await storage.setItem(code);
             navigation.navigate("Main", {code});
         }catch(e){
             console.log(e);
