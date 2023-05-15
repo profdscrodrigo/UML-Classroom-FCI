@@ -11,6 +11,9 @@ import {listOrdersController} from './app/controllers/orders/listOrdersControlle
 import {createOrdersController} from './app/controllers/orders/createOrdersController';
 import {changeOrderStatusController} from './app/controllers/orders/changeOrderStatusController';
 import {cancelOrdersController} from './app/controllers/orders/cancelOrdersController';
+import { deleteCategoryController } from './app/controllers/categories/deleteCategoryController';
+import { updateCategoryController } from './app/controllers/categories/updateCategoryController';
+import { deleteProductController } from './app/controllers/products/deleteProductsController';
 
 const upload = multer({
   storage: multer.diskStorage({
@@ -29,11 +32,14 @@ export const router = Router();
 router.get('/categories', listCategoriesController);
 router.get('/categories/:categoryId/products', listProductsByCategoryController);
 router.post('/categories', createCategoriesController);
+router.delete('/categories/:id', deleteCategoryController);
+router.patch('/categories/:id', updateCategoryController);
 
 
 // Products
 router.get('/products', listProductsController);
 router.post('/products', upload.single('image'), createProductsController);
+router.delete('/products/:id', deleteProductController);
 
 
 // Orders
