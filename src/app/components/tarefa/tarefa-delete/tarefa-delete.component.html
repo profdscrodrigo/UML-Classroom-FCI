@@ -1,0 +1,61 @@
+<div class="container mat-elevation-z8">
+  <form action="" class="form">
+      <h1 class="fullWidth">Deletar Tarefa</h1>
+      <img class="fullWidth" src="assets/img/delete.avif" alt="Help Desk - Dicas de um DEV">
+
+
+
+      <mat-form-field class="fullWidth" appearance="legacy">
+          <mat-label>Nome</mat-label>
+          <input
+          [(ngModel)]="tarefa.nome"
+          name="nome"
+          [disabled]="true"
+          matInput >
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field class="fullWidth" appearance="legacy">
+          <mat-label>Comentário</mat-label>
+          <input 
+          [(ngModel)]="tarefa.comentario"
+          name="comentario"
+          [disabled]="true"
+          matInput >
+          <mat-icon matSuffix>pin</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field class="fullWidth" appearance="legacy">
+          <mat-label>Usuário</mat-label>
+          <input 
+          [(ngModel)]="tarefa.usuario"
+          name="usuario"
+          [disabled]="true"
+          matInput >
+          <mat-icon matSuffix>pin</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field class="fullWidth" appearance="legacy">
+          <mat-label>Data de Início</mat-label>
+          <input 
+          [(ngModel)]="tarefa.dataCriacao"
+          name="dataCriacao"
+          [disabled]="true"
+          matInput >
+          <mat-icon matSuffix>calendar_today</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field class="fullWidth" appearance="legacy">
+          <mat-label>Data Conclusão</mat-label>
+          <input 
+          [(ngModel)]="tarefa.dataConclusao"
+          name="dataConclusao"
+          [disabled]="true"
+          matInput >
+          <mat-icon matSuffix>offline_pin</mat-icon>
+        </mat-form-field>
+
+        <button (click)="delete()" mat-flat-button class="fullWidth" color="warn">Deletar</button>
+        <button routerLink="../../" mat-stroked-button class="fullWidth" color="warn">Cancelar</button>
+  </form>
+</div>

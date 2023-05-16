@@ -1,0 +1,34 @@
+<mat-drawer-container class="container" autosize>
+    <mat-drawer #drawer class="sidenav" mode="side">
+            <mat-nav-list class="nav-list">
+            <a mat-list-item routerLink="home">
+                <i class="material-icons">home</i>
+                Home
+            </a>
+            <a mat-list-item routerLink="tarefa">
+                <i class="material-icons">calendar_today</i>
+                Cadastro de Tarefas
+            </a>
+            <a mat-list-item routerLink="usuario">
+                <i class="material-icons">person</i>
+                Usuários
+            </a>            
+            
+            <a mat-list-item (click)="logout()">
+                <i class="material-icons">logout</i>
+                Logout
+            </a>
+        </mat-nav-list>
+        <img src="assets/img/agenda.webp" alt="Imagem de navegação">
+    </mat-drawer>
+  
+    <div class="sidenav-content">
+        <app-header></app-header>
+      <button class="menu mat-elevation-z8" (click)="drawer.toggle()" mat-icon-button>
+          <mat-icon>menu</mat-icon>
+        </button>
+        <router-outlet></router-outlet>
+      </div>
+    
+    </mat-drawer-container>
+  

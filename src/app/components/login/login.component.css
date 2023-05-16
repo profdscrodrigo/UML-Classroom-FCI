@@ -1,0 +1,40 @@
+.container{
+    height: 100%;
+    background: linear-gradient(180deg, rgb(158, 130, 244) 0%, rgb(158, 130, 244) 0%, rgb(158, 130, 244) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 15rem;
+    width: 100%;
+    margin: 1.5rem auto 1.5rem auto;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+button {
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.titulolivro{
+    font-size: 46px;
+    font-family: Arial   
+}
+
+.form {
+    width: 30rem;
+    margin: auto;
+    background-color: rgb(235, 235, 235);
+    padding: 4rem 1rem;
+    border-radius: 1rem;
+}
