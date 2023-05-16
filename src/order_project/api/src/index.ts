@@ -6,12 +6,10 @@ import 'express-async-errors';
 import { router } from './routes';
 
 import { errorHandler } from './app/middlewares/errorHandler';
-import { Server } from 'socket.io';
 
 const port = 3001;
 const app = express();
 const server = http.createServer(app);
-export const io = new Server(server);
 
 async function start() {
   try {
