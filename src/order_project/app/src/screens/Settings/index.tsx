@@ -28,8 +28,6 @@ const List = ({data, buttonTitle, onPressButton, onUpdate}: ListType) => (
             <RowButton>
                 <ButtonAdd onPress={onPressButton}>
                     <Text size={18} color="#fafafa">{buttonTitle}</Text>
-                    <Spacing left={8} />
-                    <PlusCircle width={36} height={34} color="#fafafa" />
                 </ButtonAdd>
             </RowButton>
         )}

@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+import {useCallback, useEffect, useState} from 'react';
 import {ActivityIndicator} from 'react-native';
 import {StatusBar} from 'expo-status-bar';
 
@@ -23,6 +23,7 @@ import {
   FooterContainer,
   MenuContainer
 } from './styles';
+import { useFocusEffect } from '@react-navigation/native';
 
 export function  Main() {
   const [isLoading, setIsLoading] = useState(true);
@@ -33,16 +34,18 @@ export function  Main() {
   const [products, setProducts] = useState<Product[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
 
-  useEffect(() => {
-    Promise.all([
-      api.get('/categories'),
-      api.get('/products'),
-    ]).then(([categoriesResponse, productsResponse]) => {
-      setProducts(productsResponse.data);
-      setCategories(categoriesResponse.data);
-      setIsLoading(false);
-    });
-  }, []);
+  useFocusEffect(
+    useCallback(()=>{
+      Promise.all([
+        api.get('/categories'),
+        api.get('/products'),
+      ]).then(([categoriesResponse, productsResponse]) => {
+        setProducts(productsResponse.data);
+        setCategories(categoriesResponse.data);
+        setIsLoading(false);
+      });
+    }, [])
+  );
 
   function handleSaveTable(table: string) {
     setSelectedTable(table);
