@@ -1,17 +1,19 @@
-# TODO
+# Para utilizar o mobile localmente
 
-[ ] Cadastro de restaurante e gerar código único
+Para utilizar o mobile é necessário instalar o aplicativo ``Expo`` na App Store ou Apple Store
+para scanear o QR Code que é gerado no terminal após executar o projeto.
 
-[ ] Vincular os pedidos com o restaurante
-
-[ ] Gerar QR Code com todos os pedidos daquele restaurante
-
-
-# Como utilizar
-Para utilizar o App mobile, é preciso instalar o Expo no seu smartphone ou utilizar um emulador no seu computador.
-
-Rode o seguinte comando:
+1. Clone o repositório
+2. Rode o comando a seguir no terminal para instalar as dependências
 
 ```ssh
-npm run start
+  yarn install
 ```
+
+3. Para rodar a aplicação insira esse comando no terminal
+
+```ssh
+  yarn start
+```
+
+4. Após isso, escaneie o QR Code que será mostrado no terminal utilizando o aplicativo do ``Expo``.
