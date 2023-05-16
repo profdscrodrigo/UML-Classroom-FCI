@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <title>YouList sua maior lista de celulares, TV's e Computadores!</title>
+    <meta name="description" content="Sua maior lista de celulares, TV's e Computadores!"/>
+    <meta name="keywords" content="Smartphones, TV's, Tablets, Notebooks, camêras"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="author" content="Cristian Leite"/>
+    <link rel="stylesheet" type="text/css" href="You-List.css"/>
+    <link rel="icon" href="../img/icon-YouList.png"/>
+    <script src="../js/scripts.js"></script>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <a href="../You-List.html"><h1 class="logo">YouList sua maior lista de Celulares, TV's e Computadores!</h1></a>
+    <div class="botao-container">
+      <button class="botao-login" onclick="window.location.href='You-List-login.html'">Login</button>
+        <button class="botao-cadastro" onclick="window.location.href='You-List-cadastro.html'">Cadastre-se</button>
+      </div>
+    <h1 id="title" class="titulo-body">Sua maior lista de Celulares, TV's e Computadores!</h1>
+    <form class="search-form" onsubmit="return searchProducts(this)">
+      <input type="text" placeholder="Buscar" name="searchQuery">
+      <button type="submit"><span class="search-icon"></span></button>
+    </form>
+    </header>
+
+  <main class="detalhes-produto">
+    <div class="imagem-produto">
+      <img src="../img/2-iphone_x_64_gb.jpeg" alt="iPhone X Apple">
+    </div>
+    <div class="informacoes-produto">
+      <h2 class="titulo-produto">iPhone X Apple com 64GB, 3gb Ram, 12MP</h2>
+      <p class="preco-produto">Por: R$4.299,00</p>
+      <p class="frete-produto">Frete: R$10,00</p>
+      <p class="parcela-produto">6x de R$716,50 sem juros</p>
+      <label for="quantidade">Quantidade:</label>
+      <input type="number" id="quantidade" name="quantidade" value="1" min="1">
+      <div class="contador-compra">
+        <p class="contador-total">Total: R$4.309,00</p>
+      </div>
+      <button class="botao-comprar" onclick="window.location.href='You-List-carrinho.html'">Comprar</button>
+    </div>
+  </main>
+  <section class="newsletter">
+    <fieldset>
+        <legend><h2> Cadastre-se Agora </h2></legend>
+        <h3>Adquira as melhores tecnologias pelo menor preço e receba ofertas exclusivas agora!</h3>
+        <form>
+          <label id="nome" for="nome">*Nome :</label>
+					<input type="text" name="nome" placeholder="Digite o seu nome">
+					<label id="email" for="email">*E-mail :</label>
+					<input type="email" name="e-mail" placeholder=" Digite o seu e-mail"><div id="button">
+						<button class="botao-enviar" formaction="You-List-login.html"> Logar </button>
+						<button class="botao-cancelar" formaction="You-List-cadastro.html"> Cadastrar</button>
+					</div>
+        </form>
+    </fieldset>
+    <p>Copyright © YouList 2023. Todos os direitos reservados.</p>
+</section>
+</body>
+</html>
+
+
+
+
+
+
+

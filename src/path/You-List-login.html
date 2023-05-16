@@ -1,0 +1,44 @@
+<!Doctype html> 
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<title class="texto">YouList sua maior lista de Celulares, TV's e Computadores!</title>
+		<meta name="description" content="Sua maior lista de celulares, TV's, e Computadores.">
+		<meta name="keywords" content="Smartphones, TV's, Tablets, Notebooks, camêras"/>
+		<meta name="robots" content="index, follow">
+		<meta name="author" content="Cristian Leite">
+		<link rel="stylesheet" type="text/css" href="You-List.css">
+		<link rel="icon" href="../img/icon-YouList.png">
+		<script src="../js/scripts.js"></script>
+	</head>
+	<body>
+		<header class="cabecalho">
+			<a href="../You-List.html"><h1 class="logo">YouList sua maior lista de Celulares, TV's e Computadores!</h1></a>
+			<div class="botao-container">
+        <button class="botao-cadastro" onclick="window.location.href='You-List-cadastro.html'">Cadastre-se</button>
+			  </div>
+			<h1 id="title" class="titulo-body">Sua maior lista de Celulares, TV's e Computadores!</h1>
+			<form class="search-form" onsubmit="return searchProducts(this)">
+			  <input type="text" placeholder="Buscar" name="searchQuery">
+			  <button type="submit"><span class="search-icon"></span></button>
+			</form>
+		  </header>
+		<a href="#"><img id="ads" src="../img/maxresdefault.jpg" alt="icone.html" href="#"></a>
+		<section class="newsletter">
+			<fieldset>
+				<legend><h3><p>Login</p></h3></legend>
+				<form action="#" method="post">
+					<label for="email">E-mail:</label>
+					<input type="email" name="email" placeholder="Digite seu e-mail">
+					<label for="password">Senha:</label>
+					<input type="password" name="password" placeholder="Digite sua senha">
+					<button class="botao-enviar" formaction="#"> Entrar </button>
+				</form>
+			</fieldset>
+			<p>Não tem uma conta? <a href="You-List-cadastro.html">Cadastre-se</a></p>
+			<p>Esqueceu sua senha? <a href="#">Clique aqui</a></p>
+			<p>© YouList 2023. Todos os direitos reservados.</p>
+		</section>
+	</body>
+</html>
