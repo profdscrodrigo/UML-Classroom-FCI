@@ -37,7 +37,11 @@ export default ({route}:any) => {
 
     const createCategory = async () =>{
         try{
-            const results = await api.post("/categories", { name, icon });
+            if(params?.category?._id){
+                const results = await api.patch("/categories/"+params?.category?._id, { name, icon });                
+            }else{
+                const results = await api.post("/categories", { name, icon });
+            }
             setNotice({text: "A categoria foi salva com sucesso!", type: "success"});
             setIsNoticeVisible(true);
         }catch(e){

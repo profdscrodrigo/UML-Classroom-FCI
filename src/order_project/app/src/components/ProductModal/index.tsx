@@ -33,7 +33,7 @@ export function ProductModal({ visible, product, onClose, onAddToCart }: Product
 
       <Image
         source={{
-          uri: `http://192.168.0.51:3001/uploads/${product.imagePath}`
+          uri: `https://sparkling-tank-top-worm.cyclic.app/uploads/${product.imagePath}`
         }}
       >
         <CloseButton onPress={onClose}>

@@ -17,10 +17,11 @@ interface ListType {
     data: Array<Product | Category> | undefined;
     buttonTitle: string;
     onPressButton: ()=>void;
+    onUpdate: ()=>void;
 }
 
 
-const List = ({data, buttonTitle, onPressButton}: ListType) => (
+const List = ({data, buttonTitle, onPressButton, onUpdate}: ListType) => (
     <FlatList
         data={data}
         ListHeaderComponent={()=>(
@@ -34,7 +35,7 @@ const List = ({data, buttonTitle, onPressButton}: ListType) => (
         )}
         renderItem={({item, index})=>(
             <Row>
-                <SettingsCard {...item} />
+                <SettingsCard {...item} onUpdate={onUpdate} />
             </Row>
         )}
 
@@ -54,11 +55,11 @@ export default () => {
     ]);
 
     const FirstRoute = () => (
-        <List data={categories} buttonTitle={"Nova categoria"} onPressButton={()=>{navigation.navigate("CategorySettings")}} />
+        <List data={categories} buttonTitle={"Nova categoria"} onPressButton={()=>{navigation.navigate("CategorySettings")}} onUpdate={reload} />
     );
 
     const SecondRoute = () => (
-        <List data={products} buttonTitle={"Novo produto"} onPressButton={()=>{navigation.navigate("ProductSettings")}} />
+        <List data={products} buttonTitle={"Novo produto"} onPressButton={()=>{navigation.navigate("ProductSettings")}} onUpdate={reload} />
     );
 
 
@@ -67,16 +68,20 @@ export default () => {
         produtos: SecondRoute,
     });
 
-    useFocusEffect(
-        useCallback(()=>{
-          Promise.all([
+    const reload = () => {
+        Promise.all([
             api.get('/categories'),
             api.get('/products'),
           ]).then(([categoriesResponse, productsResponse]) => {
             setProducts(productsResponse.data);
             setCategories(categoriesResponse.data);
             setIsLoading(false);
-          });
+        });
+    }
+
+    useFocusEffect(
+        useCallback(()=>{
+          reload();
           return;
         },[])
       )

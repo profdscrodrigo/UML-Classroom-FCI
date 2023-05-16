@@ -27,7 +27,6 @@ export default ({route}:any) => {
     const [category, setCategory] = useState<string>();
     const [image, setImage] = useState<any>();
     const [categories, setCategories] = useState<Category[]>([]);
-    const [restaurant, setRestaurant] = useState<Restaurant>();
     const [notice, setNotice] = useState<Notice>({text: ""});
     const [isNoticeVisible, setIsNoticeVisible] = useState<boolean>(false);
 
@@ -35,20 +34,12 @@ export default ({route}:any) => {
 
     const params = route?.params;
 
-    const findRestaurant = async (restaurants: Restaurant[], code: string | null) => {
-        const index = await restaurants.findIndex((value)=>value.code == code);
-        setRestaurant(restaurants[index]);
-    }
-
     useFocusEffect(
         useCallback (()=>{
           Promise.all([
-            api.get('/categories'),
-            AsyncStorage.getItem('@restaurant_code'),
-            api.get('/restaurants'),
-          ]).then(([categoriesResponse, code, restaurantsResponse]) => {
+            api.get('/categories')
+          ]).then(([categoriesResponse]) => {
             setCategories(categoriesResponse.data);
-            findRestaurant(restaurantsResponse.data, code);
           });
           return;
         },[])
@@ -66,8 +57,7 @@ export default ({route}:any) => {
             productData.append('name', name);
             productData.append('price', price);
             productData.append('description', description);
-            productData.append('category', category?._id);
-            productData.append('restaurant', restaurant?._id);
+            productData.append('category', categories?.[category]?._id);
             
             const imgName = image.uri.substr(image.uri.lastIndexOf('/')+1);
             const imgType = "image/"+imgName.substr(imgName.lastIndexOf('.')+1);
@@ -107,7 +97,7 @@ export default ({route}:any) => {
                         selectedValue={category}
                         onValueChange={(value) => {
                             if(value != "")
-                                setCategory(categories[value]) 
+                                setCategory(value) 
                         }}
                     >
                         <Picker.Item key={"PicI"+-1} label="Escolha uma categoria" value="" />
