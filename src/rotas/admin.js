@@ -1,27 +1,29 @@
 const express = require("express")
 const rotas = express.Router()
 const mongoose = require("mongoose")
-require("../models/Categoria")
-const Categoria = mongoose.model("categorias")
-require("../models/Postagem")
-const Postagem = mongoose.model("postagens")
+require("../models/Aluno")
+const Aluno = mongoose.model("alunos")
+require("../models/Usuario")
+const Usuario = mongoose.model("usuarios")
+require("../models/Turma")
+const Turma = mongoose.model("turmas")
 const {eAdmin} = require("../helpers/eAdmin") 
 
-rotas.get("/", eAdmin, function(req, res){
+rotas.get("/", function(req, res){
     res.render("admin/index")
 });
 
-rotas.get("/categorias", eAdmin, async(req, res, next) => {
-        const cat = await Categoria.find({}).sort({date:'desc'}).lean()
-        res.render("admin/categorias", {dados: cat});
+rotas.get("/usuarios", async(req, res, next) => {
+        const usu = await Usuario.find({}).sort({nome:'desc'}).lean()
+        res.render("admin/listaUsuario", {dados: usu});
 })
     
 
-rotas.get("/categorias/add", eAdmin, (req, res) => {
+rotas.get("/categorias/add", (req, res) => {
     res.render("admin/addcategorias")
 }) 
 
-rotas.post("/categorias/nova", eAdmin, (req, res) => {
+rotas.post("/categorias/nova", (req, res) => {
     
     var erros = []
 
@@ -54,13 +56,13 @@ rotas.post("/categorias/nova", eAdmin, (req, res) => {
     }
 })
 
-rotas.get("/categorias/edit/:id", eAdmin, async(req, res, next) => {
+rotas.get("/categorias/edit/:id", async(req, res, next) => {
     const cat = await Categoria.findOne({_id:req.params.id}).lean()
         res.render("admin/editcategorias", {dados: cat});
     })
 
 
-rotas.post("/categorias/edit", eAdmin, async(req, res) => {
+rotas.post("/categorias/edit", async(req, res) => {
     const cat = await Categoria.findOne({_id: req.body.id})
     cat.nome = req.body.nome;
     cat.slug = req.body.slug;
@@ -73,7 +75,7 @@ rotas.post("/categorias/edit", eAdmin, async(req, res) => {
     } 
     })
 
-rotas.post("/categorias/deletar", eAdmin, async(req, res) => {
+rotas.post("/categorias/deletar", async(req, res) => {
     const cat = await Categoria.findByIdAndDelete({_id: req.body.id})
         if(cat == null){
             req.flash("error_msg", "Erro ao deletar categoria") 
@@ -84,17 +86,17 @@ rotas.post("/categorias/deletar", eAdmin, async(req, res) => {
         }
     })
 
-rotas.get("/postagens", eAdmin, async(req, res, next) => {
+rotas.get("/postagens", async(req, res, next) => {
     const cat = await Postagem.find().lean().populate("categoria").sort({date:'desc'})
     res.render("admin/postagens", {rel_pos: cat});
 })
 
-rotas.get("/postagens/ad", eAdmin, async(req, res) => {
+rotas.get("/postagens/ad", async(req, res) => {
     const cat = await Categoria.find().lean()
     res.render("admin/addpostagens", {dados: cat});
 })
 
-rotas.post("/postagens/nova", eAdmin, async(req, res) => {
+rotas.post("/postagens/nova", async(req, res) => {
     let erros = []
 
     if(req.body.categoria == "0"){
@@ -122,13 +124,13 @@ rotas.post("/postagens/nova", eAdmin, async(req, res) => {
     }
 })
 
-rotas.get("/postagens/edit/:id", eAdmin, async(req, res, next) => {
+rotas.get("/postagens/edit/:id", async(req, res, next) => {
     const pos = await Postagem.findOne({_id: req.params.id}).lean()
     const cat = await Categoria.find().lean()
     res.render("admin/editpostagens", {dados: cat, rel_pos: pos})
 })
 
-rotas.post("/postagens/edit", eAdmin, async(req, res) => {
+rotas.post("/postagens/edit", async(req, res) => {
     const poste = await Postagem.findOne({_id: req.body.id})
     poste.titulo = req.body.titulo
     poste.slug = req.body.slug
@@ -145,7 +147,7 @@ rotas.post("/postagens/edit", eAdmin, async(req, res) => {
 })
 
 
-rotas.get("/postagens/deletar/:id", eAdmin, async(req, res) => {
+rotas.get("/postagens/deletar/:id", async(req, res) => {
     const cat = await Postagem.findByIdAndDelete({_id: req.params.id})
         if(cat == null){
             req.flash("error_msg", "Erro ao deletar postagem") 

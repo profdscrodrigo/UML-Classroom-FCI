@@ -6,11 +6,19 @@ const Usuario = new Schema({
         type: String,
         required: true
     },
+    matricula: {
+        type: Number,
+        required: true
+    },
     email:{
         type: String,
         required: true
     },
-    eAdmin:{
+    cargo: {
+        type: String,
+        required: true
+    },
+    status:{
         type: Number,
         default: 0
     },
@@ -18,7 +26,6 @@ const Usuario = new Schema({
         type: String,
         required: true
     }
-
 })
 
 mongoose.model("usuarios", Usuario)

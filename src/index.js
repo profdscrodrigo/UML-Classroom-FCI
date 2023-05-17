@@ -1,7 +1,6 @@
 const express = require("express")
 const handlebars = require("express-handlebars")
 const bodyParser = require("body-parser")
-//const mongoose - require("mongoose");
 const app = express()
 const admin = require("./rotas/admin")
 const path = require("path")
@@ -9,10 +8,12 @@ const mongoose  = require("mongoose")
 const session = require("express-session")
 const flash = require("connect-flash")
 const { waitForDebugger } = require("inspector")
-require("./models/Postagem")
-const Postagem = mongoose.model("postagens")
-require("./models/Categoria")
-const Categoria = mongoose.model("categorias")
+require("../models/alunos")
+const Aluno = mongoose.model("alunos")
+require("../models/Usuario")
+const Usuario = mongoose.model("usuarios")
+require("../models/Turma")
+const Turma = mongoose.model("turmas")
 const usuario = require("./rotas/usuario")
 const passport = require("passport")
 require("./config/auth")(passport)
@@ -21,7 +22,7 @@ require("./config/auth")(passport)
 //configurações
     //Sessão
         app.use(session({
-            secret: "cursodenode",
+            secret: "sistemachamada",
             resave: true,
             saveUninitialized: true
         }))

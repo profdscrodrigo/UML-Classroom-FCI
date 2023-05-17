@@ -1,8 +1,12 @@
 const express = require("express")
 const rotas = express.Router()
 const mongoose = require("mongoose")
+require("../models/Aluno")
+const Aluno = mongoose.model("alunos")
 require("../models/Usuario")
 const Usuario = mongoose.model("usuarios")
+require("../models/Turma")
+const Turma = mongoose.model("turmas")
 const bcrypt = require("bcryptjs")
 const passport = require("passport")
 

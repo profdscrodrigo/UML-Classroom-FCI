@@ -1,0 +1,20 @@
+<h2>Lista de categorias:</h2>
+<hr>
+<a href="/admin/usuario/add"><button class="btn btn-success">Adicine usuario</button></a>
+
+{{#each dados}}
+    <div class="card mt-4">
+        <div class="card-body">
+            <h4>Nome: {{nome}}</h4>
+            <small>Matrícula: {{matricula}}</small><br>
+            <small>Cargo: {{cargo}}</small><br>
+            <a href="/admin/usuario/edit/{{_id}}"><button class="btn btn-success mt-4">Editar usuário</button></a>
+            <form action="/admin/usuario/deletar" method="POST">
+                <input type="hidden" name="id" value="{{_id}}">
+                <button type="submit" class="btn btn-danger mt-2">Deletar usuário</button>
+            </form>
+        </div>
+    </div>
+{{else}}
+    <h4 class="mt-3">Nenhuma usuário cadastrado!</h4>
+{{/each}}
