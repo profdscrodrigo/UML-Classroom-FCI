@@ -25,7 +25,7 @@
 
 # Autores
 
-* Aluno 1
+* Marinaldo Costa Silva
 * Aluno 2
 * Aluno 3
 * Aluno 4

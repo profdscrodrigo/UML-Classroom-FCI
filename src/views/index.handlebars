@@ -1,0 +1,20 @@
+<div class="card">
+    <div class="card-body">
+        <h1>Bem vindo ao Blog</h1>
+    </div>
+</div>
+
+{{#each dados}}
+<div class="card mt-4">
+    <div class="card-body">
+        <h3>{{titulo}}</h3>
+        <p>{{descricao}}</p>
+        <a href="/postagem/{{slug}}"><button class="btn btn-success">Leia mais</button></a>
+        <hr>
+        <small>Categoria: {{categoria.nome}}</small><br>
+        <small>Data de publicação: {{data}}</small>
+    </div>
+</div>
+{{else}}
+<h5>Nenhuma postagem</h5>
+{{/each}}
