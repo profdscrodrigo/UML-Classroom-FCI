@@ -36,4 +36,4 @@ const Aluno = new Schema({
     }
 })
 
-const alunos = mongoose.model("alunos", Aluno)
+mongoose.model("alunos", Aluno)
