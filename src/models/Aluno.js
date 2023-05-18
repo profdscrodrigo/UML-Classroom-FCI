@@ -15,8 +15,9 @@ const Aluno = new Schema({
         require: true
     },
     turma: {
-        type: String,
-        require: true
+        type: Schema.Types.ObjectId,
+        ref: "turmas",
+        required: true
     },
     resp1: {
         type: String,

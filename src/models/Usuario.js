@@ -7,7 +7,7 @@ const Usuario = new Schema({
         required: true
     },
     matricula: {
-        type: Number,
+        type: String,
         required: true
     },
     email:{

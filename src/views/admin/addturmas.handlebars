@@ -1,0 +1,32 @@
+{{#each erros}}
+    <div class="alert alert-danger">{{texto}}</div>
+{{else}}
+
+{{/each}}
+
+<div class="card">
+    <div class="card-body">
+        <h4>Nova turma:</h4>
+        <form action="/admin/turmas/cadastro" method="POST">
+            <label for="titulo">Título:</label>
+            <input type="text" name="titulo" class="form-control">
+            <label>Matutino
+            <input id="matutino" name="turno" type="radio" value="matutino" /></label>
+            <label>Vespertino
+            <input id="vespertino" name="turno" type="radio" value="vespertino" /> </label>  
+            <label>Noturno
+            <input id="noturno" name="turno" type="radio" value="noturno" /> </label><br>
+            <br>
+            <label for="professor">Professor:</label>
+            <select name="professor" class="form-select">
+                    {{#each dados}}
+                        <option value="{{_id}}">{{nome}}</option>
+                    {{else}}
+                        <option value="0">Nenhum professor cadastrado</option>
+                    {{/each}}
+            </select>
+            <br>
+            <button class="btn btn-success mt-4" type="submit">Criar turma</button>
+        </form>
+    </div>
+</div>
