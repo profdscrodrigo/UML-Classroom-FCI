@@ -10,6 +10,8 @@ const flash = require("connect-flash")
 const { waitForDebugger } = require("inspector")
 const passport = require("passport")
 require("./config/auth")(passport)
+const db = require("./config/db")
+
 
 
 //configurações
@@ -41,7 +43,7 @@ require("./config/auth")(passport)
         app.set("view engine", "handlebars");
     //mongoose
         mongoose.Promise = global.Promise;
-        mongoose.connect("mongodb://127.0.0.1/sischamada").then(() => {
+        mongoose.connect("db.mongoURI").then(() => {
         console.log("Conectado ao mongo")
       }).catch((err) => {
         console.log("Erro ao se conectar: "+err)
