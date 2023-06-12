@@ -25,7 +25,7 @@ E-Commerce YouList
 * Marcos Paulo Santos de Oliveira
 * Bruna Ariane Felix da Silva
 * Matheus Henrique Tavares
-* Aluno 5
+* Genilson Alves da Silva Filho
 
 
 # Descrição do projeto
@@ -732,7 +732,41 @@ O carrinho foi limpo com sucesso após a conclusão da compra.
 Data da última execução do teste: 05/05/2023.
 
 
-```
+# Métricas do Requisito de Teste:
+##### Contagem de cenários e testes:
+
+|Contagem  |   Cenário  |Condições
+|------|------|------|
+|1|RC-001|O sistema de e-commerce está funcionando corretamente e o catálogo de produtos contém pelo menos três itens cadastrados.
+|2|RC-002|O sistema está funcionando corretamente, o usuário está logado em uma conta válida e a página de produtos está acessível.
+|3|RC-003|O usuário está logado em uma conta de cliente, o catálogo de produtos possui itens disponíveis para compra e o carrinho de compras está vazio.
+|4|RC-004|A página de serviços de pagamento está disponível e integrada ao sistema de compra.
+|5|RC-005|O carrinho de compras possui pelo menos um produto adicionado.
+|6|RC-006|O usuário já adicionou produtos ao carrinho de compras e preencheu as informações de pagamento.
+|7|RC-007|Cliente com informações válidas e confirmadas no sistema, compra realizada e confirmada com sucesso, endereço de e-mail do cliente cadastrado no sistema.
+|8|RC-008|O usuário adicionou alguns itens ao carrinho e finalizou a compra com sucesso.
+
+
+
+##
+
+Aqui estão as métricas de requisitos de teste de acordo com os cenários informados:
+
+
+
+**$R_{ft}$ (Requirements for Test) = 8**
+**$T_i$ (Quantidade de testes implementados) = 8**
+
+Cobertura de Testes (implementados) = $\frac {T_i}{R_{ft}} = \frac{8} {8} = 1 = 100\%$
+
+**$T_x$ (Quantidade de testes executados) =8** 
+
+Cobertura de Testes (implementados) = $\frac {T_x}{R_{ft}} = \frac{8} {8} = 1 = 100\%$
+
+**$T_s$ (Quantidade de testes bem-sucedidos) = 8**
+
+Cobertura de Testes (implementados) = $\frac {T_s}{R_{ft}} = \frac{8} {8} = 1 = 100\%$
+
 
 # Referências
 
