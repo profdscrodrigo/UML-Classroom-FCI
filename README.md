@@ -1,6 +1,5 @@
 <h2><a href= "https://www.mackenzie.br">Universidade Presbiteriana Mackenzie</a></h2>
 
-# Faculdade de Computação e Informática (FCI)
 
 # Template para Disciplina de Engenharia de Software
 
