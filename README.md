@@ -2,7 +2,7 @@
 
 # Template para Disciplina de Engenharia de Software
 
-O repositório define um modelo (*template*) que deve ser seguido por cada grupo no projeto.
+O repositório define um modelo (*template*) que deverá ser seguido por cada grupo no projeto.
 
 A seguir, os passos para a preparação do projeto:
 
