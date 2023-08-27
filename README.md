@@ -1,9 +1,8 @@
 <h2><a href= "https://www.mackenzie.br">Universidade Presbiteriana Mackenzie</a></h2>
-<h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao">Sistemas de Informação</a></h3>
 
-# Template para Prática Profissional em ADS
+# Template para Disciplina de Engenharia de Software
 
-Este repositório define um modelo (*template*) que deve ser seguido por cada grupo para o projeto.
+O repositório define um modelo (*template*) que deve ser seguido por cada grupo no projeto.
 
 A seguir estão os passos sugeridos para a preparação do seu grupo no início do projeto:
 
