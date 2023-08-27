@@ -27,7 +27,7 @@ A seguir, os passos para a preparação do projeto:
 
 # Documentação
 
-Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **https://github.com/profdscrodrigo/UML-Classroom-FCI/blob/master/docs/index.md**.
+Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **https://<usuario>.github.io/UML-Classroom-FCI**.
 
 
 
