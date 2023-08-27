@@ -27,7 +27,8 @@ A seguir, os passos para a preparação do projeto:
 
 # Documentação
 
-Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **https://&lt;usuario&gt;.github.io/ppads-2023s1**.
+Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **https://github.com/profdscrodrigo/UML-Classroom-FCI/blob/master/docs/index.md**.
+
 
 
 # Releases
