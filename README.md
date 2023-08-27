@@ -4,7 +4,7 @@
 
 O repositório define um modelo (*template*) que deve ser seguido por cada grupo no projeto.
 
-A seguir estão os passos sugeridos para a preparação do seu grupo no início do projeto:
+A seguir, os passos para a preparação do projeto:
 
 1. Um dos membros do grupo deverá realizar um *fork* deste repositório.
 2. O dono do repositório deverá convidar os demais membros do grupo para serem colaboradores.
