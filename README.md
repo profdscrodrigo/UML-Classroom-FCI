@@ -1,5 +1,7 @@
 <h2><a href= "https://www.mackenzie.br">Universidade Presbiteriana Mackenzie</a></h2>
 
+<h2><a href= "Faculdade de Computação e Informática</a></h2>
+
 # Template para Disciplina de Engenharia de Software
 
 O repositório define um modelo (*template*) que deverá ser seguido por cada grupo no projeto.
