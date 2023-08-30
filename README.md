@@ -11,7 +11,7 @@ Este projeto consiste nas mais diversas etapas da implementação de um sistema 
 
 # Documentação
 
-Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **https://<usuario>.github.io/UML-Classroom-FCI/blob/master/docs/index.md**
+Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **https://lihviaa.github.io/UML-Classroom-FCI/**
 
 # Releases
 
