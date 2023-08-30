@@ -27,19 +27,11 @@
 
 # Autores
 
-* Aluno 1
 * Diogo Lourenzon Hatz
-* Aluno 3
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
-
 
 # Descrição do projeto
 
-*Este projeto consiste na implementação de um sistema para controlor a preseça de alunos de uma escola que possui múltiplas turmas do Ensino Fundamental I. Esse sistema possui como usuário principal os professores do instituto de ensino Inifinito, o qual leva em consideração as eventuais necessidades de acessibilidade de seus docentes. Ademais, por se tratar de uma atividade rotineira acadêmica dos docentes, o sistema implementado deve ser intuitivo e cumprir com seu papel fundamental sem complicações&*
+*Este projeto consiste na implementação de um sistema para controlor a preseça de alunos de uma escola que possui múltiplas turmas do Ensino Fundamental I. Esse sistema possui como usuário principal os professores do instituto de ensino Inifinito, o qual leva em consideração as eventuais necessidades de acessibilidade de seus docentes. Ademais, por se tratar de uma atividade rotineira acadêmica dos docentes, o sistema implementado deve ser intuitivo e cumprir com seu papel fundamental sem complicações*
 
 # Análise de requisitos funcionais e não-funcionais
 
@@ -71,8 +63,43 @@
 <img src="https://github.com/lihviaa/UML-Classroom-FCI/blob/Branch-Diogo/src/Diagrama%20de%20casos%20de%20uso.png" alt="Diagrama de casos de uso">
 
 # Descrição dos casos de uso
+<h3>Caso do Uso: Fazer a Chamada</h3>
+<b>Descrição Geral:</b> O professor deseja realizar a chamada de uma determinada turma<br>
+<b>Atores:</b> Professor<br>
+<b>Pré-Condição:</b> O professor deve realizar login no sistema<br>
+<b>Pós-Condição:</b> A chamada é feita e enviada para o banco de dados<br>
+<b>Fluxo Básico (Professor deseja realizar a chamada)</b>
+<ol>
+  <li>(Opcional) Professor seleciona o ícone de acessibilidade e altera o tamanho da fonte</li>
+  <li>Professor seleciona a opção de fazer a chamada</li>
+  <li>Professor faz a chamada e envia o resultado</li>
+</ol>
 
-*&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
+<hr>
+
+<h3>Caso do Uso: Gerar Relatórios de Faltas</h3>
+<b>Descrição Geral:</b> O professor deseja gerar relatórios de faltas com determinado critério de agrupamento<br>
+<b>Atores:</b> Professor<br>
+<b>Pré-Condição:</b> O professor deve realizar login no sistema<br>
+<b>Pós-Condição:</b> O relatório é gerado<br>
+<b>Fluxo Básico (Professor deseja gerar relatório de faltas)</b>
+<ol>
+  <li>(Opcional) Professor seleciona o ícone de acessibilidade e altera o tamanho da fonte</li>
+  <li>Professor seleciona a opção de gerar relatórios</li>
+  <li>Professor seleciona o critério de agrupamento do relatório</li>
+  <li>Professor digita a informação relativa ao critério selecionado</li>
+  <li>Professor gera o relatório</li>
+</ol>
+
+<b>Fluxo Alternativo (Uma notificação é enviada aos responsáveis de alunos com excesso de faltas)</b>
+<ol>
+  <li>(Opcional) Professor seleciona o ícone de acessibilidade e altera o tamanho da fonte</li>
+  <li>Professor seleciona a opção de gerar relatórios</li>
+  <li>Professor seleciona o critério de agrupamento do relatório</li>
+  <li>Professor digita a informação relativa ao critério selecionado</li>
+  <li>Professor gera o relatório</li>
+  <li>E-mail é enviado aos responsáveis dos alunos com excesso defaltas</li>
+</ol>
 
 # Diagrama de sequencia
 
