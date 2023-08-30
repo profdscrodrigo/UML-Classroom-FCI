@@ -28,6 +28,8 @@
 # Autores
 
 * Diogo Lourenzon Hatz
+* Leila Akina Ino
+* Livia Alabarse dos Santos
 
 # Descrição do projeto
 
