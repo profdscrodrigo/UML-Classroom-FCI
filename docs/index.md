@@ -27,6 +27,7 @@
 
 # Autores
 
+* Diogo Lourenzon Hatz
 * Livia Alabarse dos Santos
 
 
