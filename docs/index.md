@@ -63,7 +63,7 @@
 <img src="https://github.com/lihviaa/UML-Classroom-FCI/blob/Branch-Diogo/src/Diagrama%20de%20casos%20de%20uso.png" alt="Diagrama de casos de uso">
 
 # Descrição dos casos de uso
-<h3>Caso do Uso: Fazer a Chamada</h3>
+<h2>Caso do Uso: Fazer a Chamada</h2>
 <b>Descrição Geral:</b> O professor deseja realizar a chamada de uma determinada turma<br>
 <b>Atores:</b> Professor<br>
 <b>Pré-Condição:</b> O professor deve realizar login no sistema<br>
@@ -77,7 +77,7 @@
 
 <hr>
 
-<h3>Caso do Uso: Gerar Relatórios de Faltas</h3>
+<h2>Caso do Uso: Gerar Relatórios de Faltas</h2>
 <b>Descrição Geral:</b> O professor deseja gerar relatórios de faltas com determinado critério de agrupamento<br>
 <b>Atores:</b> Professor<br>
 <b>Pré-Condição:</b> O professor deve realizar login no sistema<br>
@@ -124,3 +124,6 @@
 # Referências
 
 *&lt;Lista de referências&gt;*
+<ul>
+  <li>https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml</li>
+</ul>
