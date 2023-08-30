@@ -68,7 +68,7 @@
 
 # Diagrama de casos de uso
 
-*&lt;Diagrama para visualizar o comportamento dos atores&gt;*
+<img src="https://github.com/lihviaa/UML-Classroom-FCI/blob/Branch-Diogo/src/Diagrama%20de%20casos%20de%20uso.png" alt="Diagrama de casos de uso">
 
 # Descrição dos casos de uso
 
