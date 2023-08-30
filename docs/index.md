@@ -1,9 +1,9 @@
 <h2><a href= "https://www.mackenzie.br">Universidade Presbiteriana Mackenzie</a></h2>
-<h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao">Sistemas de Informação</a></h3>
+<h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/ciencia-da-computacao">Ciência da Computação</a></h3>
 
 
 <font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
+*&lt;Escola Infinito: Sistema de Presença&gt;*
 </center></font>
 
 >*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
@@ -12,7 +12,7 @@
 
 **Conteúdo**
 
-- [Autores](#nome-alunos)
+- [Autores](#nome-aluno)
 - [Descrição do projeto](#introdução-do-projeto)
 - [Análise de requisitos funcionais e não-fucionais](#descrição-dos-requisitos)
 - [Diagrama de casos de uso](#diagrama-de-comportamento-atores)
@@ -39,10 +39,32 @@
 
 # Descrição do projeto
 
-*&lt;Introdução do projeto&gt;*
+*Este projeto consiste na implementação de um sistema para controlor a preseça de alunos de uma escola que possui múltiplas turmas do Ensino Fundamental I. Esse sistema possui como usuário principal os professores do instituto de ensino Inifinito, o qual leva em consideração as eventuais necessidades de acessibilidade de seus docentes. Ademais, por se tratar de uma atividade rotineira acadêmica dos docentes, o sistema implementado deve ser intuitivo e cumprir com seu papel fundamental sem complicações&*
 
 # Análise de requisitos funcionais e não-funcionais
-*&lt;Descrição dos requisitos&gt;*
+
+<h3>Requisitos funcionais:</h3>
+
+<ol>
+<li>Realizar a chamada de todas as turmas em dois momentos do dia</li>
+<li>Gerar relatórios de faltas agrupados por data, ano do ensino, turma, professor, disciplina ou aluno</li>
+<li>Enviar notificações por e-mail para pais ou responsáveis nos casos em que o comparecimento às aulas dadas até o momento estiverem abaixo de 80%</li>
+<li>Acessibilidade: tamanho de fonte ajustável, dentre outros</li>
+<li>Reprovar os alunos com mais de 25% de faltas do total de aulas ministradas</li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+
+<h3>Requisitos não-funcionais:</h3>
+
+<ol>
+<li>O sistema deve ser implementado em web: HTML, CSS e JS</li>
+<li>O sistema deve permitir múltiplos acessos simultâneos</li>
+<li>O sistema deve ser compatível com todos os navegadores web</li>
+<li>O sistema deve ser compatível com dispositivos móveis</li>
+<li>O sistema deve se comunicar com um banco de dados</li>
+</ol>
 
 # Diagrama de casos de uso
 
