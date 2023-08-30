@@ -27,14 +27,8 @@
 
 # Autores
 
-* Aluno 1
 * Diogo Lourenzon Hatz
-* Aluno 3
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
+* Livia Alabarse dos Santos
 
 
 # Descrição do projeto
