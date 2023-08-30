@@ -3,7 +3,7 @@
 
 
 <font size="+12"><center>
-*&lt;Escola Infinito: Sistema de Presença&gt;*
+<h1>Escola Infinito: Sistema de Presença</h1>
 </center></font>
 
 >*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
