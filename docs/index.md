@@ -30,7 +30,7 @@ Sistema de Presenças de uma Escola
 
 # Descrição do projeto
 
-*&lt;Introdução do projeto&gt;*
+*A tarefa de computar a presença dos alunos em uma escola ainda é feita totalmente no papel. Assim, é notório que nos dia atuais faz-se necessário a criação de um sistema que controle as presenças dos aalunos, de modo a facilitar a vida de todos (funcionários da escola e alunos). Deste modo, nosso grupo recebeu uma proposta para desenvolver este Sistema de Presenças e os nossos resultados estarão disponíveis neste repositório.*
 
 # Análise de requisitos funcionais e não-funcionais
 *&lt;Descrição dos requisitos&gt;*
