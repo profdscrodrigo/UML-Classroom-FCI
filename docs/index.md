@@ -1,27 +1,23 @@
 <h2><a href= "https://www.mackenzie.br">Universidade Presbiteriana Mackenzie</a></h2>
-<h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao">Sistemas de Informação</a></h3>
+<h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/ciencia-da-computacao">Ciência da Computação</a></h3>
 
 
 <font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
+Sistema de Presenças de uma Escola
 </center></font>
-
->*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
-
->*Observação 2: O índice abaixo não precisa ser editado se você utilizar o Visual Studio Code com a extensão **Markdown All in One**. Essa extensão atualiza o índice automaticamente quando o arquivo é salvo.*
 
 **Conteúdo**
 
-- [Autores](#nome-alunos)
-- [Descrição do projeto](#introdução-do-projeto)
-- [Análise de requisitos funcionais e não-fucionais](#descrição-dos-requisitos)
-- [Diagrama de casos de uso](#diagrama-de-comportamento-atores)
-- [Descrição dos casos de uso](#descrição-das-funcões)
-- [Diagrama de senquencia](#diagrama-de-ordem-interações)
-- [Diagrama de classes](#diagrama-orientado-objetos)
-- [Diagrama de componentes](#diagrama-estrutura-componente)
+- [Autores](#autores)
+- [Descrição do projeto](#descrição-do-projeto)
+- [Análise de requisitos funcionais e não-funcionais](#análise-de-requisitos-funcionais-e-não-funcionais)
+- [Diagrama de casos de uso](#diagrama-de-casos-de-uso)
+- [Descrição dos casos de uso](#descrição-dos-casos-de-uso)
+- [Diagrama de sequencia](#diagrama-de-sequencia)
+- [Diagrama de classes](#diagrama-de-classes)
+- [Diagrama de Componentes](#diagrama-de-componentes)
 - [Decisões de arquitetura](#decisões-de-arquitetura)
-- [Diagrama de implantação](#diagrama-de-hardware-software)
+- [Diagrama de implantação](#diagrama-de-implantação)
 - [Referências](#referências)
 
 
