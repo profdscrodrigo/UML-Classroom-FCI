@@ -58,6 +58,7 @@
 <li>O sistema deve ser compatível com todos os navegadores web</li>
 <li>O sistema deve ser compatível com dispositivos móveis</li>
 <li>O sistema deve se comunicar com um banco de dados</li>
+<li>O usuário deve escolher uma senha com no mínimo 6 caracteres alfanuméricos, contendo peolo menos 1 letra maiúscula e 1 caractere especial.</li>
 </ol>
 
 # Diagrama de casos de uso
