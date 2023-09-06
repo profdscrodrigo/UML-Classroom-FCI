@@ -27,7 +27,7 @@
 
 # Autores
 
-* Jônatas Garcia de Oliveira
+* Jônatas Garcia de Oliveir
 * Aluno 2
 * Aluno 3
 * Aluno 4
