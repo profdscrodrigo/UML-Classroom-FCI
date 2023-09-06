@@ -45,9 +45,6 @@
 <li>Enviar notificações por e-mail para pais ou responsáveis nos casos em que o comparecimento às aulas dadas até o momento estiverem abaixo de 80%</li>
 <li>Acessibilidade: tamanho de fonte ajustável, dentre outros</li>
 <li>Reprovar os alunos com mais de 25% de faltas do total de aulas ministradas</li>
-<li></li>
-<li></li>
-<li></li>
 </ol>
 
 <h3>Requisitos não-funcionais:</h3>
@@ -58,6 +55,8 @@
 <li>O sistema deve ser compatível com todos os navegadores web</li>
 <li>O sistema deve ser compatível com dispositivos móveis</li>
 <li>O sistema deve se comunicar com um banco de dados</li>
+<li>O usuário deve escolher uma senha com no mínimo 6 caracteres alfanuméricos, contendo peolo menos 1 letra maiúscula e 1 caractere especial</li>
+<li>O sistema semanalmente verificará de forma automática as porcentagens de comparecimento a partir de um relatório individual gerado e enviará uma notificação aos pais caso o comparecimento esteja abaixo de 80%. Essa verificação ocorrerá de sabádo.</li>
 </ol>
 
 # Diagrama de casos de uso
@@ -74,7 +73,7 @@
 <ol>
   <li>(Opcional) Professor seleciona o ícone de acessibilidade e altera o tamanho da fonte</li>
   <li>Professor seleciona a opção de fazer a chamada</li>
-  <li>Professor faz a chamada e envia o resultado</li>
+  <li>Professor faz a chamada e envia o resultado ao banco de dados</li>
 </ol>
 
 <hr>
@@ -92,14 +91,22 @@
   <li>Sistema gera o relatório</li>
 </ol>
 
+<h2>Caso do Uso: Verificar porcentagem de presença</h2>
+<b>Descrição Geral:</b> O sistema verifica a porcentagem de comparecimento e notifica os pais caso a porcentagem esteja abaixo de 80%<br> 
+<b>Atores:</b> Pais e responsáveis<br>
+<b>Pré-Condição:</b>Ser sábado<br>
+<b>Pós-Condição:</b> Nada ou notificação aos pais e responsáveis<br> 
+<b>Fluxo Básico (Verificar porcentagem de comparecimento)</b>
+<ol>
+  <li>Sistema gera um relatório para cada aluno</li>
+  <li>Sistema verifica a falta do aluno</li>
+</ol>
+
 <b>Fluxo Alternativo (Uma notificação é enviada aos responsáveis de alunos com excesso de faltas)</b>
 <ol>
-  <li>(Opcional) Professor seleciona o ícone de acessibilidade e altera o tamanho da fonte</li>
-  <li>Professor seleciona a opção de gerar relatórios</li>
-  <li>Professor seleciona o critério de agrupamento do relatório</li>
-  <li>Professor digita a informação relativa ao critério selecionado</li>
-  <li>Professor gera o relatório</li>
-  <li>E-mail é enviado aos responsáveis dos alunos com excesso defaltas</li>
+  <li>Sistema gera um relatório para cada aluno</li>
+  <li>Sistema verifica a falta do aluno</li>
+  <li>E-mail é enviado aos responsáveis dos alunos com excesso de faltas</li>
 </ol>
 
 # Diagrama de sequencia
