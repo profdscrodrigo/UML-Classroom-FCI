@@ -29,7 +29,7 @@
 
 * Aluno 1
 * Jônatas Garcia de Oliveira
-* Aluno 3
+* Pedro Henrique Araujo Farias
 * Aluno 4
 * Aluno 5
 * Aluno 6
