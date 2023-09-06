@@ -27,7 +27,7 @@
 
 # Autores
 
-* Jholzinho
+* Jônatas Garcia de Oliveira
 * Aluno 2
 * Aluno 3
 * Aluno 4
