@@ -45,9 +45,6 @@
 <li>Enviar notificações por e-mail para pais ou responsáveis nos casos em que o comparecimento às aulas dadas até o momento estiverem abaixo de 80%</li>
 <li>Acessibilidade: tamanho de fonte ajustável, dentre outros</li>
 <li>Reprovar os alunos com mais de 25% de faltas do total de aulas ministradas</li>
-<li></li>
-<li></li>
-<li></li>
 </ol>
 
 <h3>Requisitos não-funcionais:</h3>
@@ -58,7 +55,8 @@
 <li>O sistema deve ser compatível com todos os navegadores web</li>
 <li>O sistema deve ser compatível com dispositivos móveis</li>
 <li>O sistema deve se comunicar com um banco de dados</li>
-<li>O usuário deve escolher uma senha com no mínimo 6 caracteres alfanuméricos, contendo peolo menos 1 letra maiúscula e 1 caractere especial.</li>
+<li>O usuário deve escolher uma senha com no mínimo 6 caracteres alfanuméricos, contendo peolo menos 1 letra maiúscula e 1 caractere especial</li>
+<li>O relatório de faltas é gerado semanalmente de forma automática e armazenado em um banco de dados</li>
 </ol>
 
 # Diagrama de casos de uso
