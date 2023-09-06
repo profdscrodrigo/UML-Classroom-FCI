@@ -22,7 +22,7 @@
 # Autores
 
 * Aluno 1
-* Aluno 2
+* Diego Oliveira Aluizio
 * Nicolas Fernandes Melnik
 
 # Descrição do projeto
