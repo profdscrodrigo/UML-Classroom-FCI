@@ -27,7 +27,7 @@
 
 # Autores
 
-* Aluno 1
+* Pedro Henrique Araujo Farias
 * Aluno 2
 * Aluno 3
 * Aluno 4
