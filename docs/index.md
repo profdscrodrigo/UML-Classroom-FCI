@@ -21,7 +21,7 @@
 
 # Autores
 
-* Aluno 1
+* Caio Alexandre V.B. de Andrade
 * Diego Oliveira Aluizio
 * Nicolas Fernandes Melnik
 
