@@ -27,8 +27,8 @@
 
 # Autores
 
-* Jônatas Garcia de Oliveir
-* Aluno 2
+* Aluno 1
+* Jônatas Garcia de Oliveira
 * Aluno 3
 * Aluno 4
 * Aluno 5
