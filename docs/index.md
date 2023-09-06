@@ -27,18 +27,11 @@
 
 # Autores
 
-* Aluno 1
-* Aluno 2
-* Aluno 3
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
+* Igor Benites Moura
 
 
 # Descrição do projeto
-
+Nossa equipe é responsável por desenvolver um Sistema de Presenças para uma escola do Ensino Fundamental, visando atender às necessidades dos gestores da escola. As informações incluem detalhes sobre as turmas, alunos, professores e o processo de registro de presenças e ausências, com um requisito de 75% de presença para evitar reprovação por faltas.
 *&lt;Introdução do projeto&gt;*
 
 # Análise de requisitos funcionais e não-funcionais
