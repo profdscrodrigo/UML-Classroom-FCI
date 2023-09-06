@@ -19,17 +19,17 @@ A seguir, os passos para a preparação do projeto:
 10. Segurança é imprescindível nas plataforma de hospedagem de repositórios GIT. CUIDADO com exposição de senha e acesso ao repositório.
 
 
-# Projeto: *<Nome_do_seu_Projeto>*
+# Projeto: Sistema de Presença
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: Alpha Spirit
 
 # Descrição
 
-*<Descrição_resumida_do_projeto>*
+O projeto nesse repositório é uma implementação de um sistema automatizado de controle de presença para o ensino fundamental de uma escola. O sistema vai ter seu planejamento feito a partir de diagramas UML. Pretende-se que possua funcionalidades como criação de relatórios e envio de notificações que servirão tanto para professores quanto para os responsáveis dos alunos, além de uma interface acessível para pessoas com deficiências visuais.
 
 # Documentação
 
-Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **https://<usuario>.github.io/UML-Classroom-FCI/blob/master/docs/index.md**
+Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **https://github.com/rodigol/UML-Classroom-FCI/**
 
 
 
