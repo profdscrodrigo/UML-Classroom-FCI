@@ -89,8 +89,7 @@
   <li>(Opcional) Professor seleciona o ícone de acessibilidade e altera o tamanho da fonte</li>
   <li>Professor seleciona a opção de gerar relatórios</li>
   <li>Professor seleciona o critério de agrupamento do relatório</li>
-  <li>Professor digita a informação relativa ao critério selecionado</li>
-  <li>Professor gera o relatório</li>
+  <li>Sistema gera o relatório</li>
 </ol>
 
 <b>Fluxo Alternativo (Uma notificação é enviada aos responsáveis de alunos com excesso de faltas)</b>
