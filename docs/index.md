@@ -27,7 +27,7 @@
 
 # Autores
 
-* Aluno 1
+* Jholzinho
 * Aluno 2
 * Aluno 3
 * Aluno 4
