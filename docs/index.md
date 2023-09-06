@@ -27,7 +27,7 @@
 
 # Autores
 
-* Aluno 1
+* Francesco Zangradi Coppola
 * Jônatas Garcia de Oliveira
 * Pedro Henrique Araujo Farias
 * Aluno 4
