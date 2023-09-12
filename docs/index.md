@@ -1,14 +1,7 @@
 <h2><a href= "https://www.mackenzie.br">Universidade Presbiteriana Mackenzie</a></h2>
-<h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao">Sistemas de Informação</a></h3>
+<h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/ciencia-da-computacao">Ciência da Computação</a></h3>
 
-
-<font size="+12"><center>
-*&lt;Sistema de Presenças&gt;*
-</center></font>
-
->*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
-
->*Observação 2: O índice abaixo não precisa ser editado se você utilizar o Visual Studio Code com a extensão **Markdown All in One**. Essa extensão atualiza o índice automaticamente quando o arquivo é salvo.*
+<font size="+12"><center>*Sistema de Presenças*</center></font>
 
 **Conteúdo**
 
@@ -24,54 +17,59 @@
 - [Diagrama de implantação](#diagrama-de-implantação)
 - [Referências](#referências)
 
+<br>
 
 # Autores
-
 * Francesco Zangradi Coppola
 * Jônatas Garcia de Oliveira
-* Pedro Henrique Araujo Farias
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
+* Pedro Henrique Araujo Farias 
 
+<br>
 
 # Descrição do projeto
-
 *&lt;Introdução do projeto&gt;*
+
+<br>
 
 # Análise de requisitos funcionais e não-funcionais
 *&lt;Descrição dos requisitos&gt;*
 
-# Diagrama de casos de uso
+<br>
 
+# Diagrama de casos de uso
 *&lt;Diagrama para visualizar o comportamento dos atores&gt;*
 
-# Descrição dos casos de uso
+<br>
 
+# Descrição dos casos de uso
 *&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
 
-# Diagrama de sequencia
+<br>
 
+# Diagrama de sequencia
 *&lt;Diagrama de ordem e interação dos objetos&gt;*
 
-# Diagrama de classes
+<br>
 
+# Diagrama de classes
 *&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
 
-# Diagrama de Componentes
+<br>
 
+# Diagrama de Componentes
 *&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
 
-# Decisões de arquitetura
+<br>
 
+# Decisões de arquitetura
 *&lt;Descrever a infraestrutura escolhida para arquitetura do projeto&gt;*
 
-# Diagrama de implantação
+<br>
 
+# Diagrama de implantação
 *&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
 
-# Referências
+<br>
 
+# Referências
 *&lt;Lista de referências&gt;*
