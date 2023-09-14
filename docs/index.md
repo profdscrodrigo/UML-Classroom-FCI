@@ -31,7 +31,6 @@
 * Rafael de Souza Oliveira Cerqueira Tinôco
 * Rodrigo Mileo Lourenço Gil
 
-
 # Descrição do projeto
 
 *&lt;Introdução do projeto&gt;*
