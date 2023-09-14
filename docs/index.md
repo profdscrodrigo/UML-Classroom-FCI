@@ -111,9 +111,9 @@
 
 # Diagrama de sequencia
 
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Fazer_Chamada.PNG">
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Fazer_Chamada.png">
 <img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Gerar_Relat%C3%B3rio.PNG">
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Verificar_Porcentagem.PNG">
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-VerificarPorcentagem.png">
 
 # Diagrama de classes
 
