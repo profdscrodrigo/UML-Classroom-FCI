@@ -12,29 +12,24 @@
 
 **Conteúdo**
 
-- [Autores](#nome-alunos)
-- [Descrição do projeto](#introdução-do-projeto)
-- [Análise de requisitos funcionais e não-fucionais](#descrição-dos-requisitos)
-- [Diagrama de casos de uso](#diagrama-de-comportamento-atores)
-- [Descrição dos casos de uso](#descrição-das-funcões)
-- [Diagrama de senquencia](#diagrama-de-ordem-interações)
-- [Diagrama de classes](#diagrama-orientado-objetos)
-- [Diagrama de componentes](#diagrama-estrutura-componente)
+- [Autores](#autores)
+- [Descrição do projeto](#descrição-do-projeto)
+- [Análise de requisitos funcionais e não-funcionais](#análise-de-requisitos-funcionais-e-não-funcionais)
+- [Diagrama de casos de uso](#diagrama-de-casos-de-uso)
+- [Descrição dos casos de uso](#descrição-dos-casos-de-uso)
+- [Diagrama de sequencia](#diagrama-de-sequencia)
+- [Diagrama de classes](#diagrama-de-classes)
+- [Diagrama de Componentes](#diagrama-de-componentes)
 - [Decisões de arquitetura](#decisões-de-arquitetura)
-- [Diagrama de implantação](#diagrama-de-hardware-software)
+- [Diagrama de implantação](#diagrama-de-implantação)
 - [Referências](#referências)
 
 
 # Autores
 
+* André Akio Morita Osakawa
+* Rafael de Souza Oliveira Cerqueira Tinôco
 * Rodrigo Mileo Lourenço Gil
-* Aluno 2
-* Aluno 3
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
 
 
 # Descrição do projeto
