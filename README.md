@@ -21,7 +21,7 @@ A seguir, os passos para a preparação do projeto:
 
 # Projeto: Sistema de Presença
 
-# Grupo: Alpha Spirit
+# Grupo: Quetzalcoatlus o tiranossauro Rex enormossauro supremo
 
 # Descrição
 
