@@ -111,7 +111,9 @@
 
 # Diagrama de sequencia
 
-*&lt;Diagrama de ordem e interação dos objetos&gt;*
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Fazer_Chamada.PNG">
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Gerar_Relat%C3%B3rio.PNG">
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Verificar_Porcentagem.PNG">
 
 # Diagrama de classes
 
