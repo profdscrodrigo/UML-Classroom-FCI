@@ -27,7 +27,8 @@
 
 # Autores
 
-* Aluno 1
+
+* Rodrigo Mileo Lourenço Gil
 * Rafael de Souza Oliveira Cerqueira Tinôco
 * Aluno 3
 * Aluno 4
