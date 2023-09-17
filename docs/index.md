@@ -104,12 +104,12 @@
   </ol>
 
   <li><b>Fluxo Alternativo (Uma notificação é enviada aos responsáveis de alunos com excesso de faltas)</b>
-    <ol>
-      <li>Sistema gera um relatório para cada aluno</li>
-      <li>Sistema verifica a falta do aluno</li>
-      <li>E-mail é enviado aos responsáveis dos alunos com excesso de faltas</li>
-    </ol>
-  </ul>
+  <ol>
+    <li>Sistema gera um relatório para cada aluno</li>
+    <li>Sistema verifica a falta do aluno</li>
+    <li>E-mail é enviado aos responsáveis dos alunos com excesso de faltas</li>
+  </ol>
+</ul>
 
 # Diagrama de sequencia
 
