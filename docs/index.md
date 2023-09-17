@@ -6,22 +6,18 @@
 <h1>Escola Infinito: Sistema de Presença</h1>
 </center></font>
 
->*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
-
->*Observação 2: O índice abaixo não precisa ser editado se você utilizar o Visual Studio Code com a extensão **Markdown All in One**. Essa extensão atualiza o índice automaticamente quando o arquivo é salvo.*
-
 **Conteúdo**
 
-- [Autores](#nome-aluno)
-- [Descrição do projeto](#introdução-do-projeto)
-- [Análise de requisitos funcionais e não-fucionais](#descrição-dos-requisitos)
-- [Diagrama de casos de uso](#diagrama-de-comportamento-atores)
-- [Descrição dos casos de uso](#descrição-das-funcões)
-- [Diagrama de senquencia](#diagrama-de-ordem-interações)
-- [Diagrama de classes](#diagrama-orientado-objetos)
-- [Diagrama de componentes](#diagrama-estrutura-componente)
-- [Decisões de arquitetura](#decisões-de-arquitetura)
-- [Diagrama de implantação](#diagrama-de-hardware-software)
+- [Autores](#autores)
+- [Descrição do projeto](#descrição-do-projeto)
+- [Análise de requisitos funcionais e não-fucionais](#análise-de-requisitos-funcionais-e-não-funcionais)
+- [Diagrama de casos de uso](#diagrama-de-casos-de-uso)
+- [Descrição dos casos de uso](#descrição-dos-casos-de-uso)
+- [Diagrama de senquencia](#diagrama-de-sequencia)
+- [Diagrama de classes](#diagrama-de-classes)
+- [Diagrama de componentes](#diagrama-de-componentes)
+- [Decisões de arquitetura](#diagrama-de-arquitetura)
+- [Diagrama de implantação](#diagrama-de-implantação)
 - [Referências](#referências)
 
 
@@ -111,9 +107,17 @@
 
 # Diagrama de sequencia
 
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Fazer_Chamada.png">
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Gerar_Relat%C3%B3rio.PNG">
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-VerificarPorcentagem.png">
+<h2>Diagrama relativo ao caso de uso Fazer Chamada:</h2>
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Fazer_Chamada.png" alt="Diagrama de sequência Fazer Chamada">
+<hr>
+
+<h2>Diagrama relativo ao caso de uso Gerar Relatório:</h2>
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Gerar_Relat%C3%B3rio.PNG" alt="Diagrama de sequência Gerar Relatório">
+<hr>
+
+<h2>Diagrama relativo ao caso de uso Verificar Porcentagem de Faltas:</h2>
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-VerificarPorcentagem.png" alt="Diagrama de sequência Verificar Porcentagem">
+<hr>
 
 # Diagrama de classes
 
@@ -133,7 +137,9 @@
 
 # Referências
 
-*&lt;Lista de referências&gt;*
 <ul>
-  <li>https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml</li>
+  <li>Material disponibilizado na plataforma de ensino Moodle da disciplina de Projeto de Software</li>
+  <li>https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml, acessado em 31 de ago. de 2023</li>
+  <li>https://www.mestresdaweb.com.br/tecnologias/requisitos-funcionais-e-nao-funcionais-o-que-sao, acessado em 31 de ago. de 2023</li>
+  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml, acessado em 13 de ago. de 2023</li>
 </ul>
