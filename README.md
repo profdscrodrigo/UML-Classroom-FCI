@@ -15,4 +15,7 @@ Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o 
 
 # Releases
 
-Deverá ser publicado um release ao término de cada entrega do projeto.
+<ol>
+  <li>Release 1.0: Adição da análise de requisitos, diagrama de caso de usos e descrição dos requisitos no caso de usos.</li>
+  <li>Release 1.1: Adição dos diagramas de sequência.</li>
+</ol>
