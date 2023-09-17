@@ -61,49 +61,55 @@
 
 # Descrição dos casos de uso
 <h2>Caso do Uso: Fazer a Chamada</h2>
-<b>Descrição Geral:</b> O professor deseja realizar a chamada de uma determinada turma<br>
-<b>Atores:</b> Professor<br>
-<b>Pré-Condição:</b> O professor deve realizar login no sistema<br>
-<b>Pós-Condição:</b> A chamada é feita e enviada para o banco de dados<br>
-<b>Fluxo Básico (Professor deseja realizar a chamada)</b>
-<ol>
-  <li>(Opcional) Professor seleciona o ícone de acessibilidade e altera o tamanho da fonte</li>
-  <li>Professor seleciona a opção de fazer a chamada</li>
-  <li>Professor faz a chamada e envia o resultado ao banco de dados</li>
-</ol>
+<ul>
+  <li><b>Descrição Geral:</b> O professor deseja realizar a chamada de uma determinada turma<br></li>
+  <li><b>Atores:</b> Professor<br></li>
+  <li><b>Pré-Condição:</b> O professor deve realizar login no sistema<br></li>
+  <li><b>Pós-Condição:</b> A chamada é feita e enviada para o banco de dados<br></li>
+  <li><b>Fluxo Básico (Professor deseja realizar a chamada)</b></li>
+  <ol>
+    <li>(Opcional) Professor seleciona o ícone de acessibilidade e altera o tamanho da fonte</li>
+    <li>Professor seleciona a opção de fazer a chamada</li>
+    <li>Professor faz a chamada e envia o resultado ao banco de dados</li>
+  </ol>
+</ul>
 
 <hr>
 
 <h2>Caso do Uso: Gerar Relatórios de Faltas</h2>
-<b>Descrição Geral:</b> O professor deseja gerar relatórios de faltas com determinado critério de agrupamento<br>
-<b>Atores:</b> Professor<br>
-<b>Pré-Condição:</b> O professor deve realizar login no sistema<br>
-<b>Pós-Condição:</b> O relatório é gerado<br>
-<b>Fluxo Básico (Professor deseja gerar relatório de faltas)</b>
-<ol>
-  <li>(Opcional) Professor seleciona o ícone de acessibilidade e altera o tamanho da fonte</li>
-  <li>Professor seleciona a opção de gerar relatórios</li>
-  <li>Professor seleciona o critério de agrupamento do relatório</li>
-  <li>Sistema gera o relatório</li>
-</ol>
+<ul>
+  <li><b>Descrição Geral:</b> O professor deseja gerar relatórios de faltas com determinado critério de agrupamento<br></li>
+  <li><b>Atores:</b> Professor<br></li>
+  <li><b>Pré-Condição:</b> O professor deve realizar login no sistema<br></li>
+  <li><b>Pós-Condição:</b> O relatório é gerado<br></li>
+  <li><b>Fluxo Básico (Professor deseja gerar relatório de faltas)</b></li>
+  <ol>
+    <li>(Opcional) Professor seleciona o ícone de acessibilidade e altera o tamanho da fonte</li>
+    <li>Professor seleciona a opção de gerar relatórios</li>
+    <li>Professor seleciona o critério de agrupamento do relatório</li>
+    <li>Sistema gera o relatório</li>
+  </ol>
+</ul>
 
 <h2>Caso do Uso: Verificar porcentagem de presença</h2>
-<b>Descrição Geral:</b> O sistema verifica a porcentagem de comparecimento e notifica os pais caso a porcentagem esteja abaixo de 80%<br> 
-<b>Atores:</b> Pais e responsáveis<br>
-<b>Pré-Condição:</b>Ser sábado<br>
-<b>Pós-Condição:</b> Nada ou notificação aos pais e responsáveis<br> 
-<b>Fluxo Básico (Verificar porcentagem de comparecimento)</b>
-<ol>
-  <li>Sistema gera um relatório para cada aluno</li>
-  <li>Sistema verifica a falta do aluno</li>
-</ol>
+<ul>
+  <li><b>Descrição Geral:</b> O sistema verifica a porcentagem de comparecimento e notifica os pais caso a porcentagem esteja abaixo de 80%<br></li>
+  <li><b>Atores:</b> Pais e responsáveis<br></li>
+  <li><b>Pré-Condição:</b>Ser sábado<br></li>
+  <li><b>Pós-Condição:</b> Nada ou notificação aos pais e responsáveis<br></li>
+  <li><b>Fluxo Básico (Verificar porcentagem de comparecimento)</b></li>
+  <ol>
+    <li>Sistema gera um relatório para cada aluno</li>
+    <li>Sistema verifica a falta do aluno</li>
+  </ol>
 
-<b>Fluxo Alternativo (Uma notificação é enviada aos responsáveis de alunos com excesso de faltas)</b>
-<ol>
-  <li>Sistema gera um relatório para cada aluno</li>
-  <li>Sistema verifica a falta do aluno</li>
-  <li>E-mail é enviado aos responsáveis dos alunos com excesso de faltas</li>
-</ol>
+  <li><b>Fluxo Alternativo (Uma notificação é enviada aos responsáveis de alunos com excesso de faltas)</b>
+    <ol>
+      <li>Sistema gera um relatório para cada aluno</li>
+      <li>Sistema verifica a falta do aluno</li>
+      <li>E-mail é enviado aos responsáveis dos alunos com excesso de faltas</li>
+    </ol>
+  </ul>
 
 # Diagrama de sequencia
 
