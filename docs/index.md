@@ -57,7 +57,7 @@
 
 # Diagrama de casos de uso
 
-<img src="../src/Diagrama_de_casos_de_uso.png" alt="Diagrama de casos de uso">
+<img src="../src/CasosDeUso.png" alt="Diagrama de casos de uso">
 
 # Descrição dos casos de uso
 <h2>Caso do Uso: Fazer a Chamada</h2>
