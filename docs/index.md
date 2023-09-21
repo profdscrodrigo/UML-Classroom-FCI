@@ -111,7 +111,7 @@
     <li>Sistema verifica a falta do aluno</li>
   </ol>
 
-  <li><b>Fluxo Alternativo (Uma notificação é enviada aos responsáveis de alunos com excesso de faltas)</b>
+  <li><b>Fluxo Alternativo (Uma notificação é enviada aos responsáveis de alunos com excesso de faltas)</b></li>
   <ol>
     <li>Sistema gera um relatório para cada aluno</li>
     <li>Sistema verifica a falta do aluno</li>
