@@ -16,7 +16,7 @@
 - [Diagrama de senquencia](#diagramas-de-sequência)
 - [Diagrama de classes](#diagrama-de-classes)
 - [Diagrama de componentes](#diagrama-de-componentes)
-- [Decisões de arquitetura](#diagrama-de-arquitetura)
+- [Decisões de arquitetura](#decisões-de-arquitetura)
 - [Diagrama de implantação](#diagrama-de-implantação)
 - [Referências](#referências)
 
