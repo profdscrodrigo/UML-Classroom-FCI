@@ -57,7 +57,7 @@
 
 # Diagrama de casos de uso
 
-<img src="../src/CasosDeUso.png" alt="Diagrama de casos de uso" width=800px>
+<img src="https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/CasosDeUso.png" alt="Diagrama de casos de uso" width=800px>
 
 # Descrição dos casos de uso
 <h2>Caso do Uso: Fazer a Chamada</h2>
