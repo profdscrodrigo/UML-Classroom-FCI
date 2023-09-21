@@ -114,32 +114,32 @@
 # Diagrama de sequencia
 
 <h2>Diagrama relativo ao caso de uso Fazer Chamada:</h2>
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Fazer_Chamada.png" alt="Diagrama de sequência Fazer Chamada" width=800px>
+<img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DS-FazerChamada.png" alt="Diagrama de sequência Fazer Chamada" width=800px>
 <hr>
 
 <h2>Diagrama relativo ao caso de uso Gerar Relatório:</h2>
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Gerar_Relat%C3%B3rio.PNG" alt="Diagrama de sequência Gerar Relatório" width=800px>
+<img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DS-GerarRelat%C3%B3rio.png" alt="Diagrama de sequência Gerar Relatório" width=800px>
 <hr>
 
 <h2>Diagrama relativo ao caso de uso Verificar Porcentagem de Faltas:</h2>
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/d95f49bdf85e6da85f690cf1d811d13607ae936c/src/DS-VerificarPorcentagem.png" alt="Diagrama de sequência Verificar Porcentagem" width=800px>
+<img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DS-VerificarPorcentagem.png" width=800px>
 <hr>
 
 # Diagrama de classes
 
-*&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
+Diagrama de relacionamento entre classes para os seus atributos e operações
 
 # Diagrama de Componentes
 
-*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
+Diagrama para exibir a relação estrutural dos componentes de um sistema de software
 
 # Decisões de arquitetura
 
-*&lt;Descrever a infraestrutura escolhida para arquitetura do projeto&gt;*
+Descrever a infraestrutura escolhida para arquitetura do projeto
 
 # Diagrama de implantação
 
-*&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
+Diagrama para exibir o relacionamento de hardware e software no projeto
 
 # Referências
 
