@@ -114,15 +114,15 @@
 # Diagrama de sequencia
 
 <h2>Diagrama relativo ao caso de uso Fazer Chamada:</h2>
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Fazer_Chamada.png" alt="Diagrama de sequência Fazer Chamada">
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Fazer_Chamada.png" alt="Diagrama de sequência Fazer Chamada" width=800px>
 <hr>
 
 <h2>Diagrama relativo ao caso de uso Gerar Relatório:</h2>
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Gerar_Relat%C3%B3rio.PNG" alt="Diagrama de sequência Gerar Relatório">
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-Gerar_Relat%C3%B3rio.PNG" alt="Diagrama de sequência Gerar Relatório" width=800px>
 <hr>
 
 <h2>Diagrama relativo ao caso de uso Verificar Porcentagem de Faltas:</h2>
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-VerificarPorcentagem.png" alt="Diagrama de sequência Verificar Porcentagem">
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-VerificarPorcentagem.png" alt="Diagrama de sequência Verificar Porcentagem" width=800px>
 <hr>
 
 # Diagrama de classes
