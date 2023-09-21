@@ -122,7 +122,7 @@
 <hr>
 
 <h2>Diagrama relativo ao caso de uso Verificar Porcentagem de Faltas:</h2>
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DS-VerificarPorcentagem.png" alt="Diagrama de sequência Verificar Porcentagem" width=800px>
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/d95f49bdf85e6da85f690cf1d811d13607ae936c/src/DS-VerificarPorcentagem.png" alt="Diagrama de sequência Verificar Porcentagem" width=800px>
 <hr>
 
 # Diagrama de classes
