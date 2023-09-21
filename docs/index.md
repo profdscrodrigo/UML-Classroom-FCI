@@ -13,7 +13,7 @@
 - [Análise de requisitos funcionais e não-fucionais](#análise-de-requisitos-funcionais-e-não-funcionais)
 - [Diagrama de casos de uso](#diagrama-de-casos-de-uso)
 - [Descrição dos casos de uso](#descrição-dos-casos-de-uso)
-- [Diagrama de senquencia](#diagrama-de-sequencia)
+- [Diagrama de senquencia](#diagramas-de-sequência)
 - [Diagrama de classes](#diagrama-de-classes)
 - [Diagrama de componentes](#diagrama-de-componentes)
 - [Decisões de arquitetura](#diagrama-de-arquitetura)
@@ -30,6 +30,8 @@
 # Descrição do projeto
 
 *Este projeto consiste na implementação de um sistema para controlor a preseça de alunos de uma escola que possui múltiplas turmas do Ensino Fundamental I. Esse sistema possui como usuário principal os professores do instituto de ensino Inifinito, o qual leva em consideração as eventuais necessidades de acessibilidade de seus docentes. Ademais, por se tratar de uma atividade rotineira acadêmica dos docentes, o sistema implementado deve ser intuitivo e cumprir com seu papel fundamental sem complicações*
+
+<hr>
 
 # Análise de requisitos funcionais e não-funcionais
 
@@ -55,9 +57,13 @@
 <li>O sistema semanalmente verificará de forma automática as porcentagens de comparecimento a partir de um relatório individual gerado e enviará uma notificação aos pais caso o comparecimento esteja abaixo de 80%. Essa verificação ocorrerá de sabádo.</li>
 </ol>
 
+<hr>
+
 # Diagrama de casos de uso
 
 <img src="https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/CasosDeUso.png" alt="Diagrama de casos de uso" width=800px>
+
+<hr>
 
 # Descrição dos casos de uso
 <h2>Caso do Uso: Fazer a Chamada</h2>
@@ -91,6 +97,8 @@
   </ol>
 </ul>
 
+<hr>
+
 <h2>Caso do Uso: Verificar porcentagem de presença</h2>
 <ul>
   <li><b>Descrição Geral:</b> O sistema verifica a porcentagem de comparecimento e notifica os pais caso a porcentagem esteja abaixo de 80%<br></li>
@@ -111,7 +119,9 @@
   </ol>
 </ul>
 
-# Diagrama de sequencia
+<hr>
+
+# Diagramas de sequência
 
 <h2>Diagrama relativo ao caso de uso Fazer Chamada:</h2>
 <img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DS-FazerChamada.png" alt="Diagrama de sequência Fazer Chamada" width=800px>
