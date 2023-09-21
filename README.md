@@ -19,4 +19,5 @@ Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o 
   <li><b>Release 1.0:</b> Adição da análise de requisitos, diagrama de caso de usos e descrição dos requisitos no caso de usos.</li>
   <li><b>Release 1.1:</b> Adição dos diagramas de sequência.</li>
   <li><b>Release 1.2:</b> Formatação das quatro fases iniciais do projeto para entrega.</li>
+  <li><b>Release 1.3:</b> Correção de bugs minoritários para entrega da N1.</li>
 </ol>
