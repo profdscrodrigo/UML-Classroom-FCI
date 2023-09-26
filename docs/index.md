@@ -31,7 +31,6 @@
 * Rafael de Souza Oliveira Cerqueira Tinôco
 * Rodrigo Mileo Lourenço Gil
 
-
 # Descrição do projeto
 
 *O projeto consiste em implementar um sistema para controle de presenças em uma escola  para turmas do 1º ao 5º ano do Ensino Fundamental I. Esse sistema visa atender as necessidades dos docentes, além disso, incluir ferramentas de acessibilidades para todos. Com isso o sistema implementado espera cumprir todos os requisitos de forma simples e eficaz.*
