@@ -3,7 +3,7 @@
 
 
 <font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
+### Sistema de presença - Escola Infinito
 </center></font>
 
 >*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
@@ -12,37 +12,49 @@
 
 **Conteúdo**
 
-- [Autores](#nome-alunos)
-- [Descrição do projeto](#introdução-do-projeto)
-- [Análise de requisitos funcionais e não-fucionais](#descrição-dos-requisitos)
-- [Diagrama de casos de uso](#diagrama-de-comportamento-atores)
-- [Descrição dos casos de uso](#descrição-das-funcões)
-- [Diagrama de senquencia](#diagrama-de-ordem-interações)
-- [Diagrama de classes](#diagrama-orientado-objetos)
-- [Diagrama de componentes](#diagrama-estrutura-componente)
+- [Autores](#autores)
+- [Descrição do projeto](#descrição-do-projeto)
+- [Análise de requisitos funcionais e não-funcionais](#análise-de-requisitos-funcionais-e-não-funcionais)
+- [Diagrama de casos de uso](#diagrama-de-casos-de-uso)
+- [Descrição dos casos de uso](#descrição-dos-casos-de-uso)
+- [Diagrama de sequencia](#diagrama-de-sequencia)
+- [Diagrama de classes](#diagrama-de-classes)
+- [Diagrama de Componentes](#diagrama-de-componentes)
 - [Decisões de arquitetura](#decisões-de-arquitetura)
-- [Diagrama de implantação](#diagrama-de-hardware-software)
+- [Diagrama de implantação](#diagrama-de-implantação)
 - [Referências](#referências)
 
 
 # Autores
 
+* André Akio Morita Osakawa
+* Rafael de Souza Oliveira Cerqueira Tinôco
 * Rodrigo Mileo Lourenço Gil
-* Aluno 2
-* Aluno 3
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
-
 
 # Descrição do projeto
 
-*&lt;Introdução do projeto&gt;*
+*O projeto consiste em implementar um sistema para controle de presenças em uma escola  para turmas do 1º ao 5º ano do Ensino Fundamental I. Esse sistema visa atender as necessidades dos docentes, além disso, incluir ferramentas de acessibilidades para todos. Com isso o sistema implementado espera cumprir todos os requisitos de forma simples e eficaz.*
 
 # Análise de requisitos funcionais e não-funcionais
-*&lt;Descrição dos requisitos&gt;*
+### Requisitos Funcionais
+
+1. Sistema de login (Usuário e senha) para entrar no sistema.
+2. Colocar/remover faltas de alunos que não responderem à chamada.
+3. Realizar a chamada todos os dias, duas vezes por dia(Início do dia e após o intervalo).
+4. Gerar relatórios de faltas agrupados por data, turma, professor, ano do aluno, disciplina e nome do aluno.
+5. Enviar notificações via e-mail para pais ou responsáveis em caso de faltas excessivas(porcentagem de comparecimento às aulas dadas até o momento estiverem abaixo de 80%).
+6. Caso o aluno tenha menos de 75% de presença do total de aulas dadas, ele será reprovado.
+
+### Requisitos não-funcionais
+
+1. O sistema deve ser implementado em web: Javascript, HTML e CSS
+2. O sistema deve ser compatível com dispositivos móveis
+3. O sistema deve permitir múltiplos acessos simultâneos
+4. O sistema deve se comunicar com um banco de dados
+5. O sistema deve ser compatível com todos os navegadores web, incluindo dispositivos móveis
+6. O sistema irá bimestralmente verificar as porcentagens de comparecimento e os relatórios serão enviados bimestralmente aos pais e responsáveis caso esteja abaixo de 80%.
+7. Recursos de acessibilidade: tamanho da fonte ajustável, dentre outros.
+8. Cada professor terá um nome de usuário único de 6 números. E as senhas devem conter minimamente 8 dígitos alfanuméricos.
 
 # Diagrama de casos de uso
 
