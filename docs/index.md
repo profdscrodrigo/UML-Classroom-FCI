@@ -90,27 +90,11 @@
 
 2. Professor seleciona a opção fazer a chamada
 
-3. A chamada é realizada pelo professor e os resultados enviados ao banco de dados.
+3. O professor colocar falta se o aluno não responder ou estiver ausente.
 
-## Caso de uso: Colocar faltas
+4. O professor confirma as faltas no sistem ao final da chamada
 
-**Descrição geral**: O professor deseja colocar as faltas no sistema durante a chamada
-
-**Atores**: Professor
-
-**Pré-Condição**: O professor deve realizar login no sistema 
-
-**Pós-Condição**: O professor coloca as faltas no sistema caso o aluno não responda, ou não esteja presente
-
-**Fluxo Básico**: 
-
-1. O professor realiza a chamada
-
-2. Professor coloca as faltas caso o aluno não responda, ou não esteja presente
-
-3. O professor confirma as faltas no sistema ao final da chamada
-
-4. O resultado é enviado ao banco de dados.
+5. Os resultados são enviados ao banco de dados.
 
 ## Caso de uso: Gerar Relatório
 
