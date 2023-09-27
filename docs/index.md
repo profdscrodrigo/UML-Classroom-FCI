@@ -37,7 +37,7 @@
 1. Sistema de login (Usuário e senha) para entrar no sistema.
 2. Colocar/remover faltas de alunos que não responderem à chamada.
 3. Realizar a chamada todos os dias, duas vezes por dia(Início do dia e após o intervalo).
-4. Gerar relatórios de faltas agrupados por data, turma, professor, ano do aluno, disciplina ou nome do aluno.
+4. Gerar relatórios de faltas agrupados por data, turma, professor, ano do aluno, disciplina e nome do aluno.
 5. Enviar notificações via e-mail para pais ou responsáveis em caso de faltas excessivas(porcentagem de comparecimento às aulas dadas até o momento estiverem abaixo de 80%).
 6. Caso o aluno tenha menos de 75% de presença do total de aulas dadas, ele será reprovado.
 
@@ -134,6 +134,7 @@
 
 3. Se a porcentagem de comparecimento está abaixo de 80% é mandado uma notificação para os pais ou responsáveis via e-mail
 
+=======
 
 # Diagrama de sequencia
 
@@ -145,7 +146,7 @@
 
 # Diagrama de Componentes
 
-*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software*
+*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
 
 # Decisões de arquitetura
 
