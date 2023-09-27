@@ -136,13 +136,17 @@
 
 # Diagrama de sequencia
 
-## Diagrama do caso: Fazer login
+## Diagrama de sequencia: Fazer login
+![alt](/src/fazerlogin.png)
 
-## Diagrama de caso: Fazer chamada
+## Diagrama de sequencia: Fazer chamada
+![alt](/src/fazerchamada.png)
 
-## Diagrama de caso: Gerar relatório
+## Diagrama de sequencia: Gerar relatório
+![alt](/src/gerarrelatorio.png)
 
-## Diagrama de caso: Notificação
+## Diagrama de sequencia: Notificação
+![alt](/src/notificacao.png)
 
 # Diagrama de classes
 
@@ -150,7 +154,7 @@
 
 # Diagrama de Componentes
 
-*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
+*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software&gt;*
 
 # Decisões de arquitetura
 
