@@ -148,7 +148,7 @@
 
 2. É verificado se o aluno está com menos de 80% de presença de acordo com o relatório
 
-3. Se a porcentagem de faltas está acima de 80% é mandado uma notificação para os pais ou responsáveis via e-mail
+3. Se a porcentagem de comparecimento está abaixo de 80% é mandado uma notificação para os pais ou responsáveis via e-mail
 
 
 # Diagrama de sequencia
