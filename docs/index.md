@@ -70,9 +70,9 @@
 
 **Fluxo básico (Professor deseja entrar no sistema)**
 
-1.Professor insere o nome de usuário e senha
+1. Professor insere o nome de usuário e senha
 
-2.Professor consegue entrar no sistema
+2. Professor consegue entrar no sistema
 
 ## Caso de uso: Fazer chamada
 
@@ -92,7 +92,7 @@
 
 3. O professor colocar falta se o aluno não responder ou estiver ausente.
 
-4. O professor confirma as faltas no sistem ao final da chamada
+4. O professor confirma as faltas no sistema ao final da chamada
 
 5. Os resultados são enviados ao banco de dados.
 
@@ -110,7 +110,7 @@
 
 1. O professor escolhe a opção de gerar o relatório de faltas
 
-2. O professor define o critério de agrupamento do relatório como disciplina, aluno
+2. O professor define o critério de agrupamento do relatório como disciplina, aluno, data, etc
 
 3. O relatório de faltas é criado pelo sistema
 
@@ -134,11 +134,15 @@
 
 3. Se a porcentagem de comparecimento está abaixo de 80% é mandado uma notificação para os pais ou responsáveis via e-mail
 
-=======
-
 # Diagrama de sequencia
 
-*&lt;Diagrama de ordem e interação dos objetos&gt;*
+## Diagrama do caso: Fazer login
+
+## Diagrama de caso: Fazer chamada
+
+## Diagrama de caso: Gerar relatório
+
+## Diagrama de caso: Notificação
 
 # Diagrama de classes
 
