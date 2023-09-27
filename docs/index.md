@@ -58,7 +58,83 @@
 
 # Descrição dos casos de uso
 
-*&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
+## Caso de Uso: Fazer login
+
+**Descrição geral**: O professor precisa entrar no sistema para realizar a chamada ou colocar faltas
+
+**Atores**: Professor
+
+**Pré-condição**: O professor deve possuir um registro de usuário e senha no sistema
+
+**Pós-condição**: O professor entra no sistema e pode realizar a chamada
+
+**Fluxo básico (Professor deseja entrar no sistema)**
+
+1.Professor insere o nome de usuário e senha
+
+2.Professor consegue entrar no sistema
+
+## Caso de uso: Fazer chamada
+
+**Descrição geral**: O professor deseja fazer a chamada em uma turma
+
+**Atores**: Professor
+
+**Pré-Condição**: O professor deve realizar login no sistema
+
+**Pós-Condição**: O professor realiza a chamada e os dados são enviados ao banco de dados
+
+**Fluxo Básico**:
+
+1. O professor seleciona a data e a turma que deseja
+
+2. Professor seleciona a opção fazer a chamada
+
+3. O professor colocar falta se o aluno não responder ou estiver ausente.
+
+4. O professor confirma as faltas no sistem ao final da chamada
+
+5. Os resultados são enviados ao banco de dados.
+
+## Caso de uso: Gerar Relatório
+
+**Descrição geral**: O professor deseja gerar o relatório de faltas de um aluno
+
+**Atores**: Professor
+
+**Pré-Condição**: O professor deve realizar login no sistema
+
+**Pós-Condição**: O relatório é criado e mandado para o banco de dados
+
+**Fluxo Básico (Professor deseja gerar um relatório de falta)**:
+
+1. O professor escolhe a opção de gerar o relatório de faltas
+
+2. O professor define o critério de agrupamento do relatório como disciplina, aluno
+
+3. O relatório de faltas é criado pelo sistema
+
+4. O relatório é enviado ao professor
+
+## Caso de uso: Notificação
+
+**Descrição geral**: Notificação é enviada aos pais quando a porcentagem de comparecimento, até o momento, está abaixo de 80%
+
+**Atores**: Pais/responsáveis
+
+**Pré-Condição**: Porcentagem de comparecimento nas aulas está abaixo de 80%, de acordo com os relátorios gerados
+
+**Pós-Condição**: Notificação é enviada aos pais ou responsáveis via e-mail
+
+**Fluxo Básico**:
+
+1. O relatório de presença é gerado pelo sistema
+
+2. É verificado se o aluno está com menos de 80% de presença de acordo com o relatório
+
+3. Se a porcentagem de comparecimento está abaixo de 80% é mandado uma notificação para os pais ou responsáveis via e-mail
+
+=======
 
 # Diagrama de sequencia
 
