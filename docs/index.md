@@ -54,7 +54,7 @@
 
 # Diagrama de casos de uso
 
-*&lt;Diagrama para visualizar o comportamento dos atores&gt;*
+![alt](/src/Diagrama_de_uso.png)
 
 # Descrição dos casos de uso
 
