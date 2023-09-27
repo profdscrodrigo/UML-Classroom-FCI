@@ -37,7 +37,7 @@
 1. Sistema de login (Usuário e senha) para entrar no sistema.
 2. Colocar/remover faltas de alunos que não responderem à chamada.
 3. Realizar a chamada todos os dias, duas vezes por dia(Início do dia e após o intervalo).
-4. Gerar relatórios de faltas agrupados por data, turma, professor, ano do aluno, disciplina e nome do aluno.
+4. Gerar relatórios de faltas agrupados por data, turma, professor, ano do aluno, disciplina ou nome do aluno.
 5. Enviar notificações via e-mail para pais ou responsáveis em caso de faltas excessivas(porcentagem de comparecimento às aulas dadas até o momento estiverem abaixo de 80%).
 6. Caso o aluno tenha menos de 75% de presença do total de aulas dadas, ele será reprovado.
 
@@ -58,7 +58,98 @@
 
 # Descrição dos casos de uso
 
-*&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
+## Caso de Uso: Fazer login
+
+**Descrição geral**: O professor precisa entrar no sistema para realizar a chamada ou colocar faltas
+
+**Atores**: Professor
+
+**Pré-condição**: O professor deve possuir um registro de usuário e senha no sistema
+
+**Pós-condição**: O professor entra no sistema e pode realizar a chamada
+
+**Fluxo básico (Professor deseja entrar no sistema)**
+
+1.Professor insere o nome de usuário e senha
+
+2.Professor consegue entrar no sistema
+
+## Caso de uso: Fazer chamada
+
+**Descrição geral**: O professor deseja fazer a chamada em uma turma
+
+**Atores**: Professor
+
+**Pré-Condição**: O professor deve realizar login no sistema
+
+**Pós-Condição**: O professor realiza a chamada e os dados são enviados ao banco de dados
+
+**Fluxo Básico**:
+
+1. O professor seleciona a data e a turma que deseja
+
+2. Professor seleciona a opção fazer a chamada
+
+3. A chamada é realizada pelo professor e os resultados enviados ao banco de dados.
+
+## Caso de uso: Colocar faltas
+
+**Descrição geral**: O professor deseja colocar as faltas no sistema durante a chamada
+
+**Atores**: Professor
+
+**Pré-Condição**: O professor deve realizar login no sistema 
+
+**Pós-Condição**: O professor coloca as faltas no sistema caso o aluno não responda, ou não esteja presente
+
+**Fluxo Básico**: 
+
+1. O professor realiza a chamada
+
+2. Professor coloca as faltas caso o aluno não responda, ou não esteja presente
+
+3. O professor confirma as faltas no sistema ao final da chamada
+
+4. O resultado é enviado ao banco de dados.
+
+## Caso de uso: Gerar Relatório
+
+**Descrição geral**: O professor deseja gerar o relatório de faltas de um aluno
+
+**Atores**: Professor
+
+**Pré-Condição**: O professor deve realizar login no sistema
+
+**Pós-Condição**: O relatório é criado e mandado para o banco de dados
+
+**Fluxo Básico (Professor deseja gerar um relatório de falta)**:
+
+1. O professor escolhe a opção de gerar o relatório de faltas
+
+2. O professor define o critério de agrupamento do relatório como disciplina, aluno
+
+3. O relatório de faltas é criado pelo sistema
+
+4. O relatório é enviado ao professor
+
+## Caso de uso: Notificação
+
+**Descrição geral**: Notificação é enviada aos pais quando a porcentagem de comparecimento, até o momento, está abaixo de 80%
+
+**Atores**: Pais/responsáveis
+
+**Pré-Condição**: Porcentagem de comparecimento nas aulas está abaixo de 80%, de acordo com os relátorios gerados
+
+**Pós-Condição**: Notificação é enviada aos pais ou responsáveis via e-mail
+
+**Fluxo Básico**:
+
+1. O relatório de presença é gerado pelo sistema
+
+2. É verificado se o aluno está com menos de 80% de presença de acordo com o relatório
+
+3. Se a porcentagem de faltas está acima de 80% é mandado uma notificação para os pais ou responsáveis via e-mail
+
 
 # Diagrama de sequencia
 
@@ -70,7 +161,7 @@
 
 # Diagrama de Componentes
 
-*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
+*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software*
 
 # Decisões de arquitetura
 
