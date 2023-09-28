@@ -19,16 +19,14 @@ A seguir, os passos para a preparação do projeto:
 10. Segurança é imprescindível nas plataforma de hospedagem de repositórios GIT. CUIDADO com exposição de senha e acesso ao repositório.
 
 
-# Projeto: *<Pizza-Express>*
+# Projeto: *Pizza-Express*
 
-# Grupo: *<Tópico 17>*
+# Grupo: *Tópico 17*
 Diego Estevão Lopes de Queiroz - 32361262
 Erik Salomão Almeida - 32333048
 Guilherme de Souza Ponciano - 42016061
 Nicolas Gonçalves Santos - 32337590
 # Descrição
-
-*<Descrição_resumida_do_projeto>*
 A Pizza-Express é uma cadeia de 40 lojas de fast-food e entrega em casa.
 Pizza-Express tem perdido recentemente 30% do rendimento de vendas devido a um problema em seu negócio da entrega. Atribuem este problema a seu concorrente principal que promoveu um programa que garante o serviço de entrega em 30 minutos, desde a entrada da ordem de serviço até a entrega na casa do cliente (delivery).
 Pizza-Express anuncia a entrega em uma hora.
