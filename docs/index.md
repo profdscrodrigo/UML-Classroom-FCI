@@ -36,10 +36,12 @@ A Pizza-Express é uma cadeia de 40 lojas de fast-food e entrega em casa. Pizza-
 
 # Diagrama de casos de uso
 *&lt;Diagrama para visualizar o comportamento dos atores&gt;*
+![Diagram drawio](https://github.com/destlq/Topico-17/assets/142526482/2bb0b05f-38b6-4f91-b4a4-21b8d3ccb334)
 
 # Descrição dos casos de uso
 Descrição dos requisitos: Atendimento Central
 ![atendimentoCentral](https://github.com/destlq/Topico-17/assets/124603581/f5b830c2-820f-4684-8136-93d434b0e08b)
+
 
 Descrição dos requisitos: Operação Pizzaria
 ![operacaoPizzaria](https://github.com/destlq/Topico-17/assets/124603581/ddc40584-1fa0-4635-9efb-1508f66044cd)
