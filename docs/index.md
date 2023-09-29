@@ -47,6 +47,7 @@ Descrição dos requisitos: Operação Pizzaria
 ![operacaoPizzaria](https://github.com/destlq/Topico-17/assets/124603581/ddc40584-1fa0-4635-9efb-1508f66044cd)
 
 *&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
+
 No diagarama que descreve o caso de uso do atendimento central da pizzaria, a central tem como função inicial receber o pedido realizado por um cliente, até o momento de enviar o pedido para fábrica mais próxima, passando, durante essas funções, pela etapa de localizar o cliente.
 
 No caso da operação pizza, que aborda o caso de uso das fábricas, o ator "pizzaria/fábrica" tem como função o recebimento do pedido da central e a transmissão desse pedido para os funcionários. Neste mesmo diagrama, os demais atores são compostos pelo ator "pizzaiolo", que deve preparar o pedido, e o ator "entregador" que, após a preparação do pedido, é responsável por entregá-lo. 
