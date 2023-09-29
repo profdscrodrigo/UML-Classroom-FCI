@@ -33,6 +33,7 @@ A Pizza-Express é uma cadeia de 40 lojas de fast-food e entrega em casa. Pizza-
 
 # Análise de requisitos funcionais e não-funcionais
 *&lt;Descrição dos requisitos&gt;*
+
 -Localizar a loja mais próxima do cliente.
 -Receber o pedido pela central.
 -Processar e entregar (10-15 minutos).
