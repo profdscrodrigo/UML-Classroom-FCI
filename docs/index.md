@@ -64,7 +64,8 @@ No caso da operação pizza, que aborda o caso de uso das fábricas, o ator "piz
 
 # Diagrama de sequencia
 
-*&lt;Diagrama de ordem e interação dos objetos&gt;*
+![image](https://github.com/destlq/Topico-17/assets/126416974/737ae5bf-893c-4341-9bf7-5a89257b8fdc)
+
 
 # Diagrama de classes
 
