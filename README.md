@@ -23,8 +23,11 @@ A seguir, os passos para a preparação do projeto:
 
 # Grupo: *Tópico 17*
 Diego Estevão Lopes de Queiroz - 32361262
+
 Erik Salomão Almeida - 32333048
+
 Guilherme de Souza Ponciano - 42016061
+
 Nicolas Gonçalves Santos - 32337590
 # Descrição
 A Pizza-Express é uma cadeia de 40 lojas de fast-food e entrega em casa.
