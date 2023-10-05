@@ -1,7 +1,7 @@
 <h2><a href= "https://www.mackenzie.br">Universidade Presbiteriana Mackenzie</a></h2>
 <h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/ciencia-da-computacao">Ciência da Computação</a></h3>
 
-<font size="+12"><center>*Escola INFINITO: Sistema de Presenças*</center></font>
+<font size="+12"><center><strong>Escola INFINITO: Sistema de Presenças</strong></center></font>
 
 **Conteúdo**
 
