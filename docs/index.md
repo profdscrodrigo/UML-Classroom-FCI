@@ -65,7 +65,7 @@ Este projeto tem como objetivo desenvolver um *software* capaz de documentar e c
 <br>
 
 # Diagrama de casos de uso
-<img src="../src/diagramacasosdeuso.png">
+<img src="https://raw.githubusercontent.com/K4NS0KUSH4/UML-Classroom-FCI/master/src/diagramacasosdeuso.png">
 
 <br>
 
@@ -180,16 +180,16 @@ Este projeto tem como objetivo desenvolver um *software* capaz de documentar e c
 
 # Diagrama de sequência
 ## Diagrama de sequência: Incluir/Excluir/Atualizar alunos, turmas, disciplinas, professores ou outros administradores
-<img src="../src/diagramaseqinserirexcluiratualizar.jpg">
+<img src="https://raw.githubusercontent.com/K4NS0KUSH4/UML-Classroom-FCI/master/src/diagramaseqinserirexcluiratualizar.jpg">
 
 ## Diagrama de sequência: Controle de presença em sala de aula
-<img src="../src/diagramaseqcontrolepres.jpg">
+<img src="https://raw.githubusercontent.com/K4NS0KUSH4/UML-Classroom-FCI/master/src/diagramaseqcontrolepres.jpg">
 
 ## Diagrama de sequência: Gerar relatório de presença
-<img src="../src/diagramaseqrelatoriopres.jpg">
+<img src="https://raw.githubusercontent.com/K4NS0KUSH4/UML-Classroom-FCI/master/src/diagramaseqrelatoriopres.jpg">
 
 ## Diagrama de sequência: Verificar frequência do aluno
-<img src="../src/diagramaseqveriffreq.jpg">
+<img src="https://raw.githubusercontent.com/K4NS0KUSH4/UML-Classroom-FCI/master/src/diagramaseqveriffreq.jpg">
 
 <br>
 
