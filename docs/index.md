@@ -17,6 +17,10 @@
   - [Caso de uso: Gerar relatório de presença](#caso-de-uso-gerar-relatório-de-presença)
   - [Caso de uso: Verificar frequência do aluno](#caso-de-uso-verificar-frequência-do-aluno)
 - [Diagrama de sequência](#diagrama-de-sequência)
+  - [Diagrama de sequência: Incluir/Excluir/Atualizar alunos, turmas, disciplinas, professores ou outros administradores](#diagrama-de-sequência-incluirexcluiratualizar-alunos-turmas-disciplinas-professores-ou-outros-administradores)
+  - [Diagrama de sequência: Controle de presença em sala de aula](#diagrama-de-sequência-controle-de-presença-em-sala-de-aula)
+  - [Diagrama de sequência: Gerar relatório de presença](#diagrama-de-sequência-gerar-relatório-de-presença)
+  - [Diagrama de sequência: Verificar frequência do aluno](#diagrama-de-sequência-verificar-frequência-do-aluno)
 - [Diagrama de classes](#diagrama-de-classes)
 - [Diagrama de Componentes](#diagrama-de-componentes)
 - [Decisões de arquitetura](#decisões-de-arquitetura)
@@ -175,7 +179,17 @@ Este projeto tem como objetivo desenvolver um *software* capaz de documentar e c
 <br>
 
 # Diagrama de sequência
-*&lt;Diagrama de ordem e interação dos objetos&gt;*
+## Diagrama de sequência: Incluir/Excluir/Atualizar alunos, turmas, disciplinas, professores ou outros administradores
+<img src="../src/diagramaseqinserirexcluiratualizar.jpg">
+
+## Diagrama de sequência: Controle de presença em sala de aula
+<img src="../src/diagramaseqcontrolepres.jpg">
+
+## Diagrama de sequência: Gerar relatório de presença
+<img src="../src/diagramaseqrelatoriopres.jpg">
+
+## Diagrama de sequência: Verificar frequência do aluno
+<img src="../src/diagramaseqveriffreq.jpg">
 
 <br>
 

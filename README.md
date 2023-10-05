@@ -13,5 +13,4 @@ Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o 
 
 
 # Releases
-
-Deverá ser publicado um release ao término de cada entrega do projeto.
+- Release 1.0: Primeira versão de documentação do projeto.
