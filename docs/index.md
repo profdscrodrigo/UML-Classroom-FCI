@@ -137,8 +137,7 @@
 
 # Diagrama de classes
 
-<h2>Diagrama de classes:</h2>
-<img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DC.png" alt = "Diagrama de classes" width=800px>
+<img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DC.png" alt = "Diagrama de classes" width=600px>
 <hr>
 
 # Diagrama de Componentes
