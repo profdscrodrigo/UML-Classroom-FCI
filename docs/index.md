@@ -63,8 +63,8 @@ No caso da operação pizza, que aborda o caso de uso das fábricas, o ator "piz
 
 
 # Diagrama de classes
-![Diauso drawio](https://github.com/destlq/Topico-17/assets/142526482/2fc9bf20-ba83-4866-9a6b-7af8fd78a794)
 
+![dfssdf drawio](https://github.com/destlq/Topico-17/assets/142526482/1a081877-a6c8-4af3-986f-75a8a126d530)
 
 # Diagrama de Componentes
 
