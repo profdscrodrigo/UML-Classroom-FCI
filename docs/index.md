@@ -142,7 +142,8 @@
 
 # Diagrama de Componentes
 
-Diagrama para exibir a relação estrutural dos componentes de um sistema de software
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DiagramaComponentes.png" alt = "Diagrama de Componentes">
+<hr>
 
 # Decisões de arquitetura
 
