@@ -142,7 +142,7 @@
 
 # Diagrama de Componentes
 
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DiagramaComponentes.png" alt = "Diagrama de Componentes">
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/Diagrama%20de%20Componentes.PNG" alt = "Diagrama de Componentes">
 <hr>
 
 # Decisões de arquitetura
