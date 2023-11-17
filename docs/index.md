@@ -71,8 +71,8 @@ No caso da operação pizza, que aborda o caso de uso das fábricas, o ator "piz
 *&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
 
 # Decisões de arquitetura
+![Arquitetura drawio](https://github.com/destlq/Topico-17/assets/142526482/b542b437-446a-4b5c-9d8e-ee1b78078005)
 
-*&lt;Descrever a infraestrutura escolhida para arquitetura do projeto&gt;*
 
 # Diagrama de implantação
 
