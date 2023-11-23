@@ -64,6 +64,7 @@ No caso da operação pizza, que aborda o caso de uso das fábricas, o ator "piz
 
 # Diagrama de classes
 
+
 ![dfssdf drawio](https://github.com/destlq/Topico-17/assets/142526482/1a081877-a6c8-4af3-986f-75a8a126d530)
 
 # Diagrama de Componentes
@@ -75,8 +76,7 @@ No caso da operação pizza, que aborda o caso de uso das fábricas, o ator "piz
 
 
 # Diagrama de implantação
-
-*&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
+![imp drawio](https://github.com/destlq/Topico-17/assets/142526482/da0f7ff9-a128-48ee-89b4-2f6480cd6aee)
 
 # Referências
 
