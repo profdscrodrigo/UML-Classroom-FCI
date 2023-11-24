@@ -8,6 +8,7 @@
 
 **Conteúdo**
 
+
 - [Autores](#nome-alunos)
 - [Descrição do projeto](#introdução-do-projeto)
 - [Análise de requisitos funcionais e não-fucionais](#descrição-dos-requisitos)
@@ -64,12 +65,11 @@ No caso da operação pizza, que aborda o caso de uso das fábricas, o ator "piz
 
 # Diagrama de classes
 
-
 ![dfssdf drawio](https://github.com/destlq/Topico-17/assets/142526482/1a081877-a6c8-4af3-986f-75a8a126d530)
 
 # Diagrama de Componentes
 
-*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
+![Components](https://github.com/destlq/Topico-17/assets/130717670/3cea610d-d02c-4f35-b88b-a927c6259e6e)
 
 # Decisões de arquitetura
 ![Arquitetura drawio](https://github.com/destlq/Topico-17/assets/142526482/b542b437-446a-4b5c-9d8e-ee1b78078005)
