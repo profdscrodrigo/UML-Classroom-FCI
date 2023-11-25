@@ -120,6 +120,7 @@
 </ul>
 
 <hr>
+# Lista de Decisões de arquitetura
 
 # Diagramas de sequência
 
@@ -145,13 +146,10 @@
 <img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DiagramadeComponentes.PNG" alt = "Diagrama de Componentes">
 <hr>
 
-# Decisões de arquitetura
-
-Descrever a infraestrutura escolhida para arquitetura do projeto
-
 # Diagrama de implantação
 
-Diagrama para exibir o relacionamento de hardware e software no projeto
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DiagramadeImplanta%C3%A7%C3%A3o.png" alt = "Diagrama de Implantação">
+<hr>
 
 # Referências
 
