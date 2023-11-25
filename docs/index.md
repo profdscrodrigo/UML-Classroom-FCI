@@ -120,33 +120,34 @@
 </ul>
 
 <hr>
+
 # Lista de Decisões de arquitetura
 
-# Diagramas de sequência
+<h2>Diagramas de sequência</h2>
 
-<h2>Diagrama relativo ao caso de uso Fazer Chamada:</h2>
+<h3>Diagrama relativo ao caso de uso Fazer Chamada:</h3>
 <img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DS-FazerChamada.png" alt="Diagrama de sequência Fazer Chamada" width=800px>
 <hr>
 
-<h2>Diagrama relativo ao caso de uso Gerar Relatório:</h2>
+<h3>Diagrama relativo ao caso de uso Gerar Relatório:</h3>
 <img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DS-GerarRelat%C3%B3rio.png" alt="Diagrama de sequência Gerar Relatório" width=800px>
 <hr>
 
-<h2>Diagrama relativo ao caso de uso Verificar Porcentagem de Faltas:</h2>
+<h3>Diagrama relativo ao caso de uso Verificar Porcentagem de Faltas:</h3>
 <img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DS-VerificarPorcentagem.png" width=800px>
 <hr>
 
-# Diagrama de classes
+<h2>Diagrama de classes</h2>
 
 <img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DC.png" alt = "Diagrama de classes" width=600px>
 <hr>
 
-# Diagrama de Componentes
+<h2>Diagrama de Componentes</h2>
 
 <img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DiagramadeComponentes.PNG" alt = "Diagrama de Componentes">
 <hr>
 
-# Diagrama de implantação
+<h2>Diagrama de implantação</h2>
 
 <img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DiagramadeImplanta%C3%A7%C3%A3o.png" alt = "Diagrama de Implantação">
 <hr>
