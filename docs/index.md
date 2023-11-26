@@ -142,14 +142,14 @@
 
 # Diagrama de Componentes
 
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DiagramadeComponentes.PNG" alt = "Diagrama de Componentes">
+<img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DiagramadeComponentes.PNG" alt = "Diagrama de Componentes">
 <hr>
 
 # Decisões de arquitetura
 
 # Diagrama de implantação
 
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/Diagrama_Implementa%C3%A7%C3%A3o.jpeg" alt = "Diagrama de Implantação">
+<img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/Diagrama_Implementa%C3%A7%C3%A3o.jpeg" alt = "Diagrama de Implantação">
 <hr>
 
 # Referências
