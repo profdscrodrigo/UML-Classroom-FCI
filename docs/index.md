@@ -13,7 +13,7 @@
 - [Análise de requisitos funcionais e não-fucionais](#análise-de-requisitos-funcionais-e-não-funcionais)
 - [Diagrama de casos de uso](#diagrama-de-casos-de-uso)
 - [Descrição dos casos de uso](#descrição-dos-casos-de-uso)
-- [Diagrama de senquencia](#diagramas-de-sequência)
+- [Diagrama de sequência](#diagramas-de-sequência)
 - [Diagrama de classes](#diagrama-de-classes)
 - [Diagrama de componentes](#diagrama-de-componentes)
 - [Decisões de arquitetura](#decisões-de-arquitetura)
@@ -146,6 +146,23 @@
 <hr>
 
 # Decisões de arquitetura
+Para atender às necessidades da Escola Infinito no desenvolvimento do Sistema de Controle de Presenças, várias decisões de arquitetura foram tomadas em relação aos diagramas UML específicos, conforme detalhado a seguir:
+
+<h3>Diagrama de Casos de Uso:</h3>
+O Diagrama de Casos de Uso representa as interações entre os atores (usuários) e o sistema. Neste contexto, os principais atores são os professores, gestores da escola, alunos e pais/responsáveis. Os casos de uso identificados incluem "Fazer a chamada", "Gerar Relatórios de Faltas", "Verificar porcentagem de presença". A decisão foi tomada para garantir que todos os atores relevantes estivessem representados, considerando as diferentes responsabilidades e necessidades de cada um.
+
+<h3>Diagrama de Sequência:</h3>
+O Diagrama de Sequência descreve a interação entre objetos ao longo do tempo. Para o sistema de controle de presenças, foram identificadas sequências cruciais, como o processo de registro de faltas pelos professores, geração de relatórios e envio de notificações. A decisão de priorizar a eficiência e a clareza nas interações entre os atores foi fundamental, garantindo que o sistema respondesse de maneira eficaz às ações dos usuários.
+
+<h3>Diagramas de Classes:</h3>
+Os Diagramas de Classes detalham a estrutura estática do sistema, incluindo classes, atributos e relacionamentos. Para a Escola Infinito, foram identificadas classes como "Chamada", "Professor", "Acessibilidade", "Relatório de faltas", "Verificar porcentagem de presença" e "Pais e responsáveis". A decisão de organizar as classes de forma a refletir a estrutura organizacional da escola permitiu uma modelagem mais precisa e uma representação fiel das entidades envolvidas.
+
+<h3>Diagrama de Componentes:</h3>
+O Diagrama de Componentes representa a estrutura física do sistema, identificando os principais componentes e suas interações. A decisão foi tomada para modularizar o sistema, destacando componentes como "Módulo de Autenticação", "Módulo de Chamada", "Módulo de Relatórios" e "Módulo de Notificação". Isso facilita a manutenção, escalabilidade e reutilização de componentes específicos do sistema.
+
+<h3>Diagrama de Implantação:</h3>
+O Diagrama de Implantação descreve como o sistema será implantado em hardware físico. A decisão foi tomada para garantir que o sistema seja acessível a partir de qualquer navegador web, inclusive em dispositivos móveis. A arquitetura adotada suporta essa acessibilidade, permitindo que professores acessem o sistema de qualquer lugar e dispositivo.
+<hr>
 
 # Diagrama de implantação
 
