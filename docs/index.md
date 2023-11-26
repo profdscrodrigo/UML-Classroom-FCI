@@ -121,33 +121,33 @@
 
 <hr>
 
-# Lista de Decisões de arquitetura
+# Diagramas de sequência
 
-<h2>Diagramas de sequência</h2>
-
-<h3>Diagrama relativo ao caso de uso Fazer Chamada:</h3>
+<h2>Diagrama relativo ao caso de uso Fazer Chamada:</h2>
 <img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DS-FazerChamada.png" alt="Diagrama de sequência Fazer Chamada" width=800px>
 <hr>
 
-<h3>Diagrama relativo ao caso de uso Gerar Relatório:</h3>
+<h2>Diagrama relativo ao caso de uso Gerar Relatório:</h2>
 <img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DS-GerarRelat%C3%B3rio.png" alt="Diagrama de sequência Gerar Relatório" width=800px>
 <hr>
 
-<h3>Diagrama relativo ao caso de uso Verificar Porcentagem de Faltas:</h3>
+<h2>Diagrama relativo ao caso de uso Verificar Porcentagem de Faltas:</h2>
 <img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DS-VerificarPorcentagem.png" width=800px>
 <hr>
 
-<h2>Diagrama de classes</h2>
+# Diagrama de classes
 
 <img src = "https://raw.githubusercontent.com/lihviaa/UML-Classroom-FCI/master/src/DC.png" alt = "Diagrama de classes" width=600px>
 <hr>
 
-<h2>Diagrama de Componentes</h2>
+# Diagrama de Componentes
 
 <img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DiagramadeComponentes.PNG" alt = "Diagrama de Componentes">
 <hr>
 
-<h2>Diagrama de implantação</h2>
+# Decisões de arquitetura
+
+# Diagrama de implantação
 
 <img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/Diagrama_Implementa%C3%A7%C3%A3o.jpeg" alt = "Diagrama de Implantação">
 <hr>
@@ -159,7 +159,7 @@
   <li>https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml, acessado em 31 de ago. de 2023</li>
   <li>https://www.mestresdaweb.com.br/tecnologias/requisitos-funcionais-e-nao-funcionais-o-que-sao, acessado em 31 de ago. de 2023</li>
   <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml, acessado em 13 de ago. de 2023</li>
+  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml, acessado em 20 de set. de 2023</li>
+  <li>https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml, acessado em 18 de out. de 2023</li>
+  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml, acessado em 8 de nov. de 2023</li>
 </ul>
-<li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml, acessado em 20 de set. de 2023</li>
-<li>https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml, acessado em 18 de out. de 2023</li>
-<li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml, acessado em 8 de nov. de 2023</li>
