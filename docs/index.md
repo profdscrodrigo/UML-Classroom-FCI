@@ -149,7 +149,7 @@
 
 <h2>Diagrama de implantação</h2>
 
-<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/DiagramadeImplanta%C3%A7%C3%A3o.png" alt = "Diagrama de Implantação">
+<img src = "https://github.com/lihviaa/UML-Classroom-FCI/blob/master/src/Diagrama_Implementa%C3%A7%C3%A3o.jpeg" alt = "Diagrama de Implantação">
 <hr>
 
 # Referências
