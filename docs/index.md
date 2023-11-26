@@ -160,6 +160,6 @@
   <li>https://www.mestresdaweb.com.br/tecnologias/requisitos-funcionais-e-nao-funcionais-o-que-sao, acessado em 31 de ago. de 2023</li>
   <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml, acessado em 13 de ago. de 2023</li>
 </ul>
-<li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml</li>
-<li>https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml</li>
-<li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml</li>
+<li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml, acessado em 20 de set. de 2023</li>
+<li>https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml, acessado em 18 de out. de 2023</li>
+<li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml, acessado em 8 de nov. de 2023</li>
