@@ -65,7 +65,7 @@ No caso da operação pizza, que aborda o caso de uso das fábricas, o ator "piz
 
 # Diagrama de classes
 
-![dfssdf drawio](https://github.com/destlq/Topico-17/assets/142526482/1a081877-a6c8-4af3-986f-75a8a126d530)
+![classe drawio](https://github.com/destlq/Topico-17/assets/142526482/642e3745-1444-43b1-9b3c-0f3e265d38e7)
 
 # Diagrama de Componentes
 
@@ -73,11 +73,36 @@ No caso da operação pizza, que aborda o caso de uso das fábricas, o ator "piz
 
 
 # Decisões de arquitetura
-![Arquitetura drawio](https://github.com/destlq/Topico-17/assets/142526482/b542b437-446a-4b5c-9d8e-ee1b78078005)
+- Sistema Operacional: Linux
+
+O sistema operacional escolhido para o sistema de pizzaria online é o Linux. Existem várias razões para essa escolha:
+
+* Segurança: O Linux é conhecido por sua robustez e segurança. A natureza de código aberto permite que problemas de segurança sejam identificados e corrigidos rapidamente pela comunidade de desenvolvedores.
+
+* Estabilidade: O Linux é altamente estável, proporcionando um ambiente consistente para operações críticas, como processamento de pedidos, gerenciamento de estoque e transações financeiras.
+
+* Custo: Linux é um sistema operacional de código aberto, o que significa que é gratuito para uso. Isso reduz os custos de licenciamento, permitindo que os recursos financeiros sejam direcionados para o desenvolvimento e aprimoramento do sistema.
+
+* Desempenho: O Linux é conhecido por seu desempenho eficiente, proporcionando uma execução rápida e eficaz das operações do sistema. Isso é crucial para garantir que os pedidos sejam processados de maneira eficiente e sem atrasos.
+
+- Linguagem de Programação: Python
+
+A escolha da linguagem de programação Python é respaldada pelos seguintes motivos:
+
+* Simplicidade e Legibilidade: Python é conhecido por sua sintaxe clara e fácil compreensão. Isso acelera o desenvolvimento, facilita a manutenção do código e permite uma curva de aprendizado mais suave para desenvolvedores.
+
+* Ampla Comunidade e Bibliotecas: Python possui uma vasta comunidade de desenvolvedores e uma ampla variedade de bibliotecas, frameworks e ferramentas que facilitam o desenvolvimento rápido e eficiente de aplicações web, como Django ou Flask.
+
+* Integração com Tecnologias Existentes: Python pode ser facilmente integrado com outras tecnologias e sistemas, permitindo a comunicação eficiente com bancos de dados, APIs de pagamento, e outros componentes essenciais para um sistema de pedidos online.
+
+* Escabilidade: Python é escalável, permitindo que o sistema cresça conforme a demanda. Isso é crucial para um sistema de pizzaria online, que pode experimentar variações na carga de trabalho durante períodos de pico.
+![Server drawio](https://github.com/destlq/Topico-17/assets/142526482/845b0cce-f7f1-4440-9cab-f763c8a93f8c)
 
 
 # Diagrama de implantação
-![imp drawio](https://github.com/destlq/Topico-17/assets/142526482/da0f7ff9-a128-48ee-89b4-2f6480cd6aee)
+
+![imp drawio](https://github.com/destlq/Topico-17/assets/142526482/8b43f159-f30e-469d-9e6d-5b930b17a6a9)
+
 
 # Referências
 
