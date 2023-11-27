@@ -73,7 +73,7 @@ No caso da operação pizza, que aborda o caso de uso das fábricas, o ator "piz
 
 
 # Decisões de arquitetura
-- Sistema Operacional: Linux
+Sistema Operacional: Linux
 
 O sistema operacional escolhido para o sistema de pizzaria online é o Linux. Existem várias razões para essa escolha:
 
@@ -85,7 +85,7 @@ O sistema operacional escolhido para o sistema de pizzaria online é o Linux. Ex
 
 * Desempenho: O Linux é conhecido por seu desempenho eficiente, proporcionando uma execução rápida e eficaz das operações do sistema. Isso é crucial para garantir que os pedidos sejam processados de maneira eficiente e sem atrasos.
 
-- Linguagem de Programação: Python
+Linguagem de Programação: Python
 
 A escolha da linguagem de programação Python é respaldada pelos seguintes motivos:
 
