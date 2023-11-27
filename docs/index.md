@@ -69,7 +69,8 @@ No caso da operação pizza, que aborda o caso de uso das fábricas, o ator "piz
 
 # Diagrama de Componentes
 
-![Components](https://github.com/destlq/Topico-17/assets/130717670/3cea610d-d02c-4f35-b88b-a927c6259e6e)
+![Componentes](https://github.com/destlq/Topico-17/assets/130717670/4b84d868-7389-4b80-b736-fe7b8f85f9f2)
+
 
 # Decisões de arquitetura
 ![Arquitetura drawio](https://github.com/destlq/Topico-17/assets/142526482/b542b437-446a-4b5c-9d8e-ee1b78078005)
