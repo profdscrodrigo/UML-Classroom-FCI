@@ -15,11 +15,3 @@ Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o 
 
 
 # Releases
-
-- Release 1.0.0: Adicionado Fase 1
-
-- Release 1.0.1: Adicionado Fase 2
-
-- Release 1.0.2: Adicionado Fase 3
-
-- Release 1.0.3: Adicionado Fase 4
