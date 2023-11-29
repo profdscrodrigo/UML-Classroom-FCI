@@ -15,5 +15,3 @@ Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o 
 
 
 # Releases
-
-- Release 1.0.4: Adicionado Fase 5, 6, 7 e 8
