@@ -154,11 +154,31 @@
 
 # Diagrama de Componentes
 
-*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software&gt;*
+![alt](/src/diagrama_de_componente.png)
 
 # Decisões de arquitetura
 
-*&lt;Descrever a infraestrutura escolhida para arquitetura do projeto&gt;*
+Para atender às necessidades da Escola Infinito no desenvolvimento do Sistema de Controle de Presenças, várias decisões de arquitetura foram tomadas em relação aos diagramas UML específicos, conforme detalhado a seguir:
+
+## Diagrama de Casos de Uso:
+
+O Diagrama de Casos de Uso representa as interações entre os atores e o sistema. No nosso caso, os principais atores são os professores, gestores da escola, alunos e pais/responsáveis. Os casos de uso identificados incluem "Fazer login", "Fazer a chamada", "Gerar Relatórios de Faltas", "Verificar porcentagem de presença". A decisão foi tomada para garantir que todos os atores fossem representados, considerando as responsabilidades e necessidades de cada um.
+
+## Diagrama de Sequência:
+
+O Diagrama de Sequência descreve a interação entre objetos ao longo do tempo. Para o sistema de controle de presenças, foram identificadas sequências importantes, como realizar login, o processo de registro de faltas pelos professores, geração de relatórios e envio de notificações. A decisão é de priorizar a eficiência e a clareza garantindo que o sistema respondesse de maneira eficaz às ações dos usuários.
+
+## Diagramas de Classes:
+
+Os Diagramas de Classes detalham a estrutura estática do sistema, incluindo classes, atributos e relacionamentos. Para o sistema de presença da escola, foram identificadas classes como "Chamada", "Professor", "Relatório de faltas", "Verificar porcentagem de presença" e "Pais e responsáveis". A decisão de organizar as classes de forma a refletir a estrutura organizacional da escola permitiu uma modelagem mais precisa das entidades envolvidas.
+
+## Diagrama de Componentes:
+
+O Diagrama de Componentes representa a estrutura física do sistema, identificando os principais componentes e suas interações. A decisão foi tomada para modularizar o sistema, destacando componentes como "Autenticação", um bloco com "Chamada", "Relatórios" dentro e "Notificação". Isso facilita a manutenção e reutilização de componentes específicos do sistema.
+
+## Diagrama de Implantação:
+
+O Diagrama de Implantação descreve como o sistema será implantado em hardware físico. A decisão foi tomada para garantir que o sistema seja acessível a partir de qualquer navegador web, e em qualquer dispositivo móvel. A arquitetura adotada suporta essa acessibilidade, permitindo que professores acessem o sistema de qualquer lugar e dispositivo.
 
 # Diagrama de implantação
 
