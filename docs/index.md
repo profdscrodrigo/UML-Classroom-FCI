@@ -146,11 +146,27 @@
 
 # Diagrama de Componentes
 
-*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
+![alt](/src/diagrama_de_componente.png)
 
 # Decisões de arquitetura
 
-*&lt;Descrever a infraestrutura escolhida para arquitetura do projeto&gt;*
+Para atender às necessidades da Escola Infinito no desenvolvimento do Sistema de Controle de Presenças, várias decisões de arquitetura foram tomadas em relação aos diagramas UML específicos, conforme detalhado a seguir:
+
+## Diagrama de caso de uso 
+
+O Diagrama de Casos de Uso mostra as interações entre os atores e o sistema. Os principais atores nesse caso são os professores, gestores da escola, alunos e pais/responsáveis. Os casos de uso identificados incluem "Fazer login", "Fazer a chamada", "Gerar Relatórios de Faltas", "Verificar porcentagem de presença". A decisão foi tomada para garantir que todos os atores estivessem representados, considerando as diferentes responsabilidades e necessidades de cada um.
+
+## Diagrama de Sequência:
+
+## Diagramas de Classes:
+
+## Diagrama de Componentes:
+
+O Diagrama de Componentes representa a estrutura física do sistema, identificando os principais componentes e suas interações. A decisão foi tomada para modularizar o sistema, destacando componentes como "Módulo de Autenticação", "Módulo de Chamada", "Módulo de Relatórios" e "Módulo de Notificação". Isso facilita a manutenção, escalabilidade e reutilização de componentes específicos do sistema.
+
+## Diagrama de implantação:
+
+
 
 # Diagrama de implantação
 
