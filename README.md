@@ -21,4 +21,6 @@ Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o 
   <li><b>Release 1.2:</b> Formatação das quatro fases iniciais do projeto para entrega.</li>
   <li><b>Release 1.3:</b> Correção de bugs minoritários para entrega da N1.</li>
   <li><b>Release 2.0:</b> Adição dos diagramas de classes, de componentes e de implementação.</li>
+  <li><b>Release 2.1:</b> Adição da seção relativa às decisões de implementação.</li>
+  <li><b>Release 2.2:</b> Correção de bugs minoritários para entrega da N2.</li>
 </ol>
