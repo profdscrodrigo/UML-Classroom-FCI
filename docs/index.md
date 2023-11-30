@@ -219,7 +219,7 @@ Para garantir confiabilidade por parte da plataforma, serão implementadas medid
 <br>
 
 # Diagrama de implantação
-*&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
+<img src="https://raw.githubusercontent.com/K4NS0KUSH4/UML-Classroom-FCI/master/src/diagramadeimplementacao.jpg">
 
 <br>
 
