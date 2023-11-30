@@ -194,17 +194,27 @@ Este projeto tem como objetivo desenvolver um *software* capaz de documentar e c
 <br>
 
 # Diagrama de classes
-*&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
+<img src="https://raw.githubusercontent.com/K4NS0KUSH4/UML-Classroom-FCI/master/src/diagramadeclasses.jpg">
 
 <br>
 
 # Diagrama de Componentes
-*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
+<img src="https://raw.githubusercontent.com/K4NS0KUSH4/UML-Classroom-FCI/master/src/diagramadecomponentes.jpg">
 
 <br>
 
 # Decisões de arquitetura
-*&lt;Descrever a infraestrutura escolhida para arquitetura do projeto&gt;*
+## Tecnologias utilizadas
+- Linguagem de programação orientada a objetos Java;
+- Banco de dados Oracle com estrutura mySQL para gerenciamento e armazenamento de informações;
+- React e Next JS para desenvolvimento do *front-end*, com suporte de Node JS para operações CRUD do *back-end*.
+## Estrutura do banco de dados
+- O banco de dados utilizado será um ORM, de modo a garantir maior organização e estruturação aos dados armazenados.
+## Segurança
+Para garantir confiabilidade por parte da plataforma, serão implementadas medidas preventivas, entre as quais estão:
+- Autenticação de usuários a partir de nomes de usuário e senhas criptografadas para armazenamento;
+- Validação de entradas prevenindo ataques via injeção SQL;
+- Protocolo HTTPS para garantir criptografia das informações compartilhadas entre cliente e servidor.
 
 <br>
 
