@@ -134,23 +134,23 @@
 
 3. Se a porcentagem de comparecimento está abaixo de 80% é mandado uma notificação para os pais ou responsáveis via e-mail
 
-# Diagrama de sequencia
+# Diagrama de sequência
 
-## Diagrama de sequencia: Fazer login
+## Diagrama de sequência: Fazer login
 ![alt](/src/fazerlogin.png)
 
-## Diagrama de sequencia: Fazer chamada
+## Diagrama de sequência: Fazer chamada
 ![alt](/src/fazerchamada.png)
 
-## Diagrama de sequencia: Gerar relatório
+## Diagrama de sequência: Gerar relatório
 ![alt](/src/gerarrelatorio.png)
 
-## Diagrama de sequencia: Notificação
+## Diagrama de sequência: Notificação
 ![alt](/src/notificacao.png)
 
 # Diagrama de classes
 
-*&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
+![alt](/src/diagramaDeClasses.png)
 
 # Diagrama de Componentes
 
@@ -182,8 +182,12 @@ O Diagrama de Implantação descreve como o sistema será implantado em hardware
 
 # Diagrama de implantação
 
-*&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
+![alt](/src/diagramaDeImplantação.png)
 
 # Referências
 
-*&lt;Lista de referências&gt;*
+<ul>
+    <li>https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-implantacao/</li>
+    <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml</li>
+    <li>https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml</li>
+</ul>
