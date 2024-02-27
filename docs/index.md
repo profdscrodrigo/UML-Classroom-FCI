@@ -13,15 +13,15 @@
 **Conteúdo**
 
 - [Autores](#nome-alunos)
-- [Descrição do projeto](#introdução-do-projeto)
-- [Análise de requisitos funcionais e não-fucionais](#descrição-dos-requisitos)
-- [Diagrama de casos de uso](#diagrama-de-comportamento-atores)
-- [Descrição dos casos de uso](#descrição-das-funcões)
-- [Diagrama de senquencia](#diagrama-de-ordem-interações)
-- [Diagrama de classes](#diagrama-orientado-objetos)
-- [Diagrama de componentes](#diagrama-estrutura-componente)
-- [Decisões de arquitetura](#decisões-de-arquitetura)
-- [Diagrama de implantação](#diagrama-de-hardware-software)
+- [Descrição do Projeto](#introdução-do-projeto)
+- [Análise de Requisitos Funcionais e Não-Fucionais](#descrição-dos-requisitos)
+- [Diagrama de Atividades](#diagrama-de-atividades) 
+- [Diagrama de Casos de Uso](#diagrama-de-comportamento-atores)
+- [Descrição dos Casos de Uso](#descrição-das-funcões)
+- [Diagrama de Senquencia](#diagrama-de-ordem-interações)
+- [Diagrama de Classes](#diagrama-orientado-objetos)
+- [Diagrama de Estados](#diagrama-estrutura-componente)
+- [Diagrama de Implantação](#diagrama-de-hardware-software)
 - [Referências](#referências)
 
 
