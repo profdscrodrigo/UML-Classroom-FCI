@@ -37,38 +37,38 @@
 * Aluno 8
 
 
-# Descrição do projeto
+# Descrição do Projeto
 
 *&lt;Introdução do projeto&gt;*
 
-# Análise de requisitos funcionais e não-funcionais
+# Análise de Requisitos Funcionais e Não-Funcionais
 *&lt;Descrição dos requisitos&gt;*
 
-# Diagrama de casos de uso
+# Diagrama de Atividades
+
+*&lt;Diagrama para visualizer as pessoas das áreas de negócios e de desenvolvimento de uma organização para entender o processo e comportamento.&gt;*
+
+# Diagrama de Casos de Uso
 
 *&lt;Diagrama para visualizar o comportamento dos atores&gt;*
 
-# Descrição dos casos de uso
+# Descrição dos Casos de Uso
 
 *&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
 
-# Diagrama de sequencia
+# Diagrama de Sequência
 
 *&lt;Diagrama de ordem e interação dos objetos&gt;*
 
-# Diagrama de classes
+# Diagrama de Classes
 
 *&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
 
-# Diagrama de Componentes
+# Diagrama de Estados
 
-*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
+*&lt;Diagrama para permite modelar o comportamento interno de um determinado objeto, subsistema ou sistema global&gt;*
 
-# Decisões de arquitetura
-
-*&lt;Descrever a infraestrutura escolhida para arquitetura do projeto&gt;*
-
-# Diagrama de implantação
+# Diagrama de Implantação
 
 *&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
 
