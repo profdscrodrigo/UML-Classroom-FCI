@@ -7,8 +7,8 @@ O repositório define um modelo (*template*) que deverá ser seguido por cada gr
 
 A seguir, os passos para a preparação do projeto:
 
-1. Um dos membros do grupo deverá realizar um *fork* deste repositório.
-2. O dono do repositório deverá convidar os demais membros do grupo para serem colaboradores.
+1. Um dos membros do grupo deverá realizar um *fork* deste repositório. - OK
+2. O dono do repositório deverá convidar os demais membros do grupo para serem colaboradores. - OK
 3. O dono do repositório deverá convidar o professor para ser colaborador do repositório.
 4. O dono do repositório deverá habilitar o GitHub Pages. Basta seguir o [procedimento para habilitar o GitHub Pages](https://docs.github.com/pt/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), lembrando de escolher em *Source* a opção `/docs` em lugar da opção `/root`.
 5. Cada membro do grupo deverá instalar o [Git](https://git-scm.com/downloads).
@@ -19,13 +19,11 @@ A seguir, os passos para a preparação do projeto:
 10. Segurança é imprescindível nas plataforma de hospedagem de repositórios GIT. CUIDADO com exposição de senha e acesso ao repositório.
 
 
-# Projeto: *<Nome_do_seu_Projeto>*
+# Projeto: *Agenda para divisão de tarefas familiares.*
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: *DFMM.*
 
-# Descrição
-
-*<Descrição_resumida_do_projeto>*
+# Descrição: *Aplicativo para ajudar no gerenciamento de tarefas e compromissos familiares.*
 
 # Documentação
 
