@@ -19,13 +19,13 @@ A seguir, os passos para a preparação do projeto:
 10. Segurança é imprescindível nas plataforma de hospedagem de repositórios GIT. CUIDADO com exposição de senha e acesso ao repositório.
 
 
-# Projeto: *<Nome_do_seu_Projeto>*
+# Projeto: *PresencePro*
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: *Grupo 1*
 
 # Descrição
 
-*<Descrição_resumida_do_projeto>*
+*O nosso projeto tem como finalidade desenvolver uma aplicação de gerenciamento de presenças e ausências para a Escola Infinito. Teremos na página inicial um formulário em que o professor selecionará a turma, o período da aula (antes ou depois do intervalo) e se o professor é principal da turma ou leciona uma matéria específica (ed. física, inglês). Enviaremos notificações por e-mail para pais e responsáveis caso o aluno esteja com excesso de faltas. Além disso, focaremos também na acessibilidade durante o desenvolvimento do projeto*
 
 # Documentação
 
