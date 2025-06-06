@@ -19,9 +19,9 @@ A seguir, os passos para a preparação do projeto:
 10. Segurança é imprescindível nas plataforma de hospedagem de repositórios GIT. CUIDADO com exposição de senha e acesso ao repositório.
 
 
-# Projeto: *<Nome_do_seu_Projeto>*
+# Projeto: *Sistema de Farmacia*
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: *Trabalho ZIKA*
 
 # Descrição
 
