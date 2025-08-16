@@ -1,31 +1,13 @@
 <h2><a href= "https://www.mackenzie.br">Universidade Presbiteriana Mackenzie</a></h2>
 
 
-# Template para Disciplina de Engenharia de Software
+# Projeto: *<Drone Bélico>*
 
-O repositório define um modelo (*template*) que deverá ser seguido por cada grupo no projeto.
-
-A seguir, os passos para a preparação do projeto:
-
-1. Um dos membros do grupo deverá realizar um *fork* deste repositório.
-2. O dono do repositório deverá convidar os demais membros do grupo para serem colaboradores.
-3. O dono do repositório deverá convidar o professor para ser colaborador do repositório.
-4. O dono do repositório deverá habilitar o GitHub Pages. Basta seguir o [procedimento para habilitar o GitHub Pages](https://docs.github.com/pt/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), lembrando de escolher em *Source* a opção `/docs` em lugar da opção `/root`.
-5. Cada membro do grupo deverá instalar o [Git](https://git-scm.com/downloads).
-6. Para a edição do conteúdo deste projeto, sugere-se que cada membro do grupo faça a instalação do [Visual Studio Code](https://code.visualstudio.com/) com as extensões [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) e [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github). No entanto, cada membro poderá utilizar a IDE de sua preferência.
-7. Cada membro do grupo deverá [clonar o repositório do grupo no seu computador](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=create-repo-command-palette%2Cinitialize-repo-activity-bar%2Ccreate-branch-command-palette%2Ccommit-changes-command-palette%2Cpush-command-palette).
-8. Cada membro do grupo deverá editar o seu próprio nome no arquivo em [/docs/index.md](./docs/index.md), de preferência [criando um novo *branch* e um *pull request*](https://www.youtube.com/watch?v=LdSwWxVzUpo).
-9. O dono do repositório deverá editar este arquivo, removendo estas instruções iniciais e preenchendo o restante da página com os dados do projeto do seu grupo.
-10. Segurança é imprescindível nas plataforma de hospedagem de repositórios GIT. CUIDADO com exposição de senha e acesso ao repositório.
-
-
-# Projeto: *<Nome_do_seu_Projeto>*
-
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: *<01>*
 
 # Descrição
 
-*<Descrição_resumida_do_projeto>*
+O projeto visa garantir uma solução tecnológica eficiente e inovadora para operações militares, incluindo funcionalidades avançadas de monitoramento, navegação e segurança
 
 # Documentação
 
@@ -35,4 +17,38 @@ Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o 
 
 # Releases
 
-Deverá ser publicado um release ao término de cada entrega do projeto.
+Fase I: Requisitos
+Levantamento das funcionalidades e necessidades do sistema.
+Inclui: autenticação, controle de drones, planejamento de missão, além de critérios técnicos como segurança e desempenho.
+
+Fase II: Fluxo de Atividades
+Modelagem do funcionamento do sistema em forma de diagrama.
+Inclui: desde o login do operador até a finalização da missão e as ações.
+
+Fase III: Casos de Uso
+Mapeamento das interações entre os usuários e o sistema.
+Inlcui: o que cada ator pode fazer, incluindo operador, administrador, IA, e outros.
+
+Fase IV: Documentação Funcional
+Descrição detalhada de cada caso de uso identificado.
+Inclui: fluxos principais, alternativos, exceções e restrições para todas as ações do sistema.
+
+Fase V: Diagrama de Sequência
+Modelagem do comportamento do sistema ao longo do tempo. 
+Esta fase representa o fluxo de mensagens entre objetos e atores, em cenários específicos. 
+Inclui: login, solicitação de missão, verificação de sensores e confirmação de ações do operador.
+
+Fase VI: Diagrama de Classes
+Representação da estrutura estática do sistema. 
+Descreve as classes envolvidas, seus atributos, métodos e os relacionamentos entre elas. 
+Inclui: classes como Operador, Drone, Missão, Administrador, e suas interações por herança, associação e composição.
+
+Fase VII: Diagrama de Estados
+Modelagem do ciclo de vida de objetos com comportamento relevante, como a missão ou o drone. 
+Apresenta os estados possíveis e as transições causadas por eventos. 
+Inclui: estados como Missão Criada, Em Execução, Concluída ou Cancelada, com eventos de controle e resposta do sistema.
+
+Fase VIII: Diagrama de Implantação
+Descrição da arquitetura física do sistema e sua distribuição em nós de hardware. 
+Mostra como os componentes de software estão implantados em dispositivos como servidor, estação do operador, drone e infraestrutura de rede. 
+Inclui: conexões seguras, protocolos de comunicação e topologia distribuída.
