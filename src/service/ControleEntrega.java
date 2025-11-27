@@ -9,17 +9,19 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 public class ControleEntrega {
-    private BancoDeDados banc;
+    private RepositorioEntrega repositorioEntrega;
+    private RepositorioDrone repositorioDrone;
 
-    public ControleEntrega(BancoDeDados banc) {
-        this.banc = banc;
+    public ControleEntrega(BancoDados bancoDados) {
+        this.repositorioEntrega = new RepositorioEntrega(bancoDados);
+        this.repositorioDrone = new RepositorioDrone(bancoDados);
     }
 
-    public void armazenaDados(Entrega entrega) {
+    public void armazenaDados(Entrega entrega) throws Exception {
         if (!entrega.getDestino().validarEndereco()) {
             throw new IllegalArgumentException("Endereço inválido!");
         }
-        banc.salvarEntrega(entrega);
+        repositorioEntrega.salvar(entrega);
     }
 
     public void entregar(Entrega entrega) {
@@ -28,8 +30,8 @@ public class ControleEntrega {
         entrega.terminar();
     }
 
-    public List<Entrega> consultarHistorico(Cliente cliente) {
-        return banc.buscarHistorico(cliente);
+    public List<Entrega> consultarHistorico(Cliente cliente) throws Exception {
+        return repositorioEntrega.buscarPorCliente(cliente);
     }
 
     public boolean processarEntrega(Entrega entrega, double valor, String metodo, LocalDateTime data) {
@@ -39,8 +41,8 @@ public class ControleEntrega {
         return ok;
     }
 
-    public boolean atribuirDrone(Entrega entrega) {
-        Drone drone = banc.buscarDroneDisponivel(entrega.getPeso());
+    public boolean atribuirDrone(Entrega entrega) throws Exception {
+        Drone drone = repositorioDrone.buscarDisponivel(entrega.getPeso());
         if (drone != null) {
             drone.associarEntrega(entrega);
             entrega.setDrone(drone);
@@ -48,5 +50,4 @@ public class ControleEntrega {
         }
         return false;
     }
-
 }

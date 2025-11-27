@@ -40,6 +40,111 @@ Diagrama de ordem e interação dos objetos
 # Integração de Modelos
 ![alt text](assets/image-2.png)
 
+### Esquema SQL
+
+#### `clientes`
+```sql
+CREATE TABLE IF NOT EXISTS clientes (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255),
+    cpf VARCHAR(20),
+    telefone VARCHAR(50),
+    email VARCHAR(255) UNIQUE,
+    senha VARCHAR(255)
+) ENGINE=InnoDB;
+```
+
+**Responsabilidade:** Armazenar dados de clientes
+- **PK:** `id` (auto-increment)
+- **UK:** `email` (único, evita duplicatas)
+- **Validação:** CPF 11 dígitos, email contém @
+
+---
+
+#### `enderecos`
+```sql
+CREATE TABLE IF NOT EXISTS enderecos (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    cliente_id BIGINT,
+    rua VARCHAR(255),
+    numero INT,
+    cidade VARCHAR(255),
+    estado VARCHAR(255),
+    cep VARCHAR(50),
+    FOREIGN KEY (cliente_id) REFERENCES clientes(id) ON DELETE CASCADE
+) ENGINE=InnoDB;
+```
+
+**Responsabilidade:** Armazenar endereços associados aos clientes
+- **PK:** `id`
+- **FK:** `cliente_id` → `clientes.id` (cascata)
+- **Validação:** CEP formato XXXXX-XXX
+
+---
+
+#### `drones`
+```sql
+CREATE TABLE IF NOT EXISTS drones (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    capacidade DOUBLE,
+    status VARCHAR(50),
+    bateria INT
+) ENGINE=InnoDB;
+```
+
+**Responsabilidade:** Armazenar dados de drones disponíveis
+- **PK:** `id`
+- **Status:** DISPONIVEL, MANUTENCAO
+- **Bateria:** 0-100%
+- **Pré-carregado:** 4 drones ao inicializar (semearDronesPadrao)
+
+---
+
+#### `entregas`
+```sql
+CREATE TABLE IF NOT EXISTS entregas (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    peso DOUBLE,
+    cliente_id BIGINT,
+    destino_rua VARCHAR(255),
+    destino_numero INT,
+    destino_cidade VARCHAR(255),
+    destino_estado VARCHAR(255),
+    destino_cep VARCHAR(50),
+    status VARCHAR(50),
+    pagamento_status VARCHAR(50),
+    FOREIGN KEY (cliente_id) REFERENCES clientes(id) ON DELETE SET NULL
+) ENGINE=InnoDB;
+```
+
+**Responsabilidade:** Armazenar entregas realizadas
+- **PK:** `id`
+- **FK:** `cliente_id` (SET NULL se cliente deletado)
+- **Status:** PENDENTE, EM_ANDAMENTO, ENTREGUE
+- **Pagamento Status:** PENDENTE, APROVADO, RECUSADO
+
+---
+
+#### `pagamentos`
+```sql
+CREATE TABLE IF NOT EXISTS pagamentos (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    valor DOUBLE,
+    metodo VARCHAR(50),
+    status VARCHAR(50),
+    data TIMESTAMP,
+    entrega_id BIGINT
+) ENGINE=InnoDB;
+```
+
+**Responsabilidade:** Armazenar histórico de pagamentos
+- **PK:** `id`
+- **Métodos:** PIX, CREDITO, DEBITO, BOLETO
+- **Status:** PENDENTE, APROVADO, RECUSADO
+- **Data:** Timestamp da transação
+
+---
+
 # Diagrama de Projeto
 
 # Integração Sequência + Colaboração

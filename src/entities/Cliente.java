@@ -33,7 +33,13 @@ public class Cliente {
     }
 
     public boolean login(String email, String senha) {
-        return this.email.equals(email) && this.senha.equals(senha);
+        if (!this.email.equals(email)) return false;
+        // senha armazenada pode ser hash. Verifica com UtilitarioSeguranca
+        try {
+            return service.UtilitarioSeguranca.verificarSenha(this.senha, senha);
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     public Long getId() {
@@ -70,6 +76,14 @@ public class Cliente {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public String getSenha() {
+        return senha;
     }
 
     public void setSenha(String senha) {

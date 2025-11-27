@@ -34,7 +34,7 @@ public class Pagamento {
         return true;
     }
 
-    public double getValor() {
+    public Double getValor() {
         return valor;
     }
 
@@ -48,6 +48,14 @@ public class Pagamento {
 
     public LocalDateTime getData() {
         return data;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
 }
