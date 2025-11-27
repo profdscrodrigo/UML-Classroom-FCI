@@ -30,12 +30,14 @@ Sistema acadêmico de entregas com drones, desenvolvido em Java com UML e boas p
 # Diagrama de Classes
 
 Diagrama de relacionamento entre classes para os seus atributos e operações
-![alt text](assets/image.png)
+<img width="2939" height="2971" alt="image" src="https://github.com/user-attachments/assets/32182f16-8970-49f7-b14f-818e5e2da2d3" />
+
 
 # Diagrama de Sequência
 
 Diagrama de ordem e interação dos objetos
-![alt text](assets/image-1.png)
+<img width="2083" height="2027" alt="image" src="https://github.com/user-attachments/assets/403bafa2-8827-4fdd-b1ff-3f8c770999ea" />
+
 
 # Integração de Modelos
 ![alt text](assets/image-2.png)
@@ -146,11 +148,12 @@ CREATE TABLE IF NOT EXISTS pagamentos (
 ---
 
 # Diagrama de Projeto
+<img width="2164" height="342" alt="image" src="https://github.com/user-attachments/assets/360d9e45-7f59-4847-abf7-f79818d33610" />
 
 # Integração Sequência + Colaboração
+<img width="1896" height="424" alt="image" src="https://github.com/user-attachments/assets/63d8fe82-1fb9-46dd-82eb-5a48723af512" />
 
-# Referências
 
 # Diagrama de Estados
 
-&lt; Lista de referências&gt;
+<img width="507" height="987" alt="image" src="https://github.com/user-attachments/assets/b1be6ad8-cbfd-4e03-9d69-da1862ca94a4" />
